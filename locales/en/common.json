@@ -1,0 +1,513 @@
+{
+  "common": {
+    "information": "Information",
+    "cancel": "Cancel",
+    "yesLogout": "Yes, Logout",
+    "save": "Save",
+    "saving": "Saving...",
+    "removingAccess": "Removing access...",
+    "deleting": "Deleting...",
+    "update": "Update",
+    "seeAll": "See all",
+    "delete": "Delete",
+    "email": "Email",
+    "close": "Close",
+    "share": "Share",
+    "accept": "Accept",
+    "decline": "Decline",
+    "done": "Done",
+    "restore": "Restore"
+  },
+  "auth": {
+    "loginTitleLine1": "Login to your",
+    "loginTitleLine2": "Account",
+    "createTitleLine1": "Create your",
+    "createTitleLine2": "Account",
+    "passwordPlaceholder": "Password",
+    "rememberMe": "Remember me",
+    "loginButton": "Login",
+    "signUpButton": "Sign Up",
+    "signInButton": "Sign In",
+    "forgotPasswordQuestion": "Forgot the password?",
+    "orContinueWith": "or continue with",
+    "dontHaveAccount": "Don't have an account ?",
+    "alreadyHaveAccount": "Already have an account ?",
+    "termsTitle": "Terms & Conditions",
+    "acceptPrivacyToContinue": "Please accept our Privacy Policy to continue.",
+    "acceptPrivacyInline": "By continuing you accept our Privacy Policy",
+    "invalidInputTitle": "Invalid Input",
+    "invalidInputMessage": "Please check the errors in the form.",
+    "signupTitle": "Signup",
+    "emailExistsTitle": "Existing Email",
+    "emailExistsMessage": "Your email address exists, if you do not remember your password, please continue with Forgot the Password",
+    "responseMissingTokens": "Response missing tokens.",
+    "loginFailed": "Login failed. Please check your credentials.",
+    "loginMissingTokens": "Login response missing tokens.",
+    "loginError": "An error occurred during login."
+  },
+  "profile": {
+    "title": "Profile"
+  },
+  "settings": {
+    "updatePassword": "Update Password",
+    "myNotification": "My Notification",
+    "address": "Address",
+    "editProfile": "Edit Profile",
+    "notification": "Notification",
+    "logoutPreferences": "Logout Preferences",
+    "security": "Security",
+    "privacyPolicy": "Privacy Policy",
+    "helpCenter": "Help Center",
+    "faqTitle": "FAQ",
+    "contactUsTitle": "Contact Us",
+    "customerService": "Customer Service",
+    "inviteFriends": "Invite Friends",
+    "inviteFriendsDescription": "Invite your friends by entering their email addresses. You can add multiple people at once by separating each address with a comma (',').",
+    "inviteFriendsPlaceholder": "Enter email addresses separated by comma",
+    "inviteFriendsLabel": "Email Address",
+    "sendInvitations": "Send Invitations",
+    "inviteStatusSent": "Sent",
+    "inviteStatusExists": "Already exists",
+    "inviteStatusFailed": "Failed",
+    "logout": "Logout",
+    "darkMode": "Dark Mode",
+    "languageRegion": "Language & Region",
+    "removeLocalData": "Remove local data",
+    "removeLocalDataDescription": "Locally stored data (encrypted passwords and cards) will be permanently deleted when you log out. This action cannot be undone or recovered.",
+    "removeMPConfig": "Remove MP configuration",
+    "removeMPConfigDescription": "The Master Password configuration and encryption keys will be removed from this device when you log out. You will be asked to re-enter your Master Password upon your next login to access your data.",
+    "deleteAccount": {
+      "menu": "Delete Account",
+      "title": "Delete Account",
+      "warningTitle": "Permanent Account Deletion",
+      "warningBody": "Deleting your account is permanent. Your encrypted vault data and account profile will be removed from our systems.",
+      "subscriptionNote": "If you have an active App Store subscription, cancel it from your Apple ID subscriptions settings.",
+      "passwordLabel": "Current password",
+      "passwordRequired": "Please enter your current password.",
+      "action": "Delete Account",
+      "confirmTitle": "Confirm Account Deletion",
+      "confirmMessage": "This action cannot be undone. Are you sure you want to permanently delete your account?",
+      "confirmButton": "Yes, Delete",
+      "invalidCredentials": "Current password is not correct.",
+      "passwordConfirmationUnavailable": "This account does not support password confirmation for deletion yet.",
+      "userNotFound": "User account not found.",
+      "unauthorized": "Your session expired. Please sign in again.",
+      "error": "Account deletion failed. Please try again."
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "intro": "Pazzwrd is committed to maintaining the highest standards of data privacy and security. This Privacy Policy outlines the institutional protocols and technical measures employed to safeguard user information.",
+      "masterPasswordTitle": "1. Master Password and Cryptographic Protocols",
+      "masterPasswordDesc": "The Master Password serves as the primary cryptographic seed for the user's digital vault. It is utilized to derive unique encryption keys for the protection of sensitive credentials and financial data. Pazzwrd adheres to a strict non-custodial policy; the Master Password is never transmitted to or stored on our infrastructure.",
+      "encryptionDetail": "Data integrity is maintained through the implementation of industry-standard XChaCha20-Poly1305 encryption. Each vault entry is secured with an individual key, which is subsequently wrapped using a key-encryption-key (KEK) derived from the user's Master Password.",
+      "storageTitle": "2. Data Management and Storage",
+      "storageDesc": "Pazzwrd provides multi-layered storage solutions to ensure data availability and security:",
+      "localStorage": "On-Device Storage: Encrypted data is persisted locally on the user's device, facilitating offline access while maintaining cryptographic security.",
+      "cloudStorage": "Cloud Synchronization: Upon user authorization, encrypted datasets are synchronized with our secure cloud infrastructure to enable cross-platform accessibility.",
+      "publicDataTitle": "3. Data Classification",
+      "publicDataDesc": "Information is categorized based on sensitivity to optimize performance while ensuring maximum security:",
+      "privateData": "Classified Data: All sensitive records, including passwords, payment information, and private notes, are encrypted locally prior to transmission or storage.",
+      "publicData": "Metadata: Non-sensitive metadata (e.g., service identifiers or organizational labels) may be stored in a non-encrypted format to facilitate efficient indexing and retrieval operations.",
+      "zeroKnowledgeTitle": "4. Zero-Knowledge Architecture Implementation",
+      "zeroKnowledgeDesc": "Our systems operate under a Zero-Knowledge architecture. The server functions exclusively as a secure repository for encrypted payloads. The service provider possesses no technical means to access encryption keys, Master Passwords, or decrypted user content. This architectural design ensures that data remains inaccessible to unauthorized parties, including the service provider.",
+      "warningTitle": "5. Critical Notice: Irrecoverable Data Disclaimer",
+      "warningDesc": "Due to the implementation of end-to-end encryption and the Zero-Knowledge model, the recovery of a lost Master Password is technically impossible by the service provider. Failure to retain the Master Password will result in the permanent loss of access to all encrypted data. Users are strictly advised to maintain secure backups of their Master Password."
+    },
+    "faq": {
+      "whatIsCloudTitle": "What does Cloud mean?",
+      "whatIsCloudDesc": "Cloud means that your encrypted data is synchronized with our secure servers. This allows you to access your passwords and cards from any device by logging into your account.",
+      "whatIsLocalTitle": "What does Local mean?",
+      "whatIsLocalDesc": "Local means that your data is stored only on your device. It is encrypted and never leaves your phone unless you enable cloud synchronization.",
+      "howDataStoredTitle": "How are passwords and card details stored?",
+      "howDataStoredDesc": "In both cloud and local storage, your data is always encrypted using industry-standard protocols. Only you hold the key (your Master Password) to decrypt this information.",
+      "whatIsMPTitle": "What is MP (Master Password)?",
+      "whatIsMPDesc": "MP stands for Master Password. It is the single password you use to access your vault. We never store your Master Password, so it's crucial that you don't forget it.",
+      "trashRulesTitle": "What are the Trash rules?",
+      "trashRulesDesc": "When you delete a password or card, it goes to the Trash tab. Items in the Trash will be permanently deleted after a certain period, or you can manually empty it.",
+      "howToDeleteTitle": "How do I delete a password or card?",
+      "howToDeleteDesc": "To delete a password or card, go to the passwords or cards page and hold click (long press) on the item you want to delete. A delete option will appear.",
+      "howToRestoreTitle": "Can I restore items from Trash?",
+      "howToRestoreDesc": "Yes, you can restore any card or password from the Trash tab back to your main vault at any time before it is permanently deleted.",
+      "howToShareTitle": "How does the share password feature work?",
+      "howToShareDesc": "You can securely share passwords with other users. The shared password remains encrypted and only the intended recipient can access it."
+    },
+    "contactUs": {
+      "title": "Title",
+      "titlePlaceholder": "Enter title",
+      "message": "Message",
+      "messagePlaceholder": "Describe your problem here...",
+      "send": "Send",
+      "success": "Your message has been sent successfully. We will get back to you soon."
+    }
+  },
+  "security": {
+    "title": "Security",
+    "rememberMe": "Remember me",
+    "faceId": "Face ID",
+    "biometricId": "Biometric ID",
+    "changePin": "Change PIN",
+    "resendEmail": "Resend Verification Email",
+    "resendEmailSuccess": "Your activation email has been sent successfully.",
+    "resendEmailError": "Failed to resend activation email."
+  },
+  "tabs": {
+    "new": {
+      "title": "New",
+      "passwordTab": "Password",
+      "cardsTab": "Cards"
+    }
+  },
+  "sync": {
+    "local": "Local",
+    "cloud": "Cloud"
+  },
+  "password": {
+    "name": "Password Name",
+    "username": "User Name",
+    "password": "Password",
+    "url": "Website/URL",
+    "notes": "Notes",
+    "tags": "Tags",
+    "lastUpdated": "Last Updated",
+    "editPassword": "Edit Password",
+    "pendingCloudUpdate": "Your changes have not been updated in the cloud yet.",
+    "passwordSaved": "Password saved successfully",
+    "shareSuccess": "Invitation sent.",
+    "shareTitle": "Share Password",
+    "inviteMailSends": "Invitation email sent. Ask the recipient to sign in, then try again.",
+    "inviteUserConfiguredNotFinished": "Recipient's public key found. Sharing will be available soon.",
+    "cannotShareWithYourself": "You cannot share with yourself.",
+    "recipientHasNoKeys": "Recipient did not finish Master Password set-up, please ask them to finish Master Password setup.",
+    "itemNotFound": "Item not found.",
+    "someThingWentWrong": "Something went wrong. Please try again.",
+    "sharedBy": "This password is shared by {{who}}.",
+    "sharedWith": "Shared with",
+    "shareStatusLoading": "Fetching share status...",
+    "shareStatus": {
+      "READY": "Pending",
+      "ACCEPTED": "Accepted",
+      "REVOKED": "Revoked"
+    },
+    "removeAccess": "Remove access",
+    "selectPeopleToUnshare": "Select people to unshare",
+    "selectAtLeastOne": "Please select at least one recipient",
+    "tooltips": {
+      "sync": "Choose how you want to synchronize this password across devices",
+      "name": "Enter a name for this password entry",
+      "username": "Enter the username for this account",
+      "password": "Enter the password for this account",
+      "url": "Enter the website URL or application name for this password",
+      "notes": "Add any additional notes or information about this password",
+      "tags": "Add tags to categorize and easily find this password later",
+      "lastUpdated": "Shows when this password was last modified"
+    },
+    "strength": {
+      "suggestions": {
+        "providePassword": "Please enter a password.",
+        "increaseLength": "Use at least {{n}} characters.",
+        "mixedCase": "Mix uppercase and lowercase letters.",
+        "addNumbers": "Add numbers.",
+        "addSymbols": "Add symbols (e.g., ! @ #).",
+        "useMoreVariety": "Use a mix of letters, numbers, and symbols.",
+        "avoidSequences": "Avoid common sequences like 1234 or abcd.",
+        "avoidRepetition": "Avoid repeating the same character many times.",
+        "avoidCommon": "Avoid commonly used passwords.",
+        "usePassphrase": "Consider a longer passphrase with several unrelated words."
+      }
+    }
+  },
+  "card": {
+    "bankNamePlaceholder": "Bank Name/Card Name",
+    "holderNamePlaceholder": "Card Holder Name",
+    "numberPlaceholder": "Card Number",
+    "expiryPlaceholder": "Expiry Month/Year (MM/YY)",
+    "cvvPlaceholder": "Security Code (CVV)",
+    "cardPasswordPlaceholder": "Card Password",
+    "tooltips": {
+      "sync": "Choose how you want to synchronize this card across devices",
+      "bankName": "Enter Bank Name or Card Name",
+      "holderName": "Enter the full name as it appears on your card",
+      "number": "Enter your 16-digit card number (will be formatted automatically)",
+      "expiry": "Enter expiry date in MM/YY format",
+      "cvv": "Enter the 3-digit security code (CVV/CVC) from the back of your card",
+      "cardPassword": "Enter the password associated with this card (e.g., 3D Secure/online shopping password)"
+    }
+  },
+  "activityLog": {
+    "filterAll": "All",
+    "clear": "Clear",
+    "export": "Export JSON"
+  },
+  "alerts": {
+    "validationTitle": "Validation Error",
+    "validationRequiredFields": "Please fill in all required fields",
+    "requiredFieldsMissing": "Some required fields are missing.",
+    "cardNumberLength": "Card number must be 16 digits",
+    "successTitle": "Success",
+    "cardSaved": "Card saved successfully",
+    "passwordSaved": "Password saved successfully",
+    "invitationsSent": "Invitations have been sent successfully.",
+    "passwordMovedToTrash": "Password moved to trash",
+    "passwordDeleted": "Password permanently deleted",
+    "cardMovedToTrash": "Card moved to trash",
+    "cardDeleted": "Card permanently deleted",
+    "errorTitle": "Error",
+    "saveFailed": "Failed to save card",
+    "passwordSaveFailed": "Failed to save password",
+    "fingerprintNotRecognized": "Fingerprint not recognized. Try again.",
+    "unexpected": "An unexpected error occurred",
+    "networkError": "Network error. Please check your internet connection.",
+    "serverError": "The server is currently unavailable. Please try again later.",
+    "timeoutError": "The request timed out. Please try again.",
+    "information": "Information",
+    "sessionExpired": "Your session expired. Please sign in again.",
+    "offline": "You are offline. Some features may be unavailable.",
+    "cloudNotAllowed": "Cloud requires verified email and configured Master Password.",
+    "shareNotAllowed": "Sharing requires verified email and configured Master Password.",
+    "passwordLimitReached": "Password limit reached for your plan.",
+    "cardLimitReached": "Card limit reached for your plan.",
+    "shareLimitReached": "Share limit reached for your plan.",
+    "accessRemoved": "Access removed",
+    "removeAccessFailed": "Failed to remove access"
+  },
+  "logout": {
+    "title": "Logout",
+    "message": "Are you sure you want to log out?"
+  },
+  "greeting": {
+    "goodMorning": "Good morning",
+    "goodAfternoon": "Good afternoon",
+    "goodEvening": "Good evening",
+    "goodNight": "Good night"
+  },
+  "home": {
+    "recentActivity": "Recent Activity",
+    "statistics": "Statistics",
+    "passwordStrength": "Password Strength",
+    "planLimits": "Plan & Limits",
+    "planManageCta": "Manage",
+    "planUpgradeCta": "Upgrade",
+    "planCurrent": "Current plan",
+    "planPremiumName": "Premium",
+    "planFreeName": "Free",
+    "planUnknownName": "Loading...",
+    "planPremiumDescription": "Premium limits are active.",
+    "planFreeDescription": "Upgrade to unlock more storage and sharing.",
+    "planLoading": "Fetching entitlements...",
+    "shares": "Shares",
+    "unlimited": "Unlimited",
+    "remaining": "{{count}} remaining",
+    "securityStatus": "Security Status",
+    "securityManageCta": "Security",
+    "masterPassword": "Master Password",
+    "emailVerification": "Email verification",
+    "statusBadge": {
+      "configured": "Active",
+      "pending": "Pending",
+      "none": "Missing",
+      "skipped": "Skipped",
+      "verified": "Verified",
+      "unverified": "Unverified"
+    },
+    "statusHint": {
+      "master": {
+        "CONFIGURED": "Your vault is protected with a Master Password.",
+        "PENDING": "Finish setting your Master Password to unlock cloud features.",
+        "NONE": "No Master Password yet. Set it up to secure your vault.",
+        "SKIPPED": "Setup skipped. Enable it to secure your data."
+      },
+      "email": {
+        "VERIFIED": "Email is confirmed. Sharing and cloud sync are enabled.",
+        "UNVERIFIED": "Verify your email to enable sharing and cloud sync."
+      }
+    }
+  },
+  "items": {
+    "card": "Card",
+    "password": "Password"
+  },
+  "delete": {
+    "confirm": "Are you sure you want to remove this {{item}}?",
+    "confirmPermanent": "This will permanently delete this {{item}}. This action cannot be undone. Do you want to continue?"
+  },
+  "cards": {
+    "title": "My Cards",
+    "tabs": {
+      "cloud": "Cloud",
+      "local": "Local",
+      "trash": "Trash"
+    },
+    "loading": "Loading cards...",
+    "empty": "No cards found",
+    "createCta": "Create Card"
+  },
+  "passwords": {
+    "title": "My Passwords",
+    "tabs": {
+      "cloud": "Cloud",
+      "local": "Local",
+      "trash": "Trash"
+    },
+    "loading": "Loading passwords...",
+    "empty": "No passwords found",
+    "createCta": "Create Password",
+    "unnamed": "Unnamed",
+    "noUsername": "No username",
+    "noPassword": "No password"
+  },
+  "unsaved": {
+    "title": "Unsaved changes",
+    "message": "You have unsaved changes. If you leave now, your edits will be lost. Do you want to go back without saving?",
+    "yes": "Yes, discard",
+    "no": "No, stay"
+  },
+  "trash": {
+    "time": {
+      "days": "{{count}} day",
+      "days_plural": "{{count}} days",
+      "hours": "{{count}} hour",
+      "hours_plural": "{{count}} hours",
+      "minutes": "{{count}} min",
+      "minutes_plural": "{{count}} mins"
+    },
+    "info": {
+      "password": "{{time}} from now, this password will be permanently deleted.",
+      "card": "{{time}} from now, this card will be permanently deleted."
+    }
+  },
+  "copy": {
+    "copied": "Copied {{what}} to clipboard",
+    "empty": "Nothing to copy for {{what}}",
+    "what": {
+      "cardNumber": "card number",
+      "cardHolderName": "card holder name",
+      "username": "username",
+      "password": "password",
+      "url": "URL"
+    }
+  },
+  "notifications": {
+    "empty": "No Notifications Yet",
+    "emptyDesc": "We'll notify you when something important happens. Keep an eye on this space!",
+    "shareRequest": "{{who}} wants to share a password with you.",
+    "someone": "Someone",
+    "shareAccepted": "Share request accepted",
+    "shareDeclined": "Share request declined",
+    "shareDecisionFailed": "Failed to apply decision. Please try again."
+  },
+  "validation": {
+    "invalidEmail": "Please enter a valid email address"
+  },
+  "errors": {
+    "required": "This field is required.",
+    "minLength": "Must be at least {{count}} characters",
+    "invalidEmail": "Please enter a valid email address",
+    "valueMustBeNumber": "Value must be a valid number.",
+    "invalidCreditCard": "Invalid credit card number.",
+    "creditCardDigits": "Card number must be {{count}} digits",
+    "invalidCVV": "Invalid CVV.",
+    "invalidExpiry": "Invalid expiry date. Please use MM/YY format.",
+    "passwordsDoNotMatch": "Passwords do not match",
+    "invalidMasterPassword": "Master Password is wrong",
+    "generic": "Something went wrong. Please try again."
+  },
+  "masterPassword": {
+    "title": "Create Master Password",
+    "description": "Your Master Password protects and unlocks your vault. It is never sent to our servers. Don’t forget it — without this password, your encrypted data cannot be recovered",
+    "password": "Choose a strong password — at least 12 characters, with a mix of letters, numbers, and symbols.",
+    "passwordPlaceholder": "Master password",
+    "confirmPlaceholder": "Confirm master password",
+    "skip": "Skip",
+    "continue": "Continue"
+  },
+  "loading": {
+    "default": "Loading...",
+    "timeout": "Request timed out. Please try again."
+  },
+  "accessibility": {
+    "loadingLogo": "Loading logo"
+  },
+  "confirmMasterPassword": {
+    "title": "Confirm Master Password",
+    "description": "Please confirm your Master Password to unlock your vault on this device.",
+    "passwordPlaceholder": "Master Password",
+    "confirm": "Confirm"
+  },
+  "forgotPassword": {
+    "methodsTitle": "Forgot Password",
+    "methodsSubtitle": "Select which contact details should we use to reset your password",
+    "viaEmail": "via Email:",
+    "continue": "Continue",
+    "emailTitle": "Enter Your Email",
+    "resetPassword": "Reset Password",
+    "rememberPasswordQuestion": "Remember the password?",
+    "invalidEmailMessage": "Please provide a valid email.",
+    "requestSuccessTitle": "If an account exists",
+    "requestSuccessMessage": "If an account exists, you will receive an email shortly.",
+    "unexpectedErrorMessage": "An unexpected error occurred."
+  },
+  "upgrade": {
+    "title": "Upgrade",
+    "choosePlan": "Choose a Plan",
+    "subtitle": "Unlock higher limits and advanced features by upgrading your plan.",
+    "subscriptionDetail": "Subscription Detail",
+    "plan": "Plan",
+    "expiresAt": "Expires At",
+    "currentLimits": "Current Limits",
+    "passwords": "Passwords",
+    "cards": "Cards",
+    "shares": "Shares",
+    "cancel": "Cancel",
+    "upgrade": "Upgrade",
+    "upgradeToPro": "Upgrade to Pro",
+    "default": "Default",
+    "current": "Current",
+    "currentPlanBadge": "Current Plan",
+    "currentPlanDescription": "This is your active subscription. You can manage or change it from this screen.",
+    "currentPlanButtonLabel": "Current Plan",
+    "subscriptionManagedInStore": "Plan changes are managed from the App Store subscription screen.",
+    "premium": "Premium",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "unlimited": "Unlimited",
+    "included": "Included",
+    "notIncluded": "Not included",
+    "cloudSync": "Cloud Sync",
+    "secureNotes": "Secure Notes",
+    "watchtower": "Watchtower",
+    "itemHistory": "Item History",
+    "export": "Export",
+    "prioritySupport": "Priority Support",
+    "familySharing": "Family Sharing",
+    "maxFamilyMembers": "Max Family Members",
+    "restorePurchases": "Restore Purchases",
+    "manageSubscription": "Manage Subscription",
+    "failedToLoadPlans": "Failed to load plans",
+    "unexpectedError": "Unexpected error while loading plans",
+    "free": "Free",
+    "processingPurchase": "Processing purchase...",
+    "purchaseComplete": "Your purchase is complete.",
+    "purchaseFailed": "Purchase failed",
+    "purchaseFailedGeneric": "The App Store could not complete this purchase.",
+    "purchaseError": "Purchase error",
+    "purchaseDiagnostics": "Diagnostic: {{details}}",
+    "purchasePaymentsUnavailable": "This Apple account is not currently allowed to make purchases on this device.",
+    "restoringPurchases": "Restoring purchases...",
+    "restored": "Restored",
+    "purchasesRestored": "Purchases restored.",
+    "restoreFailed": "Restore failed",
+    "productsUnavailable": "Subscription products are currently unavailable. Please try again in a few minutes.",
+    "code": "Code: {{code}}",
+    "proMonthly": "PazzPro Monthly",
+    "proYearly": "PazzPro Yearly",
+    "familyMonthly": "PazzFamily Monthly",
+    "familyYearly": "PazzFamily Yearly",
+    "monthUnit": "mo",
+    "yearUnit": "yr",
+    "legalTitle": "Legal Information",
+    "legalDescription": "Review our Privacy Policy and Terms of Use before purchasing an auto-renewable subscription.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfUse": "Terms of Use",
+    "legalLinkError": "Unable to open the selected legal document."
+  }
+}

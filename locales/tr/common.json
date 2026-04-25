@@ -1,0 +1,506 @@
+{
+  "common": {
+    "information": "Bilgi",
+    "cancel": "İptal",
+    "yesLogout": "Evet, Çıkış Yap",
+    "save": "Kaydet",
+    "saving": "Kaydediliyor...",
+    "removingAccess": "Erişim kaldırılıyor...",
+    "update": "Güncelle",
+    "seeAll": "Hepsini gör",
+    "delete": "Sil",
+    "email": "E-posta",
+    "share": "Paylaş",
+    "accept": "Kabul Et",
+    "decline": "Reddet",
+    "done": "Bitti",
+    "restore": "Geri Yükle"
+  },
+  "auth": {
+    "loginTitleLine1": "Hesabınıza",
+    "loginTitleLine2": "Giriş yapın",
+    "createTitleLine1": "Hesabınızı",
+    "createTitleLine2": "Oluşturun",
+    "passwordPlaceholder": "Şifre",
+    "rememberMe": "Beni hatırla",
+    "loginButton": "Giriş Yap",
+    "signUpButton": "Kayıt Ol",
+    "signInButton": "Giriş Yap",
+    "forgotPasswordQuestion": "Parolayı mı unuttunuz?",
+    "orContinueWith": "veya bununla devam edin",
+    "dontHaveAccount": "Hesabınız yok mu?",
+    "alreadyHaveAccount": "Zaten bir hesabınız var mı?",
+    "termsTitle": "Şartlar ve Koşullar",
+    "acceptPrivacyToContinue": "Devam etmek için Gizlilik Politikamızı kabul edin.",
+    "acceptPrivacyInline": "Devam ederek Gizlilik Politikamızı kabul etmiş olursunuz",
+    "invalidInputTitle": "Geçersiz Girdi",
+    "invalidInputMessage": "Lütfen formdaki hataları kontrol edin.",
+    "signupTitle": "Kayıt",
+    "emailExistsTitle": "Mevcut E-posta",
+    "emailExistsMessage": "E-posta adresiniz mevcut, parolanızı hatırlamıyorsanız Parolamı Unuttum ile devam edin",
+    "responseMissingTokens": "Yanıtta belirteçler eksik.",
+    "loginFailed": "Giriş başarısız. Lütfen bilgilerinizi kontrol edin.",
+    "loginMissingTokens": "Giriş yanıtında belirteçler eksik.",
+    "loginError": "Giriş sırasında bir hata oluştu."
+  },
+  "profile": {
+    "title": "Profil"
+  },
+  "settings": {
+    "updatePassword": "Parolayı Güncelle",
+    "myNotification": "Bildirimlerim",
+    "address": "Adres",
+    "editProfile": "Profili Düzenle",
+    "notification": "Bildirim",
+    "logoutPreferences": "Çıkış Ayarları",
+    "security": "Güvenlik",
+    "privacyPolicy": "Gizlilik Politikası",
+    "helpCenter": "Yardım Merkezi",
+    "faqTitle": "SSS",
+    "contactUsTitle": "Bize Ulaşın",
+    "customerService": "Müşteri Hizmetleri",
+    "inviteFriends": "Arkadaşlarını Davet Et",
+    "inviteFriendsDescription": "Arkadaşlarınızı davet etmek için e-posta adreslerini girin. Birden fazla adresi virgül (',') ile ayırarak ekleyebilirsiniz.",
+    "inviteFriendsPlaceholder": "E-posta adreslerini virgül ile ayırarak girin",
+    "inviteFriendsLabel": "E-posta Adresi",
+    "sendInvitations": "Davetiye Gönder",
+    "inviteStatusSent": "Gönderildi",
+    "inviteStatusExists": "Zaten mevcut",
+    "inviteStatusFailed": "Hata oluştu",
+    "logout": "Çıkış Yap",
+    "darkMode": "Karanlık Mod",
+    "languageRegion": "Dil ve Bölge",
+    "removeLocalData": "Yerel verileri kaldır",
+    "removeLocalDataDescription": "Yerelde saklanan veriler (şifrelenmiş parolalar ve kartlar), çıkış yaptığınızda kalıcı olarak silinecektir. Bu işlem geri alınamaz veya kurtarılamaz.",
+    "removeMPConfig": "Ana Parola yapılandırmasını kaldır",
+    "removeMPConfigDescription": "Çıkış yaptığınızda Ana Parola yapılandırması ve şifreleme anahtarları bu cihazdan kaldırılacaktır. Verilerinize erişmek için bir sonraki girişinizde Ana Parolanızı tekrar girmeniz istenecektir.",
+    "deleteAccount": {
+      "menu": "Hesabı Sil",
+      "title": "Hesabı Sil",
+      "warningTitle": "Kalıcı Hesap Silme",
+      "warningBody": "Hesabınızı silmek kalıcıdır. Şifreli kasa verileriniz ve hesap profiliniz sistemlerimizden kaldırılır.",
+      "subscriptionNote": "Aktif App Store aboneliğiniz varsa Apple ID abonelik ayarlarından ayrıca iptal etmeniz gerekir.",
+      "passwordLabel": "Mevcut parola",
+      "passwordRequired": "Lütfen mevcut parolanızı girin.",
+      "action": "Hesabı Sil",
+      "confirmTitle": "Hesap Silmeyi Onayla",
+      "confirmMessage": "Bu işlem geri alınamaz. Hesabınızı kalıcı olarak silmek istediğinize emin misiniz?",
+      "confirmButton": "Evet, Sil",
+      "invalidCredentials": "Mevcut parola doğru değil.",
+      "passwordConfirmationUnavailable": "Bu hesap için parola onayıyla silme henüz desteklenmiyor.",
+      "userNotFound": "Kullanıcı hesabı bulunamadı.",
+      "unauthorized": "Oturumunuz sona erdi. Lütfen tekrar giriş yapın.",
+      "error": "Hesap silme başarısız oldu. Lütfen tekrar deneyin."
+    },
+    "privacy": {
+      "title": "Gizlilik Politikası",
+      "intro": "Pazzwrd, veri gizliliği ve güvenliği konusunda en yüksek kurumsal standartları uygulamayı taahhüt eder. Bu Gizlilik Politikası, kullanıcı bilgilerinin korunması amacıyla uygulanan protokolleri ve teknik önlemleri detaylandırmaktadır.",
+      "masterPasswordTitle": "1. Ana Parola ve Kriptografik Protokoller",
+      "masterPasswordDesc": "Ana Parola, kullanıcının dijital kasası için temel kriptografik tohum işlevi görür. Hassas kimlik bilgilerinin ve finansal verilerin korunması için gerekli olan şifreleme anahtarlarının türetilmesinde kullanılır. Pazzwrd, sıkı bir 'saklamama' politikası izler; Ana Parolanız asla sunucularımıza iletilmez veya burada depolanmaz.",
+      "encryptionDetail": "Veri bütünlüğü, endüstri standardı olan XChaCha20-Poly1305 şifreleme algoritmaları ile sağlanmaktadır. Kasadaki her bir öğe bağımsız bir anahtar ile şifrelenir ve bu anahtar, kullanıcının Ana Parolasından türetilen bir anahtar şifreleme anahtarı (KEK) ile sarmalanır.",
+      "storageTitle": "2. Veri Yönetimi ve Depolama",
+      "storageDesc": "Pazzwrd, veri erişilebilirliğini ve güvenliğini sağlamak amacıyla çok katmanlı depolama çözümleri sunar:",
+      "localStorage": "Cihaz İçi Depolama: Şifrelenmiş veriler, kriptografik güvenliği koruyarak çevrimdışı erişimi kolaylaştırmak amacıyla doğrudan kullanıcının cihazında muhafaza edilir.",
+      "cloudStorage": "Bulut Senkronizasyonu: Kullanıcı onayı dahilinde, şifrelenmiş veri setleri, platformlar arası erişilebilirliği sağlamak üzere güvenli bulut altyapımızla senkronize edilir.",
+      "publicDataTitle": "3. Veri Sınıflandırması",
+      "publicDataDesc": "Bilgiler, maksimum güvenliği sağlarken performansı optimize etmek amacıyla hassasiyet düzeylerine göre kategorize edilir:",
+      "privateData": "Gizli Veriler: Parolalar, ödeme bilgileri ve özel notlar dahil tüm hassas kayıtlar, iletimden veya depolamadan önce cihaz üzerinde yerel olarak şifrelenir.",
+      "publicData": "Meta Veriler: Hassas olmayan meta veriler (örneğin hizmet tanımlayıcıları veya düzenleme etiketleri), verimli indeksleme ve arama işlemlerini kolaylaştırmak amacıyla şifrelenmemiş formatta saklanabilir.",
+      "zeroKnowledgeTitle": "4. Sıfır Bilgi (Zero-Knowledge) Mimarisi Uygulaması",
+      "zeroKnowledgeDesc": "Sistemlerimiz Sıfır Bilgi mimarisi altında çalışmaktadır. Arka uç birimlerimiz, yalnızca şifrelenmiş paketler için güvenli bir depo işlevi görür. Hizmet sağlayıcının şifreleme anahtarlarına, Ana Parolalara veya şifresi çözülmüş kullanıcı içeriklerine erişim yetkisi veya teknik imkanı bulunmamaktadır. Bu yapısal tasarım, verilerin hizmet sağlayıcı dahil yetkisiz üçüncü taraflarca erişilemez kalmasını garanti eder.",
+      "warningTitle": "5. Kritik Uyarı: Veri Kurtarma İmkansızlığı Beyanı",
+      "warningDesc": "Uçtan uca şifreleme ve Sıfır Bilgi modelinin uygulanması nedeniyle, kaybedilen bir Ana Parolanın hizmet sağlayıcı tarafından kurtarılması teknik olarak imkansızdır. Ana Parolanın muhafaza edilememesi, tüm şifrelenmiş verilere erişimin kalıcı olarak kaybıyla sonuçlanacaktır. Kullanıcıların Ana Parolalarını güvenli bir ortamda yedeklemeleri önemle tavsiye edilir."
+    },
+    "faq": {
+      "whatIsCloudTitle": "Bulut (Cloud) ne anlama gelir?",
+      "whatIsCloudDesc": "Bulut, şifrelenmiş verilerinizin güvenli sunucularımızla senkronize edilmesi anlamına gelir. Bu, hesabınıza giriş yaparak şifrelerinize ve kartlarınıza her cihazdan erişmenizi sağlar.",
+      "whatIsLocalTitle": "Yerel (Local) ne anlama gelir?",
+      "whatIsLocalDesc": "Yerel, verilerinizin yalnızca cihazınızda saklandığı anlamına gelir. Verileriniz şifrelenir ve siz bulut senkronizasyonunu etkinleştirmediğiniz sürece asla telefonunuzdan çıkmaz.",
+      "howDataStoredTitle": "Şifreler ve kart bilgileri nasıl saklanır?",
+      "howDataStoredDesc": "Hem bulut hem de yerel depolamada verileriniz her zaman endüstri standardı protokoller kullanılarak şifrelenir. Bu bilgilerin şifresini çözmek için anahtarı (Ana Şifreniz) yalnızca siz elinizde tutarsınız.",
+      "whatIsMPTitle": "MP (Ana Şifre) nedir?",
+      "whatIsMPDesc": "MP, Ana Şifre (Master Password) anlamına gelir. Kasanıza erişmek için kullandığınız tek şifredir. Ana Şifrenizi asla saklamayız, bu nedenle onu unutmamanız çok önemlidir.",
+      "trashRulesTitle": "Çöp Kutusu kuralları nelerdir?",
+      "trashRulesDesc": "Bir şifreyi veya kartı sildiğinizde Çöp Kutusu sekmesine gider. Çöp Kutusundaki öğeler belirli bir süre sonra kalıcı olarak silinir veya siz manuel olarak boşaltabilirsiniz.",
+      "howToDeleteTitle": "Bir şifreyi veya kartı nasıl silebilirim?",
+      "howToDeleteDesc": "Bir şifreyi veya kartı silmek için şifreler veya kartlar sayfasına gidin ve silmek istediğiniz öğenin üzerine basılı tutun (uzun basın). Silme seçeneği görünecektir.",
+      "howToRestoreTitle": "Çöp Kutusundaki öğeleri geri yükleyebilir miyim?",
+      "howToRestoreDesc": "Evet, kalıcı olarak silinmeden önce herhangi bir kartı veya şifreyi Çöp Kutusu sekmesinden ana kasanıza istediğiniz zaman geri yükleyebilirsiniz.",
+      "howToShareTitle": "Şifre paylaşma özelliği nasıl çalışır?",
+      "howToShareDesc": "Şifreleri diğer kullanıcılarla güvenli bir şekilde paylaşabilirsiniz. Paylaşılan şifre şifrelenmiş olarak kalır ve yalnızca hedeflenen alıcı ona erişebilir."
+    },
+    "contactUs": {
+      "title": "Başlık",
+      "titlePlaceholder": "Başlık girin",
+      "message": "Mesaj",
+      "messagePlaceholder": "Sorununuzu buraya açıklayın...",
+      "send": "Gönder",
+      "success": "Mesajınız başarıyla gönderildi. Yakında size geri döneceğiz."
+    }
+  },
+  "security": {
+    "title": "Güvenlik",
+    "rememberMe": "Beni hatırla",
+    "faceId": "Face ID",
+    "biometricId": "Biyometrik Kimlik",
+    "changePin": "PIN'i Değiştir",
+    "resendEmail": "Doğrulama E-postasını Tekrar Gönder",
+    "resendEmailSuccess": "Aktivasyon e-postanız başarıyla gönderildi.",
+    "resendEmailError": "Aktivasyon e-postası gönderilemedi."
+  },
+  "tabs": {
+    "new": {
+      "title": "Yeni",
+      "passwordTab": "Şifre",
+      "cardsTab": "Kartlar"
+    }
+  },
+  "sync": {
+    "local": "Yerel",
+    "cloud": "Bulut"
+  },
+  "password": {
+    "name": "Şifre Adı",
+    "username": "Kullanıcı Adı",
+    "password": "Şifre",
+    "url": "Web Sitesi/URL",
+    "notes": "Notlar",
+    "tags": "Etiketler",
+    "lastUpdated": "Son Güncelleme",
+    "editPassword": "Şifreyi Düzenle",
+    "pendingCloudUpdate": "Değişiklikleriniz henüz bulutta güncellenmedi.",
+    "passwordSaved": "Şifre başarıyla kaydedildi",
+    "shareSuccess": "Davet gönderildi.",
+    "shareTitle": "Şifreyi Paylaş",
+    "inviteMailSends": "Davet e-postası gönderildi. Alıcı oturum açtıktan sonra tekrar deneyin.",
+    "inviteUserConfiguredNotFinished": "Alıcının açık anahtarı bulundu. Paylaşım yakında hazır olacak.",
+    "cannotShareWithYourself": "Kendinizle paylaşamazsınız.",
+    "recipientHasNoKeys": "Alıcı Ana Parola kurulumunu tamamlamadı, lütfen ondan Ana Parola kurulumunu tamamlamasını isteyin.",
+    "itemNotFound": "Öğe bulunamadı.",
+    "someThingWentWrong": "Bir şeyler yanlış gitti. Lütfen tekrar deneyin.",
+    "sharedBy": "Bu parola bilgisi {{who}} tarafından paylaşılmaktadır.",
+    "sharedWith": "Paylaşılan kişiler",
+    "shareStatusLoading": "Paylaşım durumu alınıyor...",
+    "shareStatus": {
+      "READY": "Bekliyor",
+      "ACCEPTED": "Kabul edildi",
+      "REVOKED": "İptal edildi"
+    },
+    "removeAccess": "Erişimi kaldır",
+    "selectPeopleToUnshare": "Paylaşımdan çıkarılacak kişileri seçin",
+    "selectAtLeastOne": "Lütfen en az bir kişi seçin",
+    "tooltips": {
+      "sync": "Bu şifreyi cihazlar arasında nasıl senkronize etmek istediğinizi seçin",
+      "name": "Bu şifre kaydı için bir ad girin",
+      "username": "Bu hesap için kullanıcı adını girin",
+      "password": "Bu hesap için şifreyi girin",
+      "url": "Bu şifre için web sitesi URL'sini veya uygulama adını girin",
+      "notes": "Bu şifre hakkında ek notlar veya bilgiler ekleyin",
+      "tags": "Daha sonra kolayca bulmak için etiketler ekleyin",
+      "lastUpdated": "Bu şifrenin son ne zaman değiştirildiğini gösterir"
+    },
+    "strength": {
+      "suggestions": {
+        "providePassword": "Lütfen bir parola girin.",
+        "increaseLength": "En az {{n}} karakter kullanın.",
+        "mixedCase": "Büyük ve küçük harfleri birlikte kullanın.",
+        "addNumbers": "Rakam ekleyin.",
+        "addSymbols": "Semboller ekleyin (ör. ! @ #).",
+        "useMoreVariety": "Harf, rakam ve sembolleri karışık kullanın.",
+        "avoidSequences": "1234 veya abcd gibi yaygın dizilerden kaçının.",
+        "avoidRepetition": "Aynı karakteri çok kez tekrarlamaktan kaçının.",
+        "avoidCommon": "Yaygın olarak kullanılan parolalardan kaçının.",
+        "usePassphrase": "Alakasız birkaç kelimeden oluşan daha uzun bir parola cümlesi kullanmayı düşünün."
+      }
+    }
+  },
+  "card": {
+    "bankNamePlaceholder": "Banka Adı/Kart Adı",
+    "holderNamePlaceholder": "Kart Sahibi Adı",
+    "numberPlaceholder": "Kart Numarası",
+    "expiryPlaceholder": "Son Kullanma (AA/YY)",
+    "cvvPlaceholder": "Güvenlik Kodu (CVV)",
+    "cardPasswordPlaceholder": "Kart Parolası",
+    "tooltips": {
+      "sync": "Bu kartı cihazlar arasında nasıl senkronize etmek istediğinizi seçin",
+      "bankName": "Banka adını veya kart adını girin",
+      "holderName": "Kart üzerindeki tam adı girin",
+      "number": "16 haneli kart numaranızı girin (otomatik biçimlenecektir)",
+      "expiry": "AA/YY formatında son kullanma tarihini girin",
+      "cvv": "Kartınızın arkasındaki 3 haneli güvenlik kodunu (CVV/CVC) girin",
+      "cardPassword": "Bu kartla ilişkili parolayı girin (örn. 3D Secure/online alışveriş şifresi)"
+    }
+  },
+  "activityLog": {
+    "filterAll": "Hepsi",
+    "clear": "Temizle",
+    "export": "JSON Dışa Aktar"
+  },
+  "alerts": {
+    "validationTitle": "Doğrulama Hatası",
+    "validationRequiredFields": "Lütfen gerekli tüm alanları doldurun",
+    "requiredFieldsMissing": "Bazı zorunlu alanlar eksik.",
+    "cardNumberLength": "Kart numarası 16 haneli olmalıdır",
+    "successTitle": "Başarılı",
+    "cardSaved": "Kart başarıyla kaydedildi",
+    "passwordSaved": "Şifre başarıyla kaydedildi",
+    "invitationsSent": "Davetiyeler başarıyla gönderildi.",
+    "errorTitle": "Hata",
+    "saveFailed": "Kart kaydedilemedi",
+    "passwordSaveFailed": "Şifre kaydedilemedi",
+    "fingerprintNotRecognized": "Parmak izi tanınmadı. Tekrar deneyin.",
+    "unexpected": "Beklenmeyen bir hata oluştu",
+    "networkError": "Ağ hatası. Lütfen internet bağlantınızı kontrol edin.",
+    "serverError": "Sunucu şu anda ulaşılamıyor. Lütfen daha sonra tekrar deneyin.",
+    "timeoutError": "İstek zaman aşımına uğradı. Lütfen tekrar deneyin.",
+    "information": "Bilgi",
+    "sessionExpired": "Oturumunuz sona erdi. Lütfen tekrar giriş yapın.",
+    "offline": "Çevrimdışısınız. Bazı özellikler kullanılamayabilir.",
+    "cloudNotAllowed": "Bulut işlemleri için e-posta doğrulaması ve Ana Parola gereklidir.",
+    "shareNotAllowed": "Paylaşım için e-posta doğrulaması ve Ana Parola gereklidir.",
+    "passwordLimitReached": "Planınız için parola limiti doldu.",
+    "cardLimitReached": "Planınız için kart limiti doldu.",
+    "shareLimitReached": "Planınız için paylaşım limiti doldu.",
+    "accessRemoved": "Erişim kaldırıldı",
+    "removeAccessFailed": "Erişim kaldırılamadı"
+  },
+  "logout": {
+    "title": "Çıkış Yap",
+    "message": "Çıkış yapmak istediğinize emin misiniz?"
+  },
+  "greeting": {
+    "goodMorning": "Günaydın",
+    "goodAfternoon": "Tünaydın",
+    "goodEvening": "İyi akşamlar",
+    "goodNight": "İyi geceler"
+  },
+  "home": {
+    "recentActivity": "Son Etkinlik",
+    "statistics": "İstatistikler",
+    "passwordStrength": "Parola Gücü",
+    "planLimits": "Plan ve Limitler",
+    "planManageCta": "Yönet",
+    "planUpgradeCta": "Yükselt",
+    "planCurrent": "Geçerli plan",
+    "planPremiumName": "Premium",
+    "planFreeName": "Ücretsiz",
+    "planUnknownName": "Yükleniyor...",
+    "planPremiumDescription": "Premium limitler aktif.",
+    "planFreeDescription": "Daha fazla depolama ve paylaşım için yükselt.",
+    "planLoading": "Yetkiler getiriliyor...",
+    "shares": "Paylaşımlar",
+    "unlimited": "Sınırsız",
+    "remaining": "{{count}} kaldı",
+    "securityStatus": "Güvenlik Durumu",
+    "securityManageCta": "Güvenlik",
+    "masterPassword": "Ana Parola",
+    "emailVerification": "E-posta doğrulaması",
+    "statusBadge": {
+      "configured": "Aktif",
+      "pending": "Beklemede",
+      "none": "Eksik",
+      "skipped": "Atlandı",
+      "verified": "Doğrulandı",
+      "unverified": "Doğrulanmadı"
+    },
+    "statusHint": {
+      "master": {
+        "CONFIGURED": "Kasalarınız Ana Parola ile korunuyor.",
+        "PENDING": "Bulut özelliklerini açmak için Ana Parola kurulumunu tamamlayın.",
+        "NONE": "Henüz Ana Parola yok. Kasayı güvene almak için oluşturun.",
+        "SKIPPED": "Kurulum atlandı. Verilerinizi korumak için etkinleştirin."
+      },
+      "email": {
+        "VERIFIED": "E-posta doğrulandı. Paylaşım ve bulut senkronizasyonu aktif.",
+        "UNVERIFIED": "Paylaşım ve bulut için e-postanızı doğrulayın."
+      }
+    }
+  },
+  "items": {
+    "card": "Kart",
+    "password": "Şifre"
+  },
+  "delete": {
+    "confirm": "Bu {{item}} öğesini kaldırmak istediğinize emin misiniz?",
+    "confirmPermanent": "Bu işlem {{item}} öğesini kalıcı olarak silecektir. Bu işlem geri alınamaz. Devam etmek istiyor musunuz?"
+  },
+  "cards": {
+    "title": "Kartlarım",
+    "tabs": {
+      "cloud": "Bulut",
+      "local": "Yerel",
+      "trash": "Çöp"
+    },
+    "loading": "Kartlar yükleniyor...",
+    "empty": "Kart bulunamadı",
+    "createCta": "Kart Oluştur"
+  },
+  "passwords": {
+    "title": "Şifrelerim",
+    "tabs": {
+      "cloud": "Bulut",
+      "local": "Yerel",
+      "trash": "Çöp"
+    },
+    "loading": "Şifreler yükleniyor...",
+    "empty": "Şifre bulunamadı",
+    "createCta": "Şifre Oluştur",
+    "unnamed": "İsimsiz",
+    "noUsername": "Kullanıcı adı yok",
+    "noPassword": "Şifre yok"
+  },
+  "unsaved": {
+    "title": "Kaydedilmemiş değişiklikler",
+    "message": "Kaydedilmemiş değişiklikleriniz var. Şimdi çıkarsanız yaptığınız düzenlemeler kaybolacak. Kaydetmeden geri dönmek istiyor musunuz?",
+    "yes": "Evet, vazgeç",
+    "no": "Hayır, kal"
+  },
+  "trash": {
+    "time": {
+      "days": "{{count}} gün",
+      "days_plural": "{{count}} gün",
+      "hours": "{{count}} saat",
+      "hours_plural": "{{count}} saat",
+      "minutes": "{{count}} dk",
+      "minutes_plural": "{{count}} dk"
+    },
+    "info": {
+      "password": "{{time}} sonra, bu şifre kalıcı olarak silinecek.",
+      "card": "{{time}} sonra, bu kart kalıcı olarak silinecek."
+    }
+  },
+  "copy": {
+    "copied": "{{what}} panoya kopyalandı",
+    "empty": "Kopyalanacak {{what}} yok",
+    "what": {
+      "cardNumber": "kart numarası",
+      "cardHolderName": "kart sahibi adı",
+      "username": "kullanıcı adı",
+      "password": "şifre",
+      "url": "URL"
+    }
+  },
+  "notifications": {
+    "empty": "Henüz Bildirim Yok",
+    "emptyDesc": "Önemli bir şey olduğunda sizi bilgilendireceğiz. Burayı takip etmeye devam edin!",
+    "shareRequest": "{{who}} sizinle bir parola paylaşmak istiyor.",
+    "someone": "Bir kullanıcı",
+    "shareAccepted": "Paylaşım isteği kabul edildi",
+    "shareDeclined": "Paylaşım isteği reddedildi",
+    "shareDecisionFailed": "Karar uygulanamadı. Lütfen tekrar deneyin."
+  },
+  "validation": {
+    "invalidEmail": "Lütfen geçerli bir e-posta adresi girin"
+  },
+  "errors": {
+    "required": "Bu alan zorunludur.",
+    "minLength": "En az {{count}} karakter olmalıdır",
+    "invalidEmail": "Lütfen geçerli bir e-posta adresi girin",
+    "valueMustBeNumber": "Değer geçerli bir sayı olmalıdır.",
+    "invalidCreditCard": "Geçersiz kredi kartı numarası.",
+    "creditCardDigits": "Kart numarası {{count}} haneli olmalıdır",
+    "invalidCVV": "Geçersiz CVV.",
+    "invalidExpiry": "Geçersiz son kullanma tarihi. Lütfen AA/YY formatını kullanın.",
+    "passwordsDoNotMatch": "Parolalar eşleşmiyor",
+    "invalidMasterPassword": "Ana Parola yanlış",
+    "generic": "Bir şeyler yanlış gitti. Lütfen tekrar deneyin."
+  },
+  "masterPassword": {
+    "title": "Ana Parola Oluştur",
+    "description": "Ana Parolanız kasanızı korur ve kilidini açar. Asla sunucularımıza gönderilmez. Unutmayın — bu parola olmadan şifrelenmiş verileriniz kurtarılamaz",
+    "password": "Güçlü bir parola seçin — en az 12 karakter; harf, rakam ve sembollerin karışımı.",
+    "passwordPlaceholder": "Ana parola",
+    "confirmPlaceholder": "Ana parolayı doğrula",
+    "skip": "Atla",
+    "continue": "Devam et"
+  },
+  "loading": {
+    "default": "Yükleniyor..."
+  },
+  "accessibility": {
+    "loadingLogo": "Yükleme logosu"
+  },
+  "confirmMasterPassword": {
+    "title": "Ana Parolayı Doğrula",
+    "description": "Bu cihazda kasanızı kilidini açmak için Ana Parolanızı doğrulayın.",
+    "passwordPlaceholder": "Ana Parola",
+    "confirm": "Doğrula"
+  },
+  "forgotPassword": {
+    "methodsTitle": "Şifremi Unuttum",
+    "methodsSubtitle": "Şifrenizi sıfırlamak için hangi iletişim bilgilerini kullanmamız gerektiğini seçin",
+    "viaEmail": "E-posta yoluyla:",
+    "continue": "Devam Et",
+    "emailTitle": "E-posta Adresinizi Girin",
+    "resetPassword": "Şifreyi Sıfırla",
+    "rememberPasswordQuestion": "Şifrenizi hatırlıyor musunuz?",
+    "invalidEmailMessage": "Lütfen geçerli bir e-posta adresi girin.",
+    "requestSuccessTitle": "Eğer bir hesap varsa",
+    "requestSuccessMessage": "Eğer bir hesap varsa, kısa süre içinde bir e-posta alacaksınız.",
+    "unexpectedErrorMessage": "Beklenmeyen bir hata oluştu."
+  },
+  "upgrade": {
+    "title": "Yükselt",
+    "choosePlan": "Plan Seçin",
+    "subtitle": "Planınızı yükselterek daha yüksek limitlerin ve gelişmiş özelliklerin kilidini açın.",
+    "subscriptionDetail": "Abonelik Detayları",
+    "plan": "Plan",
+    "expiresAt": "Bitiş Tarihi",
+    "currentLimits": "Mevcut Limitler",
+    "passwords": "Şifreler",
+    "cards": "Kartlar",
+    "shares": "Paylaşımlar",
+    "cancel": "İptal",
+    "upgrade": "Yükselt",
+    "upgradeToPro": "Pro'ya Yükselt",
+    "default": "Varsayılan",
+    "current": "Mevcut",
+    "currentPlanBadge": "Mevcut Plan",
+    "currentPlanDescription": "Bu sizin aktif aboneliğiniz. Bu ekrandan yönetebilir veya değiştirebilirsiniz.",
+    "currentPlanButtonLabel": "Mevcut Plan",
+    "subscriptionManagedInStore": "Plan değişiklikleri App Store abonelik ekranından yönetilir.",
+    "premium": "Premium",
+    "monthly": "Aylık",
+    "yearly": "Yıllık",
+    "unlimited": "Sınırsız",
+    "included": "Dahil",
+    "notIncluded": "Dahil değil",
+    "cloudSync": "Bulut Senkronizasyonu",
+    "secureNotes": "Güvenli Notlar",
+    "watchtower": "Watchtower",
+    "itemHistory": "Öğe Geçmişi",
+    "export": "Dışa Aktar",
+    "prioritySupport": "Öncelikli Destek",
+    "familySharing": "Aile Paylaşımı",
+    "maxFamilyMembers": "Maksimum Aile Üyesi",
+    "restorePurchases": "Satın Almaları Geri Yükle",
+    "manageSubscription": "Aboneliği Yönet",
+    "failedToLoadPlans": "Planlar yüklenemedi",
+    "unexpectedError": "Planlar yüklenirken beklenmedik bir hata oluştu",
+    "free": "Ücretsiz",
+    "processingPurchase": "İşlem yapılıyor...",
+    "purchaseComplete": "Satın alma işleminiz tamamlandı.",
+    "purchaseFailed": "Satın alma başarısız",
+    "purchaseFailedGeneric": "App Store bu satın alma işlemini tamamlayamadı.",
+    "purchaseError": "Satın alma hatası",
+    "purchaseDiagnostics": "Tanı: {{details}}",
+    "purchasePaymentsUnavailable": "Bu Apple hesabı şu anda bu cihazda satın alma yapmaya uygun değil.",
+    "restoringPurchases": "Satın almalar geri yükleniyor...",
+    "restored": "Geri Yüklendi",
+    "purchasesRestored": "Satın almalar geri yüklendi.",
+    "restoreFailed": "Geri yükleme başarısız",
+    "productsUnavailable": "Abonelik ürünleri şu anda kullanılamıyor. Lütfen birkaç dakika sonra tekrar deneyin.",
+    "code": "Kod: {{code}}",
+    "proMonthly": "PazzPro Aylık",
+    "proYearly": "PazzPro Yıllık",
+    "familyMonthly": "PazzFamily Aylık",
+    "familyYearly": "PazzFamily Yıllık",
+    "monthUnit": "ay",
+    "yearUnit": "yıl",
+    "legalTitle": "Yasal Bilgiler",
+    "legalDescription": "Otomatik yenilenen bir abonelik satın almadan önce Gizlilik Politikamızı ve Kullanım Koşullarımızı inceleyin.",
+    "privacyPolicy": "Gizlilik Politikası",
+    "termsOfUse": "Kullanım Koşulları",
+    "legalLinkError": "Seçilen yasal belge açılamadı."
+  }
+}

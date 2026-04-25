@@ -1,0 +1,513 @@
+{
+  "common": {
+    "information": "Información",
+    "cancel": "Cancelar",
+    "yesLogout": "Sí, Cerrar sesión",
+    "save": "Guardar",
+    "saving": "Guardando...",
+    "removingAccess": "Eliminando acceso...",
+    "deleting": "Eliminando...",
+    "update": "Actualizar",
+    "seeAll": "Ver todo",
+    "delete": "Eliminar",
+    "email": "Correo electrónico",
+    "close": "Cerrar",
+    "share": "Compartir",
+    "accept": "Aceptar",
+    "decline": "Rechazar",
+    "done": "Hecho",
+    "restore": "Restaurar"
+  },
+  "auth": {
+    "loginTitleLine1": "Inicia sesión en tu",
+    "loginTitleLine2": "Cuenta",
+    "createTitleLine1": "Crea tu",
+    "createTitleLine2": "Cuenta",
+    "passwordPlaceholder": "Contraseña",
+    "rememberMe": "Recordarme",
+    "loginButton": "Iniciar sesión",
+    "signUpButton": "Registrarse",
+    "signInButton": "Iniciar sesión",
+    "forgotPasswordQuestion": "¿Olvidaste la contraseña?",
+    "orContinueWith": "o continuar con",
+    "dontHaveAccount": "¿No tienes una cuenta?",
+    "alreadyHaveAccount": "¿Ya tienes una cuenta?",
+    "termsTitle": "Términos y condiciones",
+    "acceptPrivacyToContinue": "Por favor, acepta nuestra Política de privacidad para continuar.",
+    "acceptPrivacyInline": "Al continuar, aceptas nuestra Política de privacidad",
+    "invalidInputTitle": "Entrada no válida",
+    "invalidInputMessage": "Por favor, comprueba los errores en el formulario.",
+    "signupTitle": "Registro",
+    "emailExistsTitle": "Correo electrónico existente",
+    "emailExistsMessage": "Tu dirección de correo electrónico ya existe. Si no recuerdas tu contraseña, por favor continúa con '¿Olvidaste la contraseña?'",
+    "responseMissingTokens": "Faltan tokens en la respuesta.",
+    "loginFailed": "Fallo al iniciar sesión. Por favor, comprueba tus credenciales.",
+    "loginMissingTokens": "Faltan tokens en la respuesta de inicio de sesión.",
+    "loginError": "Ocurrió un error durante el inicio de sesión."
+  },
+  "profile": {
+    "title": "Perfil"
+  },
+  "settings": {
+    "updatePassword": "Actualizar contraseña",
+    "myNotification": "Mis notificaciones",
+    "address": "Dirección",
+    "editProfile": "Editar perfil",
+    "notification": "Notificación",
+    "logoutPreferences": "Preferencias de cierre de sesión",
+    "security": "Seguridad",
+    "privacyPolicy": "Política de privacidad",
+    "helpCenter": "Centro de ayuda",
+    "faqTitle": "Preguntas frecuentes",
+    "contactUsTitle": "Contáctanos",
+    "customerService": "Servicio al cliente",
+    "inviteFriends": "Invitar amigos",
+    "inviteFriendsDescription": "Invita a tus amigos ingresando sus direcciones de correo electrónico. Puedes agregar a varias personas a la vez separando cada dirección con una coma (',').",
+    "inviteFriendsPlaceholder": "Ingresa correos electrónicos separados por coma",
+    "inviteFriendsLabel": "Dirección de correo electrónico",
+    "sendInvitations": "Enviar invitaciones",
+    "inviteStatusSent": "Enviado",
+    "inviteStatusExists": "Ya existe",
+    "inviteStatusFailed": "Fallido",
+    "logout": "Cerrar sesión",
+    "darkMode": "Modo oscuro",
+    "languageRegion": "Idioma y región",
+    "removeLocalData": "Eliminar datos locales",
+    "removeLocalDataDescription": "Los datos almacenados localmente (contraseñas y tarjetas cifradas) se eliminarán permanentemente al cerrar sesión. Esta acción no se puede deshacer ni recuperar.",
+    "removeMPConfig": "Eliminar configuración de MP",
+    "removeMPConfigDescription": "La configuración de la contraseña maestra y las claves de cifrado se eliminarán de este dispositivo al cerrar sesión. Se te pedirá que vuelvas a ingresar tu contraseña maestra en tu próximo inicio de sesión para acceder a tus datos.",
+    "deleteAccount": {
+      "menu": "Eliminar cuenta",
+      "title": "Eliminar cuenta",
+      "warningTitle": "Eliminación permanente de la cuenta",
+      "warningBody": "Eliminar tu cuenta es permanente. Los datos cifrados de tu bóveda y tu perfil de cuenta se eliminarán de nuestros sistemas.",
+      "subscriptionNote": "Si tienes una suscripción activa en la App Store, cancéllala desde los ajustes de suscripciones de tu Apple ID.",
+      "passwordLabel": "Contraseña actual",
+      "passwordRequired": "Por favor, ingresa tu contraseña actual.",
+      "action": "Eliminar cuenta",
+      "confirmTitle": "Confirmar eliminación de cuenta",
+      "confirmMessage": "Esta acción no se puede deshacer. ¿Estás seguro de que quieres eliminar permanentemente tu cuenta?",
+      "confirmButton": "Sí, eliminar",
+      "invalidCredentials": "La contraseña actual no es correcta.",
+      "passwordConfirmationUnavailable": "Esta cuenta aún no admite la confirmación de contraseña para la eliminación.",
+      "userNotFound": "Cuenta de usuario no encontrada.",
+      "unauthorized": "Tu sesión ha caducado. Por favor, inicia sesión de nuevo.",
+      "error": "Fallo al eliminar la cuenta. Por favor, inténtalo de nuevo."
+    },
+    "privacy": {
+      "title": "Política de privacidad",
+      "intro": "Pazzwrd se compromete a mantener los más altos estándares de privacidad y seguridad de los datos. Esta Política de privacidad describe los protocolos institucionales y las medidas técnicas empleadas para salvaguardar la información del usuario.",
+      "masterPasswordTitle": "1. Contraseña maestra y protocolos criptográficos",
+      "masterPasswordDesc": "La contraseña maestra sirve como la semilla criptográfica principal para la bóveda digital del usuario. Se utiliza para derivar claves de cifrado únicas para la protección de credenciales sensibles y datos financieros. Pazzwrd se adhiere a una estricta política no custodia; la contraseña maestra nunca se transmite ni se almacena en nuestra infraestructura.",
+      "encryptionDetail": "La integridad de los datos se mantiene mediante la implementación del cifrado XChaCha20-Poly1305 estándar de la industria. Cada entrada de la bóveda se asegura con una clave individual, que posteriormente se envuelve utilizando una clave de cifrado de clave (KEK) derivada de la contraseña maestra del usuario.",
+      "storageTitle": "2. Gestión y almacenamiento de datos",
+      "storageDesc": "Pazzwrd proporciona soluciones de almacenamiento de múltiples capas para garantizar la disponibilidad y seguridad de los datos:",
+      "localStorage": "Almacenamiento en el dispositivo: Los datos cifrados se mantienen localmente en el dispositivo del usuario, lo que facilita el acceso sin conexión mientras se mantiene la seguridad criptográfica.",
+      "cloudStorage": "Sincronización en la nube: Tras la autorización del usuario, los conjuntos de datos cifrados se sincronizan con nuestra infraestructura segura en la nube para permitir la accesibilidad multiplataforma.",
+      "publicDataTitle": "3. Clasificación de datos",
+      "publicDataDesc": "La información se categoriza según su sensibilidad para optimizar el rendimiento mientras se garantiza la máxima seguridad:",
+      "privateData": "Datos clasificados: Todos los registros sensibles, incluidas las contraseñas, la información de pago y las notas privadas, se cifran localmente antes de su transmisión o almacenamiento.",
+      "publicData": "Metadatos: Los metadatos no sensibles (por ejemplo, identificadores de servicio o etiquetas organizativas) pueden almacenarse en un formato no cifrado para facilitar las operaciones eficientes de indexación y recuperación.",
+      "zeroKnowledgeTitle": "4. Implementación de arquitectura de conocimiento cero",
+      "zeroKnowledgeDesc": "Nuestros sistemas operan bajo una arquitectura de conocimiento cero. El servidor funciona exclusivamente como un repositorio seguro para cargas útiles cifradas. El proveedor de servicios no posee medios técnicos para acceder a las claves de cifrado, contraseñas maestras o contenido de usuario descifrado. Este diseño arquitectónico garantiza que los datos permanezcan inaccesibles para partes no autorizadas, incluido el proveedor de servicios.",
+      "warningTitle": "5. Aviso crítico: Descargo de responsabilidad por pérdida irrecuperable de datos",
+      "warningDesc": "Debido a la implementación del cifrado de extremo a extremo y el modelo de conocimiento cero, la recuperación de una contraseña maestra perdida es técnicamente imposible por parte del proveedor de servicios. No conservar la contraseña maestra resultará en la pérdida permanente del acceso a todos los datos cifrados. Se recomienda encarecidamente a los usuarios que mantengan copias de seguridad seguras de su contraseña maestra."
+    },
+    "faq": {
+      "whatIsCloudTitle": "¿Qué significa la nube?",
+      "whatIsCloudDesc": "La nube significa que tus datos cifrados se sincronizan con nuestros servidores seguros. Esto te permite acceder a tus contraseñas y tarjetas desde cualquier dispositivo al iniciar sesión en tu cuenta.",
+      "whatIsLocalTitle": "¿Qué significa local?",
+      "whatIsLocalDesc": "Local significa que tus datos se almacenan solo en tu dispositivo. Están cifrados y nunca salen de tu teléfono a menos que habilites la sincronización en la nube.",
+      "howDataStoredTitle": "¿Cómo se almacenan las contraseñas y los detalles de las tarjetas?",
+      "howDataStoredDesc": "Tanto en el almacenamiento en la nube como en el local, tus datos siempre se cifran utilizando protocolos estándar de la industria. Solo tú tienes la clave (tu contraseña maestra) para descifrar esta información.",
+      "whatIsMPTitle": "¿Qué es la MP (contraseña maestra)?",
+      "whatIsMPDesc": "MP significa contraseña maestra (Master Password). Es la única contraseña que usas para acceder a tu bóveda. Nunca almacenamos tu contraseña maestra, por lo que es crucial que no la olvides.",
+      "trashRulesTitle": "¿Cuáles son las reglas de la papelera?",
+      "trashRulesDesc": "Cuando eliminas una contraseña o tarjeta, va a la pestaña Papelera. Los elementos en la papelera se eliminarán permanentemente después de un cierto período, o puedes vaciarla manualmente.",
+      "howToDeleteTitle": "¿Cómo elimino una contraseña o tarjeta?",
+      "howToDeleteDesc": "Para eliminar una contraseña o tarjeta, ve a la página de contraseñas o tarjetas y mantén presionado (clic largo) el elemento que deseas eliminar. Aparecerá una opción de eliminación.",
+      "howToRestoreTitle": "¿Puedo restaurar elementos de la papelera?",
+      "howToRestoreDesc": "Sí, puedes restaurar cualquier tarjeta o contraseña desde la pestaña Papelera de vuelta a tu bóveda principal en cualquier momento antes de que se elimine permanentemente.",
+      "howToShareTitle": "¿Cómo funciona la función de compartir contraseña?",
+      "howToShareDesc": "Puedes compartir contraseñas de forma segura con otros usuarios. La contraseña compartida permanece cifrada y solo el destinatario previsto puede acceder a ella."
+    },
+    "contactUs": {
+      "title": "Título",
+      "titlePlaceholder": "Ingresa el título",
+      "message": "Mensaje",
+      "messagePlaceholder": "Describe tu problema aquí...",
+      "send": "Enviar",
+      "success": "Tu mensaje ha sido enviado con éxito. Nos pondremos en contacto contigo pronto."
+    }
+  },
+  "security": {
+    "title": "Seguridad",
+    "rememberMe": "Recordarme",
+    "faceId": "Face ID",
+    "biometricId": "ID biométrica",
+    "changePin": "Cambiar PIN",
+    "resendEmail": "Reenviar correo de verificación",
+    "resendEmailSuccess": "Tu correo de activación ha sido enviado con éxito.",
+    "resendEmailError": "Fallo al reenviar el correo de activación."
+  },
+  "tabs": {
+    "new": {
+      "title": "Nuevo",
+      "passwordTab": "Contraseña",
+      "cardsTab": "Tarjetas"
+    }
+  },
+  "sync": {
+    "local": "Local",
+    "cloud": "Nube"
+  },
+  "password": {
+    "name": "Nombre de la contraseña",
+    "username": "Nombre de usuario",
+    "password": "Contraseña",
+    "url": "Sitio web/URL",
+    "notes": "Notas",
+    "tags": "Etiquetas",
+    "lastUpdated": "Última actualización",
+    "editPassword": "Editar contraseña",
+    "pendingCloudUpdate": "Tus cambios aún no se han actualizado en la nube.",
+    "passwordSaved": "Contraseña guardada con éxito",
+    "shareSuccess": "Invitación enviada.",
+    "shareTitle": "Compartir contraseña",
+    "inviteMailSends": "Correo de invitación enviado. Pide al destinatario que inicie sesión y luego inténtalo de nuevo.",
+    "inviteUserConfiguredNotFinished": "Clave pública del destinatario encontrada. Compartir estará disponible pronto.",
+    "cannotShareWithYourself": "No puedes compartir contigo mismo.",
+    "recipientHasNoKeys": "El destinatario no terminó de configurar la contraseña maestra, pídeles que terminen la configuración.",
+    "itemNotFound": "Elemento no encontrado.",
+    "someThingWentWrong": "Algo salió mal. Por favor, inténtalo de nuevo.",
+    "sharedBy": "Esta contraseña es compartida por {{who}}.",
+    "sharedWith": "Compartido con",
+    "shareStatusLoading": "Obteniendo estado de compartición...",
+    "shareStatus": {
+      "READY": "Pendiente",
+      "ACCEPTED": "Aceptado",
+      "REVOKED": "Revocado"
+    },
+    "removeAccess": "Quitar acceso",
+    "selectPeopleToUnshare": "Seleccionar personas para dejar de compartir",
+    "selectAtLeastOne": "Por favor, selecciona al menos un destinatario",
+    "tooltips": {
+      "sync": "Elige cómo quieres sincronizar esta contraseña en todos los dispositivos",
+      "name": "Ingresa un nombre para esta entrada de contraseña",
+      "username": "Ingresa el nombre de usuario para esta cuenta",
+      "password": "Ingresa la contraseña para esta cuenta",
+      "url": "Ingresa la URL del sitio web o el nombre de la aplicación",
+      "notes": "Agrega notas o información adicional sobre esta contraseña",
+      "tags": "Agrega etiquetas para categorizar y encontrar fácilmente esta contraseña más tarde",
+      "lastUpdated": "Muestra cuándo se modificó esta contraseña por última vez"
+    },
+    "strength": {
+      "suggestions": {
+        "providePassword": "Por favor, ingresa una contraseña.",
+        "increaseLength": "Usa al menos {{n}} caracteres.",
+        "mixedCase": "Mezcla letras mayúsculas y minúsculas.",
+        "addNumbers": "Agrega números.",
+        "addSymbols": "Agrega símbolos (ej., ! @ #).",
+        "useMoreVariety": "Usa una mezcla de letras, números y símbolos.",
+        "avoidSequences": "Evita secuencias comunes como 1234 o abcd.",
+        "avoidRepetition": "Evita repetir el mismo carácter muchas veces.",
+        "avoidCommon": "Evita contraseñas de uso común.",
+        "usePassphrase": "Considera una frase de contraseña más larga con varias palabras no relacionadas."
+      }
+    }
+  },
+  "card": {
+    "bankNamePlaceholder": "Nombre del banco/Nombre de la tarjeta",
+    "holderNamePlaceholder": "Nombre del titular de la tarjeta",
+    "numberPlaceholder": "Número de tarjeta",
+    "expiryPlaceholder": "Mes/Año de vencimiento (MM/AA)",
+    "cvvPlaceholder": "Código de seguridad (CVV)",
+    "cardPasswordPlaceholder": "Contraseña de la tarjeta",
+    "tooltips": {
+      "sync": "Elige cómo quieres sincronizar esta tarjeta en todos los dispositivos",
+      "bankName": "Ingresa el nombre del banco o el nombre de la tarjeta",
+      "holderName": "Ingresa el nombre completo tal como aparece en tu tarjeta",
+      "number": "Ingresa tu número de tarjeta de 16 dígitos (se formateará automáticamente)",
+      "expiry": "Ingresa la fecha de vencimiento en formato MM/AA",
+      "cvv": "Ingresa el código de seguridad de 3 dígitos (CVV/CVC) del reverso de tu tarjeta",
+      "cardPassword": "Ingresa la contraseña asociada a esta tarjeta (ej., contraseña de 3D Secure/compras en línea)"
+    }
+  },
+  "activityLog": {
+    "filterAll": "Todo",
+    "clear": "Limpiar",
+    "export": "Exportar JSON"
+  },
+  "alerts": {
+    "validationTitle": "Error de validación",
+    "validationRequiredFields": "Por favor, completa todos los campos requeridos",
+    "requiredFieldsMissing": "Faltan algunos campos requeridos.",
+    "cardNumberLength": "El número de tarjeta debe tener 16 dígitos",
+    "successTitle": "Éxito",
+    "cardSaved": "Tarjeta guardada con éxito",
+    "passwordSaved": "Contraseña guardada con éxito",
+    "invitationsSent": "Las invitaciones se han enviado con éxito.",
+    "passwordMovedToTrash": "Contraseña movida a la papelera",
+    "passwordDeleted": "Contraseña eliminada permanentemente",
+    "cardMovedToTrash": "Tarjeta movida a la papelera",
+    "cardDeleted": "Tarjeta eliminada permanentemente",
+    "errorTitle": "Error",
+    "saveFailed": "Fallo al guardar la tarjeta",
+    "passwordSaveFailed": "Fallo al guardar la contraseña",
+    "fingerprintNotRecognized": "Huella digital no reconocida. Inténtalo de nuevo.",
+    "unexpected": "Ocurrió un error inesperado",
+    "networkError": "Error de red. Por favor, comprueba tu conexión a Internet.",
+    "serverError": "El servidor no está disponible actualmente. Por favor, inténtalo de nuevo más tarde.",
+    "timeoutError": "La solicitud ha caducado. Por favor, inténtalo de nuevo.",
+    "information": "Información",
+    "sessionExpired": "Tu sesión ha caducado. Por favor, inicia sesión de nuevo.",
+    "offline": "Estás desconectado. Algunas funciones pueden no estar disponibles.",
+    "cloudNotAllowed": "La nube requiere un correo electrónico verificado y una contraseña maestra configurada.",
+    "shareNotAllowed": "Compartir requiere un correo electrónico verificado y una contraseña maestra configurada.",
+    "passwordLimitReached": "Límite de contraseñas alcanzado para tu plan.",
+    "cardLimitReached": "Límite de tarjetas alcanzado para tu plan.",
+    "shareLimitReached": "Límite de compartición alcanzado para tu plan.",
+    "accessRemoved": "Acceso eliminado",
+    "removeAccessFailed": "Fallo al eliminar el acceso"
+  },
+  "logout": {
+    "title": "Cerrar sesión",
+    "message": "¿Estás seguro de que quieres cerrar sesión?"
+  },
+  "greeting": {
+    "goodMorning": "Buenos días",
+    "goodAfternoon": "Buenas tardes",
+    "goodEvening": "Buenas noches",
+    "goodNight": "Buenas noches"
+  },
+  "home": {
+    "recentActivity": "Actividad reciente",
+    "statistics": "Estadísticas",
+    "passwordStrength": "Fortaleza de la contraseña",
+    "planLimits": "Plan y límites",
+    "planManageCta": "Gestionar",
+    "planUpgradeCta": "Mejorar",
+    "planCurrent": "Plan actual",
+    "planPremiumName": "Premium",
+    "planFreeName": "Gratis",
+    "planUnknownName": "Cargando...",
+    "planPremiumDescription": "Los límites Premium están activos.",
+    "planFreeDescription": "Mejora para desbloquear más almacenamiento y compartición.",
+    "planLoading": "Obteniendo derechos...",
+    "shares": "Comparticiones",
+    "unlimited": "Ilimitado",
+    "remaining": "{{count}} restantes",
+    "securityStatus": "Estado de seguridad",
+    "securityManageCta": "Seguridad",
+    "masterPassword": "Contraseña maestra",
+    "emailVerification": "Verificación de correo",
+    "statusBadge": {
+      "configured": "Activo",
+      "pending": "Pendiente",
+      "none": "Faltante",
+      "skipped": "Omitido",
+      "verified": "Verificado",
+      "unverified": "Sin verificar"
+    },
+    "statusHint": {
+      "master": {
+        "CONFIGURED": "Tu bóveda está protegida con una contraseña maestra.",
+        "PENDING": "Termina de configurar tu contraseña maestra para desbloquear las funciones en la nube.",
+        "NONE": "Aún no hay contraseña maestra. Configúrala para asegurar tu bóveda.",
+        "SKIPPED": "Configuración omitida. Habilítala para asegurar tus datos."
+      },
+      "email": {
+        "VERIFIED": "Correo confirmado. La compartición y la sincronización en la nube están habilitadas.",
+        "UNVERIFIED": "Verifica tu correo para habilitar la compartición y la sincronización en la nube."
+      }
+    }
+  },
+  "items": {
+    "card": "Tarjeta",
+    "password": "Contraseña"
+  },
+  "delete": {
+    "confirm": "¿Estás seguro de que quieres eliminar este {{item}}?",
+    "confirmPermanent": "Esto eliminará permanentemente este {{item}}. Esta acción no se puede deshacer. ¿Quieres continuar?"
+  },
+  "cards": {
+    "title": "Mis tarjetas",
+    "tabs": {
+      "cloud": "Nube",
+      "local": "Local",
+      "trash": "Papelera"
+    },
+    "loading": "Cargando tarjetas...",
+    "empty": "No se encontraron tarjetas",
+    "createCta": "Crear tarjeta"
+  },
+  "passwords": {
+    "title": "Mis contraseñas",
+    "tabs": {
+      "cloud": "Nube",
+      "local": "Local",
+      "trash": "Papelera"
+    },
+    "loading": "Cargando contraseñas...",
+    "empty": "No se encontraron contraseñas",
+    "createCta": "Crear contraseña",
+    "unnamed": "Sin nombre",
+    "noUsername": "Sin nombre de usuario",
+    "noPassword": "Sin contraseña"
+  },
+  "unsaved": {
+    "title": "Cambios sin guardar",
+    "message": "Tienes cambios sin guardar. Si sales ahora, se perderán tus ediciones. ¿Quieres volver sin guardar?",
+    "yes": "Sí, descartar",
+    "no": "No, quedarse"
+  },
+  "trash": {
+    "time": {
+      "days": "{{count}} día",
+      "days_plural": "{{count}} días",
+      "hours": "{{count}} hora",
+      "hours_plural": "{{count}} horas",
+      "minutes": "{{count}} min",
+      "minutes_plural": "{{count}} mins"
+    },
+    "info": {
+      "password": "Dentro de {{time}}, esta contraseña se eliminará permanentemente.",
+      "card": "Dentro de {{time}}, esta tarjeta se eliminará permanentemente."
+    }
+  },
+  "copy": {
+    "copied": "Copiado {{what}} al portapapeles",
+    "empty": "Nada que copiar para {{what}}",
+    "what": {
+      "cardNumber": "número de tarjeta",
+      "cardHolderName": "nombre del titular",
+      "username": "nombre de usuario",
+      "password": "contraseña",
+      "url": "URL"
+    }
+  },
+  "notifications": {
+    "empty": "No hay notificaciones aún",
+    "emptyDesc": "Te avisaremos cuando ocurra algo importante. ¡Mantente atento!",
+    "shareRequest": "{{who}} quiere compartir una contraseña contigo.",
+    "someone": "Alguien",
+    "shareAccepted": "Solicitud de compartición aceptada",
+    "shareDeclined": "Solicitud de compartición rechazada",
+    "shareDecisionFailed": "Fallo al aplicar la decisión. Por favor, inténtalo de nuevo."
+  },
+  "validation": {
+    "invalidEmail": "Por favor, ingresa una dirección de correo válida"
+  },
+  "errors": {
+    "required": "Este campo es obligatorio.",
+    "minLength": "Debe tener al menos {{count}} caracteres",
+    "invalidEmail": "Por favor, ingresa una dirección de correo válida",
+    "valueMustBeNumber": "El valor debe ser un número válido.",
+    "invalidCreditCard": "Número de tarjeta de crédito no válido.",
+    "creditCardDigits": "El número de tarjeta debe tener {{count}} dígitos",
+    "invalidCVV": "CVV no válido.",
+    "invalidExpiry": "Fecha de vencimiento no válida. Por favor, usa el formato MM/AA.",
+    "passwordsDoNotMatch": "Las contraseñas no coinciden",
+    "invalidMasterPassword": "La contraseña maestra es incorrecta",
+    "generic": "Algo salió mal. Por favor, inténtalo de nuevo."
+  },
+  "masterPassword": {
+    "title": "Crear contraseña maestra",
+    "description": "Tu contraseña maestra protege y desbloquea tu bóveda. Nunca se envía a nuestros servidores. No la olvides; sin esta contraseña, tus datos cifrados no se pueden recuperar.",
+    "password": "Elige una contraseña fuerte: al menos 12 caracteres, con una mezcla de letras, números y símbolos.",
+    "passwordPlaceholder": "Contraseña maestra",
+    "confirmPlaceholder": "Confirmar contraseña maestra",
+    "skip": "Omitir",
+    "continue": "Continuar"
+  },
+  "loading": {
+    "default": "Cargando...",
+    "timeout": "La solicitud ha caducado. Por favor, inténtalo de nuevo."
+  },
+  "accessibility": {
+    "loadingLogo": "Cargando logotipo"
+  },
+  "confirmMasterPassword": {
+    "title": "Confirmar contraseña maestra",
+    "description": "Por favor, confirma tu contraseña maestra para desbloquear tu bóveda en este dispositivo.",
+    "passwordPlaceholder": "Contraseña maestra",
+    "confirm": "Confirmar"
+  },
+  "forgotPassword": {
+    "methodsTitle": "Olvidé mi contraseña",
+    "methodsSubtitle": "Selecciona qué datos de contacto debemos usar para restablecer tu contraseña",
+    "viaEmail": "vía Correo electrónico:",
+    "continue": "Continuar",
+    "emailTitle": "Ingresa tu correo electrónico",
+    "resetPassword": "Restablecer contraseña",
+    "rememberPasswordQuestion": "¿Recuerdas la contraseña?",
+    "invalidEmailMessage": "Por favor, proporciona un correo electrónico válido.",
+    "requestSuccessTitle": "Si existe una cuenta",
+    "requestSuccessMessage": "Si existe una cuenta, recibirás un correo electrónico en breve.",
+    "unexpectedErrorMessage": "Ocurrió un error inesperado."
+  },
+  "upgrade": {
+    "title": "Mejorar",
+    "choosePlan": "Elegir un plan",
+    "subtitle": "Desbloquea límites más altos y funciones avanzadas mejorando tu plan.",
+    "subscriptionDetail": "Detalle de la suscripción",
+    "plan": "Plan",
+    "expiresAt": "Vence el",
+    "currentLimits": "Límites actuales",
+    "passwords": "Contraseñas",
+    "cards": "Tarjetas",
+    "shares": "Comparticiones",
+    "cancel": "Cancelar",
+    "upgrade": "Mejorar",
+    "upgradeToPro": "Mejorar a Pro",
+    "default": "Predeterminado",
+    "current": "Actual",
+    "currentPlanBadge": "Plan actual",
+    "currentPlanDescription": "Esta es tu suscripción activa. Puedes gestionarla o cambiarla desde esta pantalla.",
+    "currentPlanButtonLabel": "Plan actual",
+    "subscriptionManagedInStore": "Los cambios de plan se gestionan desde la pantalla de suscripciones de la App Store.",
+    "premium": "Premium",
+    "monthly": "Mensual",
+    "yearly": "Anual",
+    "unlimited": "Ilimitado",
+    "included": "Incluido",
+    "notIncluded": "No incluido",
+    "cloudSync": "Sincronización en la nube",
+    "secureNotes": "Notas seguras",
+    "watchtower": "Watchtower",
+    "itemHistory": "Historial de elementos",
+    "export": "Exportar",
+    "prioritySupport": "Soporte prioritario",
+    "familySharing": "Compartir en familia",
+    "maxFamilyMembers": "Máximo de miembros de la familia",
+    "restorePurchases": "Restaurar compras",
+    "manageSubscription": "Gestionar suscripción",
+    "failedToLoadPlans": "Fallo al cargar los planes",
+    "unexpectedError": "Error inesperado al cargar los planes",
+    "free": "Gratis",
+    "processingPurchase": "Procesando compra...",
+    "purchaseComplete": "Tu compra se ha completado.",
+    "purchaseFailed": "Compra fallida",
+    "purchaseFailedGeneric": "La App Store no pudo completar esta compra.",
+    "purchaseError": "Error de compra",
+    "purchaseDiagnostics": "Diagnóstico: {{details}}",
+    "purchasePaymentsUnavailable": "Esta cuenta de Apple no tiene permitido realizar compras en este dispositivo en este momento.",
+    "restoringPurchases": "Restaurando compras...",
+    "restored": "Restaurado",
+    "purchasesRestored": "Compras restauradas.",
+    "restoreFailed": "Fallo al restaurar",
+    "productsUnavailable": "Los productos de suscripción no están disponibles actualmente. Por favor, inténtalo de nuevo en unos minutos.",
+    "code": "Código: {{code}}",
+    "proMonthly": "PazzPro Mensual",
+    "proYearly": "PazzPro Anual",
+    "familyMonthly": "PazzFamily Mensual",
+    "familyYearly": "PazzFamily Anual",
+    "monthUnit": "mes",
+    "yearUnit": "año",
+    "legalTitle": "Información legal",
+    "legalDescription": "Revisa nuestra Política de privacidad y los Términos de uso antes de comprar una suscripción renovable automáticamente.",
+    "privacyPolicy": "Política de privacidad",
+    "termsOfUse": "Términos de uso",
+    "legalLinkError": "No se pudo abrir el documento legal seleccionado."
+  }
+}

@@ -1,0 +1,513 @@
+{
+  "common": {
+    "information": "Informação",
+    "cancel": "Cancelar",
+    "yesLogout": "Sim, Sair",
+    "save": "Salvar",
+    "saving": "Salvando...",
+    "removingAccess": "Removendo acesso...",
+    "deleting": "Excluindo...",
+    "update": "Atualizar",
+    "seeAll": "Ver tudo",
+    "delete": "Excluir",
+    "email": "E-mail",
+    "close": "Fechar",
+    "share": "Compartilhar",
+    "accept": "Aceitar",
+    "decline": "Recusar",
+    "done": "Concluído",
+    "restore": "Restaurar"
+  },
+  "auth": {
+    "loginTitleLine1": "Faça login na sua",
+    "loginTitleLine2": "Conta",
+    "createTitleLine1": "Crie sua",
+    "createTitleLine2": "Conta",
+    "passwordPlaceholder": "Senha",
+    "rememberMe": "Lembrar de mim",
+    "loginButton": "Entrar",
+    "signUpButton": "Cadastrar-se",
+    "signInButton": "Entrar",
+    "forgotPasswordQuestion": "Esqueceu a senha?",
+    "orContinueWith": "ou continuar com",
+    "dontHaveAccount": "Não tem uma conta?",
+    "alreadyHaveAccount": "Já tem uma conta?",
+    "termsTitle": "Termos e Condições",
+    "acceptPrivacyToContinue": "Por favor, aceite nossa Política de Privacidade para continuar.",
+    "acceptPrivacyInline": "Ao continuar, você aceita nossa Política de Privacidade",
+    "invalidInputTitle": "Entrada Inválida",
+    "invalidInputMessage": "Por favor, verifique os erros no formulário.",
+    "signupTitle": "Cadastro",
+    "emailExistsTitle": "E-mail Existente",
+    "emailExistsMessage": "Seu endereço de e-mail já existe. Se você não se lembra da sua senha, por favor continue com 'Esqueceu a senha?'",
+    "responseMissingTokens": "Tokens ausentes na resposta.",
+    "loginFailed": "Falha no login. Verifique suas credenciais.",
+    "loginMissingTokens": "Tokens ausentes na resposta de login.",
+    "loginError": "Ocorreu um erro durante o login."
+  },
+  "profile": {
+    "title": "Perfil"
+  },
+  "settings": {
+    "updatePassword": "Atualizar Senha",
+    "myNotification": "Minhas Notificações",
+    "address": "Endereço",
+    "editProfile": "Editar Perfil",
+    "notification": "Notificação",
+    "logoutPreferences": "Preferências de Logout",
+    "security": "Segurança",
+    "privacyPolicy": "Política de Privacidade",
+    "helpCenter": "Central de Ajuda",
+    "faqTitle": "Perguntas Frequentes",
+    "contactUsTitle": "Fale Conosco",
+    "customerService": "Atendimento ao Cliente",
+    "inviteFriends": "Convidar Amigos",
+    "inviteFriendsDescription": "Convide seus amigos inserindo seus endereços de e-mail. Você pode adicionar várias pessoas de uma vez separando cada endereço com uma vírgula (',').",
+    "inviteFriendsPlaceholder": "Insira endereços de e-mail separados por vírgula",
+    "inviteFriendsLabel": "Endereço de E-mail",
+    "sendInvitations": "Enviar Convites",
+    "inviteStatusSent": "Enviado",
+    "inviteStatusExists": "Já existe",
+    "inviteStatusFailed": "Falhou",
+    "logout": "Sair",
+    "darkMode": "Modo Escuro",
+    "languageRegion": "Idioma e Região",
+    "removeLocalData": "Remover dados locais",
+    "removeLocalDataDescription": "Dados armazenados localmente (senhas e cartões criptografados) serão excluídos permanentemente quando você sair. Esta ação não pode ser desfeita ou recuperada.",
+    "removeMPConfig": "Remover configuração de MP",
+    "removeMPConfigDescription": "A configuração da Senha Mestra e as chaves de criptografia serão removidas deste dispositivo quando você sair. Você será solicitado a inserir novamente sua Senha Mestra no próximo login para acessar seus dados.",
+    "deleteAccount": {
+      "menu": "Excluir Conta",
+      "title": "Excluir Conta",
+      "warningTitle": "Exclusão Permanente de Conta",
+      "warningBody": "A exclusão da sua conta é permanente. Os dados do seu cofre criptografado e o perfil da conta serão removidos de nossos sistemas.",
+      "subscriptionNote": "Se você tiver uma assinatura ativa na App Store, cancele-a nas configurações de assinatura do seu ID Apple.",
+      "passwordLabel": "Senha atual",
+      "passwordRequired": "Por favor, insira sua senha atual.",
+      "action": "Excluir Conta",
+      "confirmTitle": "Confirmar Exclusão de Conta",
+      "confirmMessage": "Esta ação não pode ser desfeita. Tem certeza de que deseja excluir permanentemente sua conta?",
+      "confirmButton": "Sim, Excluir",
+      "invalidCredentials": "A senha atual está incorreta.",
+      "passwordConfirmationUnavailable": "Esta conta ainda não suporta confirmação de senha para exclusão.",
+      "userNotFound": "Conta de usuário não encontrada.",
+      "unauthorized": "Sua sessão expirou. Por favor, entre novamente.",
+      "error": "Falha ao excluir conta. Por favor, tente novamente."
+    },
+    "privacy": {
+      "title": "Política de Privacidade",
+      "intro": "A Pazzwrd está comprometida em manter os mais altos padrões de privacidade e segurança de dados. Esta Política de Privacidade descreve os protocolos institucionais e as medidas técnicas empregadas para proteger as informações do usuário.",
+      "masterPasswordTitle": "1. Senha Mestra e Protocolos Criptográficos",
+      "masterPasswordDesc": "A Senha Mestra serve como a semente criptográfica primária para o cofre digital do usuário. Ela é utilizada para derivar chaves de criptografia exclusivas para a proteção de credenciais confidenciais e dados financeiros. A Pazzwrd adere a uma política estrita de não custódia; a Senha Mestra nunca é transmitida ou armazenada em nossa infraestrutura.",
+      "encryptionDetail": "A integridade dos dados é mantida por meio da implementação da criptografia XChaCha20-Poly1305 padrão da indústria. Cada entrada do cofre é protegida com uma chave individual, que é subsequentemente envolvida usando uma chave de criptografia de chave (KEK) derivada da Senha Mestra do usuário.",
+      "storageTitle": "2. Gerenciamento e Armazenamento de Dados",
+      "storageDesc": "A Pazzwrd fornece soluções de armazenamento em várias camadas para garantir a disponibilidade e segurança dos dados:",
+      "localStorage": "Armazenamento no dispositivo: Os dados criptografados são persistidos localmente no dispositivo do usuário, facilitando o acesso offline enquanto mantém a segurança criptográfica.",
+      "cloudStorage": "Sincronização na Nuvem: Mediante autorização do usuário, os conjuntos de dados criptografados são sincronizados com nossa infraestrutura de nuvem segura para permitir a acessibilidade multiplataforma.",
+      "publicDataTitle": "3. Classificação de Dados",
+      "publicDataDesc": "As informações são categorizadas com base na sensibilidade para otimizar o desempenho, garantindo a máxima segurança:",
+      "privateData": "Dados Classificados: Todos os registros confidenciais, incluindo senhas, informações de pagamento e notas privadas, são criptografados localmente antes da transmissão ou armazenamento.",
+      "publicData": "Metadados: Metadados não confidenciais (por exemplo, identificadores de serviço ou rótulos organizacionais) podem ser armazenados em um formato não criptografado para facilitar operações eficientes de indexação e recuperação.",
+      "zeroKnowledgeTitle": "4. Implementação de Arquitetura de Conhecimento Zero",
+      "zeroKnowledgeDesc": "Nossos sistemas operam sob uma arquitetura de Conhecimento Zero. O servidor funciona exclusivamente como um repositório seguro para cargas criptografadas. O provedor de serviços não possui meios técnicos para acessar chaves de criptografia, Senhas Mestras ou conteúdo descriptografado do usuário. Este design arquitetônico garante que os dados permaneçam inacessíveis a partes não autorizadas, incluindo o provedor de serviços.",
+      "warningTitle": "5. Aviso Crítico: Isenção de Responsabilidade por Dados Irrecuperáveis",
+      "warningDesc": "Devido à implementação de criptografia de ponta a ponta e ao modelo de Conhecimento Zero, a recuperação de uma Senha Mestra perdida é tecnicamente impossível pelo provedor de serviços. A falha em reter a Senha Mestra resultará na perda permanente do acesso a todos os dados criptografados. Os usuários são expressamente aconselhados a manter backups seguros de sua Senha Mestra."
+    },
+    "faq": {
+      "whatIsCloudTitle": "O que significa Nuvem?",
+      "whatIsCloudDesc": "Nuvem significa que seus dados criptografados são sincronizados com nossos servidores seguros. Isso permite que você acesse suas senhas e cartões de qualquer dispositivo fazendo login na sua conta.",
+      "whatIsLocalTitle": "O que significa Local?",
+      "whatIsLocalDesc": "Local significa que seus dados são armazenados apenas no seu dispositivo. Eles são criptografados e nunca saem do seu telefone, a menos que você ative a sincronização na nuvem.",
+      "howDataStoredTitle": "Como as senhas e detalhes do cartão são armazenados?",
+      "howDataStoredDesc": "Tanto no armazenamento em nuvem quanto no local, seus dados são sempre criptografados usando protocolos padrão da indústria. Somente você possui a chave (sua Senha Mestra) para descriptografar essas informações.",
+      "whatIsMPTitle": "O que é MP (Senha Mestra)?",
+      "whatIsMPDesc": "MP significa Senha Mestra (Master Password). É a senha única que você usa para acessar seu cofre. Nunca armazenamos sua Senha Mestra, por isso é crucial que você não a esqueça.",
+      "trashRulesTitle": "Quais são as regras da Lixeira?",
+      "trashRulesDesc": "Quando você exclui uma senha ou cartão, ele vai para a guia Lixeira. Os itens na Lixeira serão excluídos permanentemente após um determinado período, ou você pode esvaziá-la manualmente.",
+      "howToDeleteTitle": "Como faço para excluir uma senha ou cartão?",
+      "howToDeleteDesc": "Para excluir uma senha ou cartão, vá para a página de senhas ou cartões e mantenha pressionado (clique longo) o item que deseja excluir. Uma opção de exclusão aparecerá.",
+      "howToRestoreTitle": "Posso restaurar itens da Lixeira?",
+      "howToRestoreDesc": "Sim, você pode restaurar qualquer cartão ou senha da guia Lixeira de volta ao seu cofre principal a qualquer momento antes que ele seja excluído permanentemente.",
+      "howToShareTitle": "Como funciona o recurso de compartilhar senha?",
+      "howToShareDesc": "Você pode compartilhar senhas com segurança com outros usuários. A senha compartilhada permanece criptografada e somente o destinatário pretendido pode acessá-la."
+    },
+    "contactUs": {
+      "title": "Título",
+      "titlePlaceholder": "Insira o título",
+      "message": "Mensagem",
+      "messagePlaceholder": "Descreva seu problema aqui...",
+      "send": "Enviar",
+      "success": "Sua mensagem foi enviada com sucesso. Entraremos em contato em breve."
+    }
+  },
+  "security": {
+    "title": "Segurança",
+    "rememberMe": "Lembrar de mim",
+    "faceId": "Face ID",
+    "biometricId": "Biometria",
+    "changePin": "Alterar PIN",
+    "resendEmail": "Reenviar E-mail de Verificação",
+    "resendEmailSuccess": "Seu e-mail de ativação foi enviado com sucesso.",
+    "resendEmailError": "Falha ao reenviar o e-mail de ativação."
+  },
+  "tabs": {
+    "new": {
+      "title": "Novo",
+      "passwordTab": "Senha",
+      "cardsTab": "Cartões"
+    }
+  },
+  "sync": {
+    "local": "Local",
+    "cloud": "Nuvem"
+  },
+  "password": {
+    "name": "Nome da Senha",
+    "username": "Nome de Usuário",
+    "password": "Senha",
+    "url": "Website/URL",
+    "notes": "Notas",
+    "tags": "Tags",
+    "lastUpdated": "Última Atualização",
+    "editPassword": "Editar Senha",
+    "pendingCloudUpdate": "Suas alterações ainda não foram atualizadas na nuvem.",
+    "passwordSaved": "Senha salva com sucesso",
+    "shareSuccess": "Convite enviado.",
+    "shareTitle": "Compartilhar Senha",
+    "inviteMailSends": "E-mail de convite enviado. Peça ao destinatário para fazer login e tente novamente.",
+    "inviteUserConfiguredNotFinished": "Chave pública do destinatário encontrada. O compartilhamento estará disponível em breve.",
+    "cannotShareWithYourself": "Você não pode compartilhar com você mesmo.",
+    "recipientHasNoKeys": "O destinatário não concluiu a configuração da Senha Mestra, peça a ele para concluir a configuração.",
+    "itemNotFound": "Item não encontrado.",
+    "someThingWentWrong": "Algo deu errado. Por favor, tente novamente.",
+    "sharedBy": "Esta senha é compartilhada por {{who}}.",
+    "sharedWith": "Compartilhado com",
+    "shareStatusLoading": "Buscando status de compartilhamento...",
+    "shareStatus": {
+      "READY": "Pendente",
+      "ACCEPTED": "Aceito",
+      "REVOKED": "Revogado"
+    },
+    "removeAccess": "Remover acesso",
+    "selectPeopleToUnshare": "Selecione as pessoas para remover o compartilhamento",
+    "selectAtLeastOne": "Por favor, selecione pelo menos um destinatário",
+    "tooltips": {
+      "sync": "Escolha como você deseja sincronizar esta senha entre dispositivos",
+      "name": "Insira um nome para esta entrada de senha",
+      "username": "Insira o nome de usuário para esta conta",
+      "password": "Insira a senha para esta conta",
+      "url": "Insira a URL do site ou o nome do aplicativo para esta senha",
+      "notes": "Adicione quaisquer notas ou informações adicionais sobre esta senha",
+      "tags": "Adicione tags para categorizar e encontrar facilmente esta senha mais tarde",
+      "lastUpdated": "Mostra quando esta senha foi modificada pela última vez"
+    },
+    "strength": {
+      "suggestions": {
+        "providePassword": "Por favor, insira uma senha.",
+        "increaseLength": "Use pelo menos {{n}} caracteres.",
+        "mixedCase": "Misture letras maiúsculas e minúsculas.",
+        "addNumbers": "Adicione números.",
+        "addSymbols": "Adicione símbolos (ex: ! @ #).",
+        "useMoreVariety": "Use uma mistura de letras, números e símbolos.",
+        "avoidSequences": "Evite sequências comuns como 1234 ou abcd.",
+        "avoidRepetition": "Evite repetir o mesmo caractere muitas vezes.",
+        "avoidCommon": "Evite senhas comumente usadas.",
+        "usePassphrase": "Considere uma frase secreta mais longa com várias palavras não relacionadas."
+      }
+    }
+  },
+  "card": {
+    "bankNamePlaceholder": "Nome do Banco/Nome do Cartão",
+    "holderNamePlaceholder": "Nome do Titular do Cartão",
+    "numberPlaceholder": "Número do Cartão",
+    "expiryPlaceholder": "Mês/Ano de Validade (MM/AA)",
+    "cvvPlaceholder": "Código de Segurança (CVV)",
+    "cardPasswordPlaceholder": "Senha do Cartão",
+    "tooltips": {
+      "sync": "Escolha como você deseja sincronizar este cartão entre dispositivos",
+      "bankName": "Insira o Nome do Banco ou Nome do Cartão",
+      "holderName": "Insira o nome completo conforme aparece no seu cartão",
+      "number": "Insira o número do seu cartão de 16 dígitos (será formatado automaticamente)",
+      "expiry": "Insira a data de validade no formato MM/AA",
+      "cvv": "Insira o código de segurança de 3 dígitos (CVV/CVC) do verso do seu cartão",
+      "cardPassword": "Insira a senha associada a este cartão (ex: senha do 3D Secure/compras online)"
+    }
+  },
+  "activityLog": {
+    "filterAll": "Tudo",
+    "clear": "Limpar",
+    "export": "Exportar JSON"
+  },
+  "alerts": {
+    "validationTitle": "Erro de Validação",
+    "validationRequiredFields": "Por favor, preencha todos os campos obrigatórios",
+    "requiredFieldsMissing": "Alguns campos obrigatórios estão faltando.",
+    "cardNumberLength": "O número do cartão deve ter 16 dígitos",
+    "successTitle": "Sucesso",
+    "cardSaved": "Cartão salvo com sucesso",
+    "passwordSaved": "Senha salva com sucesso",
+    "invitationsSent": "Os convites foram enviados com sucesso.",
+    "passwordMovedToTrash": "Senha movida para a lixeira",
+    "passwordDeleted": "Senha excluída permanentemente",
+    "cardMovedToTrash": "Cartão movido para a lixeira",
+    "cardDeleted": "Cartão excluído permanentemente",
+    "errorTitle": "Erro",
+    "saveFailed": "Falha ao salvar o cartão",
+    "passwordSaveFailed": "Falha ao salvar a senha",
+    "fingerprintNotRecognized": "Impressão digital não reconhecida. Tente novamente.",
+    "unexpected": "Ocorreu um erro inesperado",
+    "networkError": "Erro de rede. Verifique sua conexão com a internet.",
+    "serverError": "O servidor está indisponível no momento. Por favor, tente novamente mais tarde.",
+    "timeoutError": "A solicitação expirou. Por favor, tente novamente.",
+    "information": "Informação",
+    "sessionExpired": "Sua sessão expirou. Por favor, entre novamente.",
+    "offline": "Você está offline. Alguns recursos podem estar indisponíveis.",
+    "cloudNotAllowed": "A Nuvem requer e-mail verificado e Senha Mestra configurada.",
+    "shareNotAllowed": "O compartilhamento requer e-mail verificado e Senha Mestra configurada.",
+    "passwordLimitReached": "Limite de senhas atingido para o seu plano.",
+    "cardLimitReached": "Limite de cartões atingido para o seu plano.",
+    "shareLimitReached": "Limite de compartilhamento atingido para o seu plano.",
+    "accessRemoved": "Acesso removido",
+    "removeAccessFailed": "Falha ao remover o acesso"
+  },
+  "logout": {
+    "title": "Sair",
+    "message": "Tem certeza de que deseja sair?"
+  },
+  "greeting": {
+    "goodMorning": "Bom dia",
+    "goodAfternoon": "Boa tarde",
+    "goodEvening": "Boa noite",
+    "goodNight": "Boa noite"
+  },
+  "home": {
+    "recentActivity": "Atividade Recente",
+    "statistics": "Estatísticas",
+    "passwordStrength": "Força da Senha",
+    "planLimits": "Plano e Limites",
+    "planManageCta": "Gerenciar",
+    "planUpgradeCta": "Upgrade",
+    "planCurrent": "Plano atual",
+    "planPremiumName": "Premium",
+    "planFreeName": "Grátis",
+    "planUnknownName": "Carregando...",
+    "planPremiumDescription": "Limites Premium estão ativos.",
+    "planFreeDescription": "Faça o upgrade para desbloquear mais armazenamento e compartilhamento.",
+    "planLoading": "Buscando direitos...",
+    "shares": "Compartilhamentos",
+    "unlimited": "Ilimitado",
+    "remaining": "{{count}} restantes",
+    "securityStatus": "Status de Segurança",
+    "securityManageCta": "Segurança",
+    "masterPassword": "Senha Mestra",
+    "emailVerification": "Verificação de e-mail",
+    "statusBadge": {
+      "configured": "Ativo",
+      "pending": "Pendente",
+      "none": "Faltando",
+      "skipped": "Pulado",
+      "verified": "Verificado",
+      "unverified": "Não verificado"
+    },
+    "statusHint": {
+      "master": {
+        "CONFIGURED": "Seu cofre está protegido com uma Senha Mestra.",
+        "PENDING": "Conclua a configuração da sua Senha Mestra para desbloquear os recursos da nuvem.",
+        "NONE": "Ainda não há Senha Mestra. Configure-a para proteger seu cofre.",
+        "SKIPPED": "Configuração pulada. Ative-a para proteger seus dados."
+      },
+      "email": {
+        "VERIFIED": "O e-mail foi confirmado. O compartilhamento e a sincronização na nuvem estão ativados.",
+        "UNVERIFIED": "Verifique seu e-mail para ativar o compartilhamento e a sincronização na nuvem."
+      }
+    }
+  },
+  "items": {
+    "card": "Cartão",
+    "password": "Senha"
+  },
+  "delete": {
+    "confirm": "Tem certeza de que deseja remover este {{item}}?",
+    "confirmPermanent": "Isso excluirá permanentemente este {{item}}. Esta ação não pode ser desfeita. Você deseja continuar?"
+  },
+  "cards": {
+    "title": "Meus Cartões",
+    "tabs": {
+      "cloud": "Nuvem",
+      "local": "Local",
+      "trash": "Lixeira"
+    },
+    "loading": "Carregando cartões...",
+    "empty": "Nenhum cartão encontrado",
+    "createCta": "Criar Cartão"
+  },
+  "passwords": {
+    "title": "Minhas Senhas",
+    "tabs": {
+      "cloud": "Nuvem",
+      "local": "Local",
+      "trash": "Lixeira"
+    },
+    "loading": "Carregando senhas...",
+    "empty": "Nenhuma senha encontrada",
+    "createCta": "Criar Senha",
+    "unnamed": "Sem nome",
+    "noUsername": "Sem nome de usuário",
+    "noPassword": "Sem senha"
+  },
+  "unsaved": {
+    "title": "Alterações não salvas",
+    "message": "Você tem alterações não salvas. Se você sair agora, suas edições serão perdidas. Deseja voltar sem salvar?",
+    "yes": "Sim, descartar",
+    "no": "Não, ficar"
+  },
+  "trash": {
+    "time": {
+      "days": "{{count}} dia",
+      "days_plural": "{{count}} dias",
+      "hours": "{{count}} hora",
+      "hours_plural": "{{count}} horas",
+      "minutes": "{{count}} min",
+      "minutes_plural": "{{count}} mins"
+    },
+    "info": {
+      "password": "Em {{time}}, esta senha será excluída permanentemente.",
+      "card": "Em {{time}}, este cartão será excluído permanentemente."
+    }
+  },
+  "copy": {
+    "copied": "Copiado {{what}} para a área de transferência",
+    "empty": "Nada para copiar para {{what}}",
+    "what": {
+      "cardNumber": "número do cartão",
+      "cardHolderName": "nome do titular do cartão",
+      "username": "nome de usuário",
+      "password": "senha",
+      "url": "URL"
+    }
+  },
+  "notifications": {
+    "empty": "Nenhuma notificação ainda",
+    "emptyDesc": "Nós o notificaremos quando algo importante acontecer. Fique de olho neste espaço!",
+    "shareRequest": "{{who}} deseja compartilhar uma senha com você.",
+    "someone": "Alguém",
+    "shareAccepted": "Solicitação de compartilhamento aceita",
+    "shareDeclined": "Solicitação de compartilhamento recusada",
+    "shareDecisionFailed": "Falha ao aplicar a decisão. Por favor, tente novamente."
+  },
+  "validation": {
+    "invalidEmail": "Por favor, insira um endereço de e-mail válido"
+  },
+  "errors": {
+    "required": "Este campo é obrigatório.",
+    "minLength": "Deve ter pelo menos {{count}} caracteres",
+    "invalidEmail": "Por favor, insira um endereço de e-mail válido",
+    "valueMustBeNumber": "O valor deve ser um número válido.",
+    "invalidCreditCard": "Número de cartão de crédito inválido.",
+    "creditCardDigits": "O número do cartão deve ter {{count}} dígitos",
+    "invalidCVV": "CVV inválido.",
+    "invalidExpiry": "Data de validade inválida. Use o formato MM/AA.",
+    "passwordsDoNotMatch": "As senhas não coincidem",
+    "invalidMasterPassword": "A Senha Mestra está incorreta",
+    "generic": "Algo deu errado. Por favor, tente novamente."
+  },
+  "masterPassword": {
+    "title": "Criar Senha Mestra",
+    "description": "Sua Senha Mestra protege e desbloqueia seu cofre. Ela nunca é enviada para nossos servidores. Não a esqueça — sem essa senha, seus dados criptografados não podem ser recuperados.",
+    "password": "Escolha uma senha forte — pelo menos 12 caracteres, com uma mistura de letras, números e símbolos.",
+    "passwordPlaceholder": "Senha mestra",
+    "confirmPlaceholder": "Confirmar senha mestra",
+    "skip": "Pular",
+    "continue": "Continuar"
+  },
+  "loading": {
+    "default": "Carregando...",
+    "timeout": "A solicitação expirou. Por favor, tente novamente."
+  },
+  "accessibility": {
+    "loadingLogo": "Carregando logotipo"
+  },
+  "confirmMasterPassword": {
+    "title": "Confirmar Senha Mestra",
+    "description": "Por favor, confirme sua Senha Mestra para desbloquear seu cofre neste dispositivo.",
+    "passwordPlaceholder": "Senha Mestra",
+    "confirm": "Confirmar"
+  },
+  "forgotPassword": {
+    "methodsTitle": "Esqueci a Senha",
+    "methodsSubtitle": "Selecione quais detalhes de contato devemos usar para redefinir sua senha",
+    "viaEmail": "via E-mail:",
+    "continue": "Continuar",
+    "emailTitle": "Insira seu e-mail",
+    "resetPassword": "Redefinir Senha",
+    "rememberPasswordQuestion": "Lembrou da senha?",
+    "invalidEmailMessage": "Por favor, forneça um e-mail válido.",
+    "requestSuccessTitle": "Se uma conta existir",
+    "requestSuccessMessage": "Se uma conta existir, você receberá um e-mail em breve.",
+    "unexpectedErrorMessage": "Ocorreu um erro inesperado."
+  },
+  "upgrade": {
+    "title": "Upgrade",
+    "choosePlan": "Escolha um Plano",
+    "subtitle": "Desbloqueie limites maiores e recursos avançados fazendo o upgrade do seu plano.",
+    "subscriptionDetail": "Detalhes da Assinatura",
+    "plan": "Plano",
+    "expiresAt": "Expira em",
+    "currentLimits": "Limites Atuais",
+    "passwords": "Senhas",
+    "cards": "Cartões",
+    "shares": "Compartilhamentos",
+    "cancel": "Cancelar",
+    "upgrade": "Upgrade",
+    "upgradeToPro": "Upgrade para Pro",
+    "default": "Padrão",
+    "current": "Atual",
+    "currentPlanBadge": "Plano Atual",
+    "currentPlanDescription": "Esta é sua assinatura ativa. Você pode gerenciá-la ou alterá-la nesta tela.",
+    "currentPlanButtonLabel": "Plano Atual",
+    "subscriptionManagedInStore": "As alterações de plano são gerenciadas na tela de assinatura da App Store.",
+    "premium": "Premium",
+    "monthly": "Mensal",
+    "yearly": "Anual",
+    "unlimited": "Ilimitado",
+    "included": "Incluído",
+    "notIncluded": "Não incluído",
+    "cloudSync": "Sincronização na Nuvem",
+    "secureNotes": "Notas Seguras",
+    "watchtower": "Watchtower",
+    "itemHistory": "Histórico de Itens",
+    "export": "Exportar",
+    "prioritySupport": "Suporte Prioritário",
+    "familySharing": "Compartilhamento Familiar",
+    "maxFamilyMembers": "Máximo de Membros da Família",
+    "restorePurchases": "Restaurar Compras",
+    "manageSubscription": "Gerenciar Assinatura",
+    "failedToLoadPlans": "Falha ao carregar planos",
+    "unexpectedError": "Erro inesperado ao carregar planos",
+    "free": "Grátis",
+    "processingPurchase": "Processando compra...",
+    "purchaseComplete": "Sua compra foi concluída.",
+    "purchaseFailed": "Compra falhou",
+    "purchaseFailedGeneric": "A App Store não pôde concluir esta compra.",
+    "purchaseError": "Erro na compra",
+    "purchaseDiagnostics": "Diagnóstico: {{details}}",
+    "purchasePaymentsUnavailable": "Esta conta Apple não tem permissão para fazer compras neste dispositivo no momento.",
+    "restoringPurchases": "Restaurando compras...",
+    "restored": "Restaurado",
+    "purchasesRestored": "Compras restauradas.",
+    "restoreFailed": "Restauração falhou",
+    "productsUnavailable": "Os produtos de assinatura estão indisponíveis no momento. Tente novamente em alguns minutos.",
+    "code": "Código: {{code}}",
+    "proMonthly": "PazzPro Mensal",
+    "proYearly": "PazzPro Anual",
+    "familyMonthly": "PazzFamily Mensal",
+    "familyYearly": "PazzFamily Anual",
+    "monthUnit": "mês",
+    "yearUnit": "ano",
+    "legalTitle": "Informações Legais",
+    "legalDescription": "Revise nossa Política de Privacidade e Termos de Uso antes de adquirir uma assinatura auto-renovável.",
+    "privacyPolicy": "Política de Privacidade",
+    "termsOfUse": "Termos de Uso",
+    "legalLinkError": "Não foi possível abrir o documento legal selecionado."
+  }
+}

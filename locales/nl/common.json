@@ -1,0 +1,513 @@
+{
+  "common": {
+    "information": "Informatie",
+    "cancel": "Annuleren",
+    "yesLogout": "Ja, Uitloggen",
+    "save": "Opslaan",
+    "saving": "Opslaan...",
+    "removingAccess": "Toegang wordt verwijderd...",
+    "deleting": "Verwijderen...",
+    "update": "Bijwerken",
+    "seeAll": "Bekijk alles",
+    "delete": "Verwijderen",
+    "email": "E-mail",
+    "close": "Sluiten",
+    "share": "Delen",
+    "accept": "Accepteren",
+    "decline": "Weigeren",
+    "done": "Gereed",
+    "restore": "Herstellen"
+  },
+  "auth": {
+    "loginTitleLine1": "Log in op uw",
+    "loginTitleLine2": "Account",
+    "createTitleLine1": "Maak uw",
+    "createTitleLine2": "Account aan",
+    "passwordPlaceholder": "Wachtwoord",
+    "rememberMe": "Onthoud mij",
+    "loginButton": "Inloggen",
+    "signUpButton": "Registreren",
+    "signInButton": "Inloggen",
+    "forgotPasswordQuestion": "Wachtwoord vergeten?",
+    "orContinueWith": "of ga verder met",
+    "dontHaveAccount": "Nog geen account?",
+    "alreadyHaveAccount": "Heeft u al een account?",
+    "termsTitle": "Algemene voorwaarden",
+    "acceptPrivacyToContinue": "Accepteer ons privacybeleid om verder te gaan.",
+    "acceptPrivacyInline": "Door verder te gaan accepteert u ons privacybeleid",
+    "invalidInputTitle": "Ongeldige invoer",
+    "invalidInputMessage": "Controleer de fouten in het formulier.",
+    "signupTitle": "Registreren",
+    "emailExistsTitle": "E-mailadres bestaat al",
+    "emailExistsMessage": "Uw e-mailadres is al bekend. Als u uw wachtwoord niet meer weet, ga dan verder via 'Wachtwoord vergeten'.",
+    "responseMissingTokens": "Antwoord mist tokens.",
+    "loginFailed": "Inloggen mislukt. Controleer uw inloggegevens.",
+    "loginMissingTokens": "Inlogantwoord mist tokens.",
+    "loginError": "Er is een fout opgetreden tijdens het inloggen."
+  },
+  "profile": {
+    "title": "Profiel"
+  },
+  "settings": {
+    "updatePassword": "Wachtwoord bijwerken",
+    "myNotification": "Mijn meldingen",
+    "address": "Adres",
+    "editProfile": "Profiel bewerken",
+    "notification": "Melding",
+    "logoutPreferences": "Uitlogvoorkeuren",
+    "security": "Beveiliging",
+    "privacyPolicy": "Privacybeleid",
+    "helpCenter": "Helpcentrum",
+    "faqTitle": "Veelgestelde vragen",
+    "contactUsTitle": "Contact opnemen",
+    "customerService": "Klantenservice",
+    "inviteFriends": "Vrienden uitnodigen",
+    "inviteFriendsDescription": "Nodig je vrienden uit door hun e-mailadres in te voeren. Je kunt meerdere mensen tegelijk toevoegen door elk adres te scheiden met een komma (',').",
+    "inviteFriendsPlaceholder": "Voer e-mailadressen in gescheiden door komma",
+    "inviteFriendsLabel": "E-mailadres",
+    "sendInvitations": "Uitnodigingen verzenden",
+    "inviteStatusSent": "Verzonden",
+    "inviteStatusExists": "Bestaat al",
+    "inviteStatusFailed": "Mislukt",
+    "logout": "Uitloggen",
+    "darkMode": "Donkere modus",
+    "languageRegion": "Taal & Regio",
+    "removeLocalData": "Lokale gegevens verwijderen",
+    "removeLocalDataDescription": "Lokaal opgeslagen gegevens (geëncrypteerde wachtwoorden en kaarten) worden definitief verwijderd wanneer u uitlogt. Deze actie kan niet ongedaan worden gemaakt of worden hersteld.",
+    "removeMPConfig": "Hoofdwachtwoord-configuratie verwijderen",
+    "removeMPConfigDescription": "De configuratie van het hoofdwachtwoord en de encryptiesleutels worden van dit apparaat verwijderd wanneer u uitlogt. U wordt gevraagd uw hoofdwachtwoord opnieuw in te voeren bij uw volgende login om toegang te krijgen tot uw gegevens.",
+    "deleteAccount": {
+      "menu": "Account verwijderen",
+      "title": "Account verwijderen",
+      "warningTitle": "Permanente accountverwijdering",
+      "warningBody": "Het verwijderen van uw account is definitief. Uw geëncrypteerde kluisgegevens en accountprofiel worden uit onze systemen verwijderd.",
+      "subscriptionNote": "Als u een actieve App Store-abonnement heeft, annuleer dit dan via de abonnementsinstellingen van uw Apple ID.",
+      "passwordLabel": "Huidig wachtwoord",
+      "passwordRequired": "Voer uw huidige wachtwoord in.",
+      "action": "Account verwijderen",
+      "confirmTitle": "Accountverwijdering bevestigen",
+      "confirmMessage": "Deze actie kan niet ongedaan worden gemaakt. Weet u zeker dat u uw account definitief wilt verwijderen?",
+      "confirmButton": "Ja, verwijderen",
+      "invalidCredentials": "Huidig wachtwoord is niet correct.",
+      "passwordConfirmationUnavailable": "Dit account ondersteunt nog geen wachtwoordbevestiging voor verwijdering.",
+      "userNotFound": "Gebruikersaccount niet gevonden.",
+      "unauthorized": "Uw sessie is verlopen. Log opnieuw in.",
+      "error": "Accountverwijdering mislukt. Probeer het opnieuw."
+    },
+    "privacy": {
+      "title": "Privacybeleid",
+      "intro": "Pazzwrd zet zich in voor het handhaven van de hoogste normen voor gegevensprivacy en beveiliging. Dit privacybeleid beschrijft de institutionele protocollen en technische maatregelen die worden toegepast om gebruikersinformatie te beschermen.",
+      "masterPasswordTitle": "1. Hoofdwachtwoord en cryptografische protocollen",
+      "masterPasswordDesc": "Het hoofdwachtwoord dient als de primaire cryptografische bron voor de digitale kluis van de gebruiker. Het wordt gebruikt om unieke encryptiesleutels af te leiden voor de bescherming van gevoelige inloggegevens en financiële gegevens. Pazzwrd hanteert een strikt niet-bewarend beleid; het hoofdwachtwoord wordt nooit naar onze infrastructuur verzonden of daar opgeslagen.",
+      "encryptionDetail": "De gegevensintegriteit wordt gehandhaafd door de implementatie van industrie-standaard XChaCha20-Poly1305 encryptie. Elk item in de kluis is beveiligd met een individuele sleutel, die vervolgens wordt verpakt met een sleutel-encryptie-sleutel (KEK) afgeleid van het hoofdwachtwoord van de gebruiker.",
+      "storageTitle": "2. Gegevensbeheer en opslag",
+      "storageDesc": "Pazzwrd biedt meerlaagse opslagoplossingen om de beschikbaarheid en beveiliging van gegevens te garanderen:",
+      "localStorage": "Opslag op het apparaat: Geëncrypteerde gegevens worden lokaal op het apparaat van de gebruiker bewaard, wat offline toegang vergemakkelijkt terwijl de cryptografische beveiliging gehandhaafd blijft.",
+      "cloudStorage": "Cloudsynchronisatie: Na toestemming van de gebruiker worden geëncrypteerde datasets gesynchroniseerd met onze beveiligde cloudinfrastructuur om toegankelijkheid op verschillende platforms mogelijk te maken.",
+      "publicDataTitle": "3. Gegevensclassificatie",
+      "publicDataDesc": "Informatie wordt gecategoriseerd op basis van gevoeligheid om de prestaties te optimaliseren en tegelijkertijd maximale beveiliging te garanderen:",
+      "privateData": "Geclassificeerde gegevens: Alle gevoelige records, inclusief wachtwoorden, betalingsinformatie en privénotities, worden lokaal geëncrypteerd voorafgaand aan verzending of opslag.",
+      "publicData": "Metadata: Niet-gevoelige metadata (bijv. service-identificatoren of organisatielabels) kunnen in een niet-geëncrypteerd formaat worden opgeslagen om efficiënte indexerings- en opvraagbewerkingen te vergemakkelijken.",
+      "zeroKnowledgeTitle": "4. Implementatie van Zero-Knowledge architectuur",
+      "zeroKnowledgeDesc": "Onze systemen werken onder een Zero-Knowledge architectuur. De server fungeert uitsluitend als een beveiligde opslagplaats voor geëncrypteerde payloads. De serviceprovider beschikt over geen enkele technische mogelijkheid om toegang te krijgen tot encryptiesleutels, hoofdwachtwoorden of gedecrypteerde gebruikersinhoud. Dit architecturale ontwerp garandeert dat gegevens ontoegankelijk blijven voor onbevoegde partijen, inclusief de serviceprovider.",
+      "warningTitle": "5. Kritieke mededeling: Disclaimer voor onherstelbare gegevens",
+      "warningDesc": "Vanwege de implementatie van end-to-end encryptie en het Zero-Knowledge model is het herstellen van een verloren hoofdwachtwoord technisch onmogelijk voor de serviceprovider. Het niet bewaren van het hoofdwachtwoord zal leiden tot het permanente verlies van toegang tot alle geëncrypteerde gegevens. Gebruikers wordt ten zeerste geadviseerd om veilige back-ups van hun hoofdwachtwoord bij te houden."
+    },
+    "faq": {
+      "whatIsCloudTitle": "Wat betekent Cloud?",
+      "whatIsCloudDesc": "Cloud betekent dat uw geëncrypteerde gegevens worden gesynchroniseerd met onze beveiligde servers. Hierdoor heeft u vanaf elk apparaat toegang tot uw wachtwoorden en kaarten door in te loggen op uw account.",
+      "whatIsLocalTitle": "Wat betekent Lokaal?",
+      "whatIsLocalDesc": "Lokaal betekent dat uw gegevens alleen op uw apparaat worden opgeslagen. Ze zijn geëncrypteerd en verlaten uw telefoon nooit, tenzij u cloudsynchronisatie inschakelt.",
+      "howDataStoredTitle": "Hoe worden wachtwoorden en kaartgegevens opgeslagen?",
+      "howDataStoredDesc": "In zowel cloud- als lokale opslag worden uw gegevens altijd geëncrypteerd met behulp van protocollen die de standaard zijn in de sector. Alleen u heeft de sleutel (uw hoofdwachtwoord) om deze informatie te decrypteren.",
+      "whatIsMPTitle": "Wat is MP (Master Password)?",
+      "whatIsMPDesc": "MP staat voor Master Password (hoofdwachtwoord). Het is het enige wachtwoord dat u gebruikt om toegang te krijgen tot uw kluis. We slaan uw hoofdwachtwoord nooit op, dus het is cruciaal dat u het niet vergeet.",
+      "trashRulesTitle": "Wat zijn de regels voor de prullenbak?",
+      "trashRulesDesc": "Wanneer u een wachtwoord of kaart verwijdert, gaat deze naar het tabblad Prullenbak. Items in de prullenbak worden na een bepaalde periode definitief verwijderd, of u kunt deze handmatig legen.",
+      "howToDeleteTitle": "Hoe verwijder ik een wachtwoord of kaart?",
+      "howToDeleteDesc": "Om een wachtwoord of kaart te verwijderen, gaat u naar de pagina met wachtwoorden of kaarten en houdt u het item dat u wilt verwijderen lang ingedrukt. Er verschijnt een verwijderoptie.",
+      "howToRestoreTitle": "Kan ik items uit de prullenbak herstellen?",
+      "howToRestoreDesc": "Ja, u kunt elke kaart of elk wachtwoord op elk moment vanuit het tabblad Prullenbak herstellen naar uw hoofdikluis voordat het definitief wordt verwijderd.",
+      "howToShareTitle": "Hoe werkt de functie voor het delen van wachtwoorden?",
+      "howToShareDesc": "U kunt wachtwoorden veilig delen met andere gebruikers. Het gedeelde wachtwoord blijft geëncrypteerd en alleen de beoogde ontvanger heeft er toegang toe."
+    },
+    "contactUs": {
+      "title": "Titel",
+      "titlePlaceholder": "Voer titel in",
+      "message": "Bericht",
+      "messagePlaceholder": "Beschrijf hier uw probleem...",
+      "send": "Verzenden",
+      "success": "Uw bericht is succesvol verzonden. We nemen zo snel mogelijk contact met u op."
+    }
+  },
+  "security": {
+    "title": "Beveiliging",
+    "rememberMe": "Onthoud mij",
+    "faceId": "Face ID",
+    "biometricId": "Biometrische ID",
+    "changePin": "PIN wijzigen",
+    "resendEmail": "Verificatie-e-mail opnieuw verzenden",
+    "resendEmailSuccess": "Uw activerings-e-mail is succesvol verzonden.",
+    "resendEmailError": "Fout bij het opnieuw verzenden van activerings-e-mail."
+  },
+  "tabs": {
+    "new": {
+      "title": "Nieuw",
+      "passwordTab": "Wachtwoord",
+      "cardsTab": "Kaarten"
+    }
+  },
+  "sync": {
+    "local": "Lokaal",
+    "cloud": "Cloud"
+  },
+  "password": {
+    "name": "Wachtwoordnaam",
+    "username": "Gebruikersnaam",
+    "password": "Wachtwoord",
+    "url": "Website/URL",
+    "notes": "Notities",
+    "tags": "Tags",
+    "lastUpdated": "Laatst bijgewerkt",
+    "editPassword": "Wachtwoord bewerken",
+    "pendingCloudUpdate": "Uw wijzigingen zijn nog niet bijgewerkt in de cloud.",
+    "passwordSaved": "Wachtwoord succesvol opgeslagen",
+    "shareSuccess": "Uitnodiging verzonden.",
+    "shareTitle": "Wachtwoord delen",
+    "inviteMailSends": "Uitnodigings-e-mail verzonden. Vraag de ontvanger om in te loggen en probeer het daarna opnieuw.",
+    "inviteUserConfiguredNotFinished": "Publieke sleutel van ontvanger gevonden. Delen is binnenkort beschikbaar.",
+    "cannotShareWithYourself": "U kunt niet met uzelf delen.",
+    "recipientHasNoKeys": "Ontvanger heeft de configuratie van het hoofdwachtwoord nog niet voltooid, vraag hen om dit te doen.",
+    "itemNotFound": "Item niet gevonden.",
+    "someThingWentWrong": "Er is iets misgegaan. Probeer het opnieuw.",
+    "sharedBy": "Dit wachtwoord wordt gedeeld door {{who}}.",
+    "sharedWith": "Gedeeld met",
+    "shareStatusLoading": "Deelstatus ophalen...",
+    "shareStatus": {
+      "READY": "In afwachting",
+      "ACCEPTED": "Geaccepteerd",
+      "REVOKED": "Ingetrokken"
+    },
+    "removeAccess": "Toegang intrekken",
+    "selectPeopleToUnshare": "Selecteer personen om het delen te stoppen",
+    "selectAtLeastOne": "Selecteer ten minste één ontvanger",
+    "tooltips": {
+      "sync": "Kies hoe u dit wachtwoord wilt synchroniseren tussen apparaten",
+      "name": "Voer een naam in voor dit wachtwoorditem",
+      "username": "Voer de gebruikersnaam in voor dit account",
+      "password": "Voer het wachtwoord in voor dit account",
+      "url": "Voer de website-URL of applicatienaam in voor dit wachtwoord",
+      "notes": "Voeg eventuele extra notities of informatie toe over dit wachtwoord",
+      "tags": "Voeg tags toe om dit wachtwoord later gemakkelijk te kunnen categoriseren en vinden",
+      "lastUpdated": "Toont wanneer dit wachtwoord voor het laatst is gewijzigd"
+    },
+    "strength": {
+      "suggestions": {
+        "providePassword": "Voer een wachtwoord in.",
+        "increaseLength": "Gebruik ten minste {{n}} tekens.",
+        "mixedCase": "Gebruik een combinatie van hoofdletters en kleine letters.",
+        "addNumbers": "Voeg cijfers toe.",
+        "addSymbols": "Voeg symbolen toe (bijv. ! @ #).",
+        "useMoreVariety": "Gebruik een mix van letters, cijfers en symbolen.",
+        "avoidSequences": "Vermijd veelvoorkomende reeksen zoals 1234 of abcd.",
+        "avoidRepetition": "Vermijd het herhalen van hetzelfde teken meerdere keren.",
+        "avoidCommon": "Vermijd veelgebruikte wachtwoorden.",
+        "usePassphrase": "Overweeg een langere wachtzin met verschillende ongerelateerde woorden."
+      }
+    }
+  },
+  "card": {
+    "bankNamePlaceholder": "Banknaam/Kaartnaam",
+    "holderNamePlaceholder": "Naam kaarthouder",
+    "numberPlaceholder": "Kaartnummer",
+    "expiryPlaceholder": "Vervalmaand/-jaar (MM/JJ)",
+    "cvvPlaceholder": "Beveiligingscode (CVV)",
+    "cardPasswordPlaceholder": "Kaartwachtwoord",
+    "tooltips": {
+      "sync": "Kies hoe u deze kaart wilt synchroniseren tussen apparaten",
+      "bankName": "Voer banknaam of kaartnaam in",
+      "holderName": "Voer de volledige naam in zoals deze op uw kaart staat",
+      "number": "Voer uw 16-cijferige kaartnummer in (wordt automatisch geformatteerd)",
+      "expiry": "Voer vervaldatum in MM/JJ formaat in",
+      "cvv": "Voer de 3-cijferige beveiligingscode (CVV/CVC) in van de achterkant van uw kaart",
+      "cardPassword": "Voer het wachtwoord in dat bij deze kaart hoort (bijv. 3D Secure/wachtwoord voor online winkelen)"
+    }
+  },
+  "activityLog": {
+    "filterAll": "Alles",
+    "clear": "Wissen",
+    "export": "Exporteer JSON"
+  },
+  "alerts": {
+    "validationTitle": "Validatiefout",
+    "validationRequiredFields": "Vul alle verplichte velden in",
+    "requiredFieldsMissing": "Sommige verplichte velden ontbreken.",
+    "cardNumberLength": "Kaartnummer moet 16 cijfers bevatten",
+    "successTitle": "Succes",
+    "cardSaved": "Kaart succesvol opgeslagen",
+    "passwordSaved": "Wachtwoord succesvol opgeslagen",
+    "invitationsSent": "Uitnodigingen zijn succesvol verzonden.",
+    "passwordMovedToTrash": "Wachtwoord verplaatst naar prullenbak",
+    "passwordDeleted": "Wachtwoord definitief verwijderd",
+    "cardMovedToTrash": "Kaart verplaatst naar prullenbak",
+    "cardDeleted": "Kaart definitief verwijderd",
+    "errorTitle": "Fout",
+    "saveFailed": "Opslaan van kaart mislukt",
+    "passwordSaveFailed": "Opslaan van wachtwoord mislukt",
+    "fingerprintNotRecognized": "Vingerafdruk niet herkend. Probeer het opnieuw.",
+    "unexpected": "Er is een onverwachte fout opgetreden",
+    "networkError": "Netwerkfout. Controleer uw internetverbinding.",
+    "serverError": "De server is momenteel niet beschikbaar. Probeer het later opnieuw.",
+    "timeoutError": "De aanvraag is verlopen. Probeer het opnieuw.",
+    "information": "Informatie",
+    "sessionExpired": "Uw sessie is verlopen. Log opnieuw in.",
+    "offline": "U bent offline. Sommige functies zijn mogelijk niet beschikbaar.",
+    "cloudNotAllowed": "Cloud vereist een geverifieerd e-mailadres en een geconfigureerd hoofdwachtwoord.",
+    "shareNotAllowed": "Delen vereist een geverifieerd e-mailadres en een geconfigureerd hoofdwachtwoord.",
+    "passwordLimitReached": "Wachtwoordlimiet bereikt voor uw abonnement.",
+    "cardLimitReached": "Kaartlimiet bereikt voor uw abonnement.",
+    "shareLimitReached": "Deellimiet bereikt voor uw abonnement.",
+    "accessRemoved": "Toegang ingetrokken",
+    "removeAccessFailed": "Toegang intrekken mislukt"
+  },
+  "logout": {
+    "title": "Uitloggen",
+    "message": "Weet u zeker dat u wilt uitloggen?"
+  },
+  "greeting": {
+    "goodMorning": "Goedemorgen",
+    "goodAfternoon": "Goedemiddag",
+    "goodEvening": "Goedenavond",
+    "goodNight": "Goedenacht"
+  },
+  "home": {
+    "recentActivity": "Recente activiteit",
+    "statistics": "Statistieken",
+    "passwordStrength": "Wachtwoordsterkte",
+    "planLimits": "Abonnement & Limieten",
+    "planManageCta": "Beheren",
+    "planUpgradeCta": "Upgraden",
+    "planCurrent": "Huidig abonnement",
+    "planPremiumName": "Premium",
+    "planFreeName": "Gratis",
+    "planUnknownName": "Laden...",
+    "planPremiumDescription": "Premium limieten zijn actief.",
+    "planFreeDescription": "Upgrade om meer opslag en delen te ontgrendelen.",
+    "planLoading": "Rechten ophalen...",
+    "shares": "Gedeelde items",
+    "unlimited": "Onbeperkt",
+    "remaining": "{{count}} over",
+    "securityStatus": "Beveiligingsstatus",
+    "securityManageCta": "Beveiliging",
+    "masterPassword": "Hoofdwachtwoord",
+    "emailVerification": "E-mailverificatie",
+    "statusBadge": {
+      "configured": "Actief",
+      "pending": "In afwachting",
+      "none": "Ontbreekt",
+      "skipped": "Overgeslagen",
+      "verified": "Geverifieerd",
+      "unverified": "Niet geverifieerd"
+    },
+    "statusHint": {
+      "master": {
+        "CONFIGURED": "Uw kluis is beveiligd met een hoofdwachtwoord.",
+        "PENDING": "Voltooi het instellen van uw hoofdwachtwoord om cloudfuncties te ontgrendelen.",
+        "NONE": "Nog geen hoofdwachtwoord. Stel het in om uw kluis te beveiligen.",
+        "SKIPPED": "Configuratie overgeslagen. Schakel het in om uw gegevens te beveiligen."
+      },
+      "email": {
+        "VERIFIED": "E-mail is bevestigd. Delen en cloudsynchronisatie zijn ingeschakeld.",
+        "UNVERIFIED": "Verifieer uw e-mail om delen en cloudsynchronisatie in te schakelen."
+      }
+    }
+  },
+  "items": {
+    "card": "Kaart",
+    "password": "Wachtwoord"
+  },
+  "delete": {
+    "confirm": "Weet u zeker dat u dit {{item}} wilt verwijderen?",
+    "confirmPermanent": "Dit zal dit {{item}} definitief verwijderen. Deze actie kan niet ongedaan worden gemaakt. Wilt u doorgaan?"
+  },
+  "cards": {
+    "title": "Mijn Kaarten",
+    "tabs": {
+      "cloud": "Cloud",
+      "local": "Lokaal",
+      "trash": "Prullenbak"
+    },
+    "loading": "Kaarten laden...",
+    "empty": "Geen kaarten gevonden",
+    "createCta": "Kaart aanmaken"
+  },
+  "passwords": {
+    "title": "Mijn Wachtwoorden",
+    "tabs": {
+      "cloud": "Cloud",
+      "local": "Lokal",
+      "trash": "Prullenbak"
+    },
+    "loading": "Wachtwoorden laden...",
+    "empty": "Geen wachtwoorden gevonden",
+    "createCta": "Wachtwoord aanmaken",
+    "unnamed": "Naamloos",
+    "noUsername": "Geen gebruikersnaam",
+    "noPassword": "Geen wachtwoord"
+  },
+  "unsaved": {
+    "title": "Niet-opgeslagen wijzigingen",
+    "message": "U heeft niet-opgeslagen wijzigingen. Als u nu weggaat, gaan uw bewerkingen verloren. Wilt u teruggaan zonder op te slaan?",
+    "yes": "Ja, negeren",
+    "no": "Nee, blijven"
+  },
+  "trash": {
+    "time": {
+      "days": "{{count}} dag",
+      "days_plural": "{{count}} dagen",
+      "hours": "{{count}} uur",
+      "hours_plural": "{{count}} uur",
+      "minutes": "{{count}} min",
+      "minutes_plural": "{{count}} min"
+    },
+    "info": {
+      "password": "Over {{time}} wordt dit wachtwoord definitief verwijderd.",
+      "card": "Over {{time}} wordt deze kaart definitief verwijderd."
+    }
+  },
+  "copy": {
+    "copied": "{{what}} naar klembord gekopieerd",
+    "empty": "Niets te kopiëren voor {{what}}",
+    "what": {
+      "cardNumber": "kaartnummer",
+      "cardHolderName": "naam kaarthouder",
+      "username": "gebruikersnaam",
+      "password": "wachtwoord",
+      "url": "URL"
+    }
+  },
+  "notifications": {
+    "empty": "Nog geen meldingen",
+    "emptyDesc": "We laten het u weten als er iets belangrijks gebeurt. Houd deze plek in de gaten!",
+    "shareRequest": "{{who}} wil een wachtwoord met u delen.",
+    "someone": "Iemand",
+    "shareAccepted": "Deelaanvraag geaccepteerd",
+    "shareDeclined": "Deelaanvraag geweigerd",
+    "shareDecisionFailed": "Toepassen van beslissing mislukt. Probeer het opnieuw."
+  },
+  "validation": {
+    "invalidEmail": "Voer een geldig e-mailadres in"
+  },
+  "errors": {
+    "required": "Dit veld is verplicht.",
+    "minLength": "Moet ten minste {{count}} tekens bevatten",
+    "invalidEmail": "Voer een geldig e-mailadres in",
+    "valueMustBeNumber": "Waarde moet een geldig getal zijn.",
+    "invalidCreditCard": "Ongeldig creditcardnummer.",
+    "creditCardDigits": "Kaartnummer moet {{count}} cijfers bevatten",
+    "invalidCVV": "Ongeldige CVV.",
+    "invalidExpiry": "Ongeldige vervaldatum. Gebruik MM/JJ formaat.",
+    "passwordsDoNotMatch": "Wachtwoorden komen niet overeen",
+    "invalidMasterPassword": "Hoofdwachtwoord is onjuist",
+    "generic": "Er is iets misgegaan. Probeer het opnieuw."
+  },
+  "masterPassword": {
+    "title": "Hoofdwachtwoord aanmaken",
+    "description": "Uw hoofdwachtwoord beschermt en ontgrendelt uw kluis. Het wordt nooit naar onze servers verzonden. Vergeet het niet — zonder dit wachtwoord kunnen uw geëncrypteerde gegevens niet worden hersteld.",
+    "password": "Kies een sterk wachtwoord — ten minste 12 tekens, met een mix van letters, cijfers en symbolen.",
+    "passwordPlaceholder": "Hoofdwachtwoord",
+    "confirmPlaceholder": "Hoofdwachtwoord bevestigen",
+    "skip": "Overslaan",
+    "continue": "Doorgaan"
+  },
+  "loading": {
+    "default": "Laden...",
+    "timeout": "Aanvraag verlopen. Probeer het opnieuw."
+  },
+  "accessibility": {
+    "loadingLogo": "Logo laden"
+  },
+  "confirmMasterPassword": {
+    "title": "Hoofdwachtwoord bevestigen",
+    "description": "Bevestig uw hoofdwachtwoord om uw kluis op dit apparaat te ontgrendelen.",
+    "passwordPlaceholder": "Hoofdwachtwoord",
+    "confirm": "Bevestigen"
+  },
+  "forgotPassword": {
+    "methodsTitle": "Wachtwoord vergeten",
+    "methodsSubtitle": "Selecteer welke contactgegevens we moeten gebruiken om uw wachtwoord opnieuw in te stellen",
+    "viaEmail": "via E-mail:",
+    "continue": "Doorgaan",
+    "emailTitle": "Voer uw e-mailadres in",
+    "resetPassword": "Wachtwoord opnieuw instellen",
+    "rememberPasswordQuestion": "Wachtwoord weer herinnerd?",
+    "invalidEmailMessage": "Geef een geldig e-mailadres op.",
+    "requestSuccessTitle": "Als er een account bestaat",
+    "requestSuccessMessage": "Als er een account bestaat, ontvangt u binnenkort een e-mail.",
+    "unexpectedErrorMessage": "Er is een onverwachte fout opgetreden."
+  },
+  "upgrade": {
+    "title": "Upgraden",
+    "choosePlan": "Kies een abonnement",
+    "subtitle": "Ontgrendel hogere limieten en geavanceerde functies door uw abonnement te upgraden.",
+    "subscriptionDetail": "Abonnementsdetails",
+    "plan": "Abonnement",
+    "expiresAt": "Verloopt op",
+    "currentLimits": "Huidige limieten",
+    "passwords": "Wachtwoorden",
+    "cards": "Kaarten",
+    "shares": "Deeltaken",
+    "cancel": "Annuleren",
+    "upgrade": "Upgraden",
+    "upgradeToPro": "Upgrade naar Pro",
+    "default": "Standaard",
+    "current": "Huidig",
+    "currentPlanBadge": "Huidig abonnement",
+    "currentPlanDescription": "Dit is uw actieve abonnement. U kunt het beheren of wijzigen vanuit dit scherm.",
+    "currentPlanButtonLabel": "Huidig abonnement",
+    "subscriptionManagedInStore": "Abonnementswijzigingen worden beheerd via het abonnementsscherm van de App Store.",
+    "premium": "Premium",
+    "monthly": "Maandelijks",
+    "yearly": "Jaarlijks",
+    "unlimited": "Onbeperkt",
+    "included": "Inbegrepen",
+    "notIncluded": "Niet inbegrepen",
+    "cloudSync": "Cloudsynchronisatie",
+    "secureNotes": "Beveiligde notities",
+    "watchtower": "Watchtower",
+    "itemHistory": "Itemgeschiedenis",
+    "export": "Exporteren",
+    "prioritySupport": "Prioriteitsondersteuning",
+    "familySharing": "Delen met gezin",
+    "maxFamilyMembers": "Max. gezinsleden",
+    "restorePurchases": "Aankopen herstellen",
+    "manageSubscription": "Abonnement beheren",
+    "failedToLoadPlans": "Laden van abonnementen mislukt",
+    "unexpectedError": "Onverwachte fout bij het laden van abonnementen",
+    "free": "Gratis",
+    "processingPurchase": "Aankoop verwerken...",
+    "purchaseComplete": "Uw aankoop is voltooid.",
+    "purchaseFailed": "Aankoop mislukt",
+    "purchaseFailedGeneric": "De App Store kon deze aankoop niet voltooien.",
+    "purchaseError": "Aankoopfout",
+    "purchaseDiagnostics": "Diagnose: {{details}}",
+    "purchasePaymentsUnavailable": "Dit Apple-account mag momenteel geen aankopen doen op dit apparaat.",
+    "restoringPurchases": "Aankopen herstellen...",
+    "restored": "Hersteld",
+    "purchasesRestored": "Aankopen hersteld.",
+    "restoreFailed": "Herstel mislukt",
+    "productsUnavailable": "Abonnementproducten zijn momenteel niet beschikbaar. Probeer het over een paar minuten opnieuw.",
+    "code": "Code: {{code}}",
+    "proMonthly": "PazzPro Maandelijks",
+    "proYearly": "PazzPro Jaarlijks",
+    "familyMonthly": "PazzFamily Maandelijks",
+    "familyYearly": "PazzFamily Jaarlijks",
+    "monthUnit": "mnd",
+    "yearUnit": "jr",
+    "legalTitle": "Juridische informatie",
+    "legalDescription": "Lees ons privacybeleid en de gebruiksvoorwaarden voordat u een automatisch verlengbaar abonnement koopt.",
+    "privacyPolicy": "Privacybeleid",
+    "termsOfUse": "Gebruiksvoorwaarden",
+    "legalLinkError": "Kan het geselecteerde juridische document niet openen."
+  }
+}

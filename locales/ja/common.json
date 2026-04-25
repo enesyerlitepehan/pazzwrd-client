@@ -1,0 +1,513 @@
+{
+  "common": {
+    "information": "情報",
+    "cancel": "キャンセル",
+    "yesLogout": "はい、ログアウトします",
+    "save": "保存",
+    "saving": "保存中...",
+    "removingAccess": "アクセスを削除しています...",
+    "deleting": "削除中...",
+    "update": "更新",
+    "seeAll": "すべて表示",
+    "delete": "削除",
+    "email": "メールアドレス",
+    "close": "閉じる",
+    "share": "共有",
+    "accept": "承認",
+    "decline": "辞退",
+    "done": "完了",
+    "restore": "復元"
+  },
+  "auth": {
+    "loginTitleLine1": "アカウントに",
+    "loginTitleLine2": "ログイン",
+    "createTitleLine1": "アカウントを",
+    "createTitleLine2": "作成",
+    "passwordPlaceholder": "パスワード",
+    "rememberMe": "ログイン状態を保持する",
+    "loginButton": "ログイン",
+    "signUpButton": "サインアップ",
+    "signInButton": "サインイン",
+    "forgotPasswordQuestion": "パスワードを忘れた場合",
+    "orContinueWith": "または次で続行",
+    "dontHaveAccount": "アカウントをお持ちでない場合",
+    "alreadyHaveAccount": "既にアカウントをお持ちの場合",
+    "termsTitle": "利用規約",
+    "acceptPrivacyToContinue": "続行するにはプライバシーポリシーに同意してください。",
+    "acceptPrivacyInline": "続行することで、プライバシーポリシーに同意したことになります",
+    "invalidInputTitle": "無効な入力",
+    "invalidInputMessage": "フォームのエラーを確認してください。",
+    "signupTitle": "新規登録",
+    "emailExistsTitle": "登録済みのメールアドレス",
+    "emailExistsMessage": "このメールアドレスは既に登録されています。パスワードを忘れた場合は、「パスワードを忘れた場合」から続行してください。",
+    "responseMissingTokens": "レスポンスにトークンが含まれていません。",
+    "loginFailed": "ログインに失敗しました。認証情報を確認してください。",
+    "loginMissingTokens": "ログインレスポンスにトークンが含まれていません。",
+    "loginError": "ログイン中にエラーが発生しました。"
+  },
+  "profile": {
+    "title": "プロフィール"
+  },
+  "settings": {
+    "updatePassword": "パスワードを更新",
+    "myNotification": "通知設定",
+    "address": "住所",
+    "editProfile": "プロフィールを編集",
+    "notification": "通知",
+    "logoutPreferences": "ログアウト設定",
+    "security": "セキュリティ",
+    "privacyPolicy": "プライバシーポリシー",
+    "helpCenter": "ヘルプセンター",
+    "faqTitle": "よくある質問",
+    "contactUsTitle": "お問い合わせ",
+    "customerService": "カスタマーサービス",
+    "inviteFriends": "友達を招待",
+    "inviteFriendsDescription": "メールアドレスを入力して友達を招待します。カンマ（','）で区切ることで、複数の人を一度に追加できます。",
+    "inviteFriendsPlaceholder": "メールアドレスをカンマ区切りで入力",
+    "inviteFriendsLabel": "メールアドレス",
+    "sendInvitations": "招待を送信",
+    "inviteStatusSent": "送信済み",
+    "inviteStatusExists": "既に存在します",
+    "inviteStatusFailed": "失敗",
+    "logout": "ログアウト",
+    "darkMode": "ダークモード",
+    "languageRegion": "言語と地域",
+    "removeLocalData": "ローカルデータを削除",
+    "removeLocalDataDescription": "ログアウトすると、ローカルに保存されているデータ（暗号化されたパスワードとカード）が完全に削除されます。この操作は取り消しや復元ができません。",
+    "removeMPConfig": "マスターパスワード設定を削除",
+    "removeMPConfigDescription": "ログアウトすると、このデバイスからマスターパスワードの設定と暗号化キーが削除されます。データにアクセスするには、次回のログイン時にマスターパスワードを再入力する必要があります。",
+    "deleteAccount": {
+      "menu": "アカウントを削除",
+      "title": "アカウントを削除",
+      "warningTitle": "アカウントの完全削除",
+      "warningBody": "アカウントの削除は永続的です。暗号化された保管庫データとアカウントプロフィールがシステムから削除されます。",
+      "subscriptionNote": "有効なApp Storeサブスクリプションがある場合は、Apple IDのサブスクリプション設定からキャンセルしてください。",
+      "passwordLabel": "現在のパスワード",
+      "passwordRequired": "現在のパスワードを入力してください。",
+      "action": "アカウントを削除",
+      "confirmTitle": "アカウント削除の確認",
+      "confirmMessage": "この操作は取り消せません。本当にアカウントを完全に削除しますか？",
+      "confirmButton": "はい、削除します",
+      "invalidCredentials": "現在のパスワードが正しくありません。",
+      "passwordConfirmationUnavailable": "このアカウントはまだ削除時のパスワード確認に対応していません。",
+      "userNotFound": "ユーザーアカウントが見つかりません。",
+      "unauthorized": "セッションの期限が切れました。もう一度サインインしてください。",
+      "error": "アカウントの削除に失敗しました。もう一度お試しください。"
+    },
+    "privacy": {
+      "title": "プライバシーポリシー",
+      "intro": "Pazzwrdは、データプライバシーとセキュリティの最高水準を維持することをお約束します。このプライバシーポリシーは、ユーザー情報を保護するために採用されている機関プロトコルと技術的手段の概要を示しています。",
+      "masterPasswordTitle": "1. マスターパスワードと暗号化プロトコル",
+      "masterPasswordDesc": "マスターパスワードは、ユーザーのデジタル保管庫の主要な暗号シードとして機能します。これは、機密性の高い資格情報や財務データを保護するための固有の暗号化キーを導出するために使用されます。Pazzwrdは厳格な非保管型ポリシーを遵守しており、マスターパスワードが当社のインフラストラクチャに送信されたり保存されたりすることはありません。",
+      "encryptionDetail": "データ整合性は、業界標準のXChaCha20-Poly1305暗号化の実装を通じて維持されます。保管庫の各エントリは個別のキーで保護され、その後、ユーザーのマスターパスワードから導出されたキー暗号化キー（KEK）を使用してラップされます。",
+      "storageTitle": "2. データ管理と保存",
+      "storageDesc": "Pazzwrdは、データの可用性とセキュリティを確保するために多層的なストレージソリューションを提供します。",
+      "localStorage": "デバイス上ストレージ：暗号化されたデータはユーザーのデバイスにローカルに保存され、暗号化セキュリティを維持しながらオフラインアクセスを容易にします。",
+      "cloudStorage": "クラウド同期：ユーザーの承認を得て、暗号化されたデータセットは当社の安全なクラウドインフラストラクチャと同期され、クロスプラットフォームのアクセシビリティを可能にします。",
+      "publicDataTitle": "3. データ分類",
+      "publicDataDesc": "情報は、セキュリティを最大限に確保しながらパフォーマンスを最適化するために、機密性に基づいて分類されます。",
+      "privateData": "機密データ：パスワード、支払い情報、プライベートノートを含むすべての機密記録は、送信または保存前にローカルで暗号化されます。",
+      "publicData": "メタデータ：機密でないメタデータ（例：サービス識別子や組織ラベル）は、効率的なインデックス作成と検索操作を容易にするために、暗号化されていない形式で保存される場合があります。",
+      "zeroKnowledgeTitle": "4. ゼロ知識アーキテクチャの実装",
+      "zeroKnowledgeDesc": "当社のシステムはゼロ知識アーキテクチャの下で動作します。サーバーは、暗号化されたペイロードの安全なリポジトリとしてのみ機能します。サービスプロバイダーは、暗号化キー、マスターパスワード、または復号化されたユーザーコンテンツにアクセスするための技術的手段を一切持ちません。このアーキテクチャ設計により、サービスプロバイダーを含む許可されていない第三者がデータにアクセスできないことが保証されます。",
+      "warningTitle": "5. 重要な通知：復旧不能なデータに関する免責事項",
+      "warningDesc": "エンドツーエンドの暗号化とゼロ知識モデルの実装により、紛失したマスターパスワードをサービスプロバイダーが復旧することは技術的に不可能です。マスターパスワードを保持できなかった場合、すべての暗号化されたデータへのアクセスが永久に失われることになります。ユーザーは、マスターパスワードの安全なバックアップを維持することを強くお勧めします。"
+    },
+    "faq": {
+      "whatIsCloudTitle": "クラウドとはどういう意味ですか？",
+      "whatIsCloudDesc": "クラウドとは、暗号化されたデータが当社の安全なサーバーと同期されることを意味します。これにより、アカウントにログインすることで、どのデバイスからでもパスワードやカードにアクセスできるようになります。",
+      "whatIsLocalTitle": "ローカルとはどういう意味ですか？",
+      "whatIsLocalDesc": "ローカルとは、データがデバイスにのみ保存されることを意味します。データは暗号化されており、クラウド同期を有効にしない限り、スマートフォンから外部に出ることはありません。",
+      "howDataStoredTitle": "パスワードやカードの詳細はどのように保存されますか？",
+      "howDataStoredDesc": "クラウドストレージとローカルストレージの両方において、データは常に業界標準のプロトコルを使用して暗号化されます。この情報を復号化するためのキー（マスターパスワード）を持っているのはあなただけです。",
+      "whatIsMPTitle": "MP（マスターパスワード）とは何ですか？",
+      "whatIsMPDesc": "MPはマスターパスワードの略です。これは保管庫にアクセスするために使用する唯一のパスワードです。当社がマスターパスワードを保存することはありませんので、忘れないようにすることが非常に重要です。",
+      "trashRulesTitle": "ゴミ箱のルールを教えてください。",
+      "trashRulesDesc": "パスワードやカードを削除すると、ゴミ箱タブに移動します。ゴミ箱内のアイテムは一定期間後に完全に削除されるか、手動で空にすることができます。",
+      "howToDeleteTitle": "パスワードやカードを削除するにはどうすればよいですか？",
+      "howToDeleteDesc": "パスワードやカードを削除するには、パスワードまたはカードのページに移動し、削除したいアイテムを長押しします。削除オプションが表示されます。",
+      "howToRestoreTitle": "ゴミ箱からアイテムを復元できますか？",
+      "howToRestoreDesc": "はい、完全に削除される前であれば、いつでもゴミ箱タブからメインの保管庫にカードやパスワードを復元できます。",
+      "howToShareTitle": "パスワード共有機能はどのように機能しますか？",
+      "howToShareDesc": "他のユーザーと安全にパスワードを共有できます。共有されたパスワードは暗号化されたままで、意図した受信者のみがアクセスできます。"
+    },
+    "contactUs": {
+      "title": "タイトル",
+      "titlePlaceholder": "タイトルを入力",
+      "message": "メッセージ",
+      "messagePlaceholder": "こちらに問題の詳細を記入してください...",
+      "send": "送信",
+      "success": "メッセージは正常に送信されました。すぐにご連絡いたします。"
+    }
+  },
+  "security": {
+    "title": "セキュリティ",
+    "rememberMe": "ログイン状態を保持する",
+    "faceId": "Face ID",
+    "biometricId": "生体認証",
+    "changePin": "PINを変更",
+    "resendEmail": "確認メールを再送",
+    "resendEmailSuccess": "アクティベーションメールが正常に送信されました。",
+    "resendEmailError": "アクティベーションメールの再送に失敗しました。"
+  },
+  "tabs": {
+    "new": {
+      "title": "新規",
+      "passwordTab": "パスワード",
+      "cardsTab": "カード"
+    }
+  },
+  "sync": {
+    "local": "ローカル",
+    "cloud": "クラウド"
+  },
+  "password": {
+    "name": "パスワード名",
+    "username": "ユーザー名",
+    "password": "パスワード",
+    "url": "ウェブサイト/URL",
+    "notes": "メモ",
+    "tags": "タグ",
+    "lastUpdated": "最終更新日",
+    "editPassword": "パスワードを編集",
+    "pendingCloudUpdate": "変更はまだクラウドに反映されていません。",
+    "passwordSaved": "パスワードを保存しました",
+    "shareSuccess": "招待を送信しました。",
+    "shareTitle": "パスワードを共有",
+    "inviteMailSends": "招待メールを送信しました。受信者にサインインしてもらい、もう一度お試しください。",
+    "inviteUserConfiguredNotFinished": "受信者の公開キーが見つかりました。間もなく共有が可能になります。",
+    "cannotShareWithYourself": "自分自身と共有することはできません。",
+    "recipientHasNoKeys": "受信者がマスターパスワードの設定を完了していません。設定を完了するよう依頼してください。",
+    "itemNotFound": "アイテムが見つかりません。",
+    "someThingWentWrong": "問題が発生しました。もう一度お試しください。",
+    "sharedBy": "このパスワードは {{who}} によって共有されています。",
+    "sharedWith": "共有先",
+    "shareStatusLoading": "共有ステータスを取得中...",
+    "shareStatus": {
+      "READY": "保留中",
+      "ACCEPTED": "承認済み",
+      "REVOKED": "取り消し済み"
+    },
+    "removeAccess": "アクセス権を削除",
+    "selectPeopleToUnshare": "共有を解除する人を選択",
+    "selectAtLeastOne": "少なくとも1人の受信者を選択してください",
+    "tooltips": {
+      "sync": "デバイス間でこのパスワードを同期する方法を選択します",
+      "name": "このパスワードエントリの名前を入力します",
+      "username": "このアカウントのユーザー名を入力します",
+      "password": "このアカウントのパスワードを入力します",
+      "url": "このパスワードのウェブサイトURLまたはアプリ名を入力します",
+      "notes": "このパスワードに関する追加のメモや情報を追加します",
+      "tags": "後で簡単に見つけられるように、カテゴリ分けのためのタグを追加します",
+      "lastUpdated": "このパスワードが最後に変更された日時を表示します"
+    },
+    "strength": {
+      "suggestions": {
+        "providePassword": "パスワードを入力してください。",
+        "increaseLength": "{{n}}文字以上使用してください。",
+        "mixedCase": "大文字と小文字を混ぜてください。",
+        "addNumbers": "数字を追加してください。",
+        "addSymbols": "記号（例：! @ #）を追加してください。",
+        "useMoreVariety": "文字、数字、記号を組み合わせてください。",
+        "avoidSequences": "1234やabcdのような一般的な連続は避けてください。",
+        "avoidRepetition": "同じ文字を何度も繰り返すのは避けてください。",
+        "avoidCommon": "よく使われるパスワードは避けてください。",
+        "usePassphrase": "関連性のない複数の単語を組み合わせた、より長いパスフレーズを検討してください。"
+      }
+    }
+  },
+  "card": {
+    "bankNamePlaceholder": "銀行名/カード名",
+    "holderNamePlaceholder": "カード名義人",
+    "numberPlaceholder": "カード番号",
+    "expiryPlaceholder": "有効期限 (月/年 MM/YY)",
+    "cvvPlaceholder": "セキュリティコード (CVV)",
+    "cardPasswordPlaceholder": "カードパスワード",
+    "tooltips": {
+      "sync": "デバイス間でこのカードを同期する方法を選択します",
+      "bankName": "銀行名またはカード名を入力します",
+      "holderName": "カードに記載されている通りのフルネームを入力します",
+      "number": "16桁のカード番号を入力します（自動的にフォーマットされます）",
+      "expiry": "有効期限をMM/YY形式で入力します",
+      "cvv": "カード裏面の3桁のセキュリティコード（CVV/CVC）を入力します",
+      "cardPassword": "このカードに関連付けられたパスワードを入力します（例：3Dセキュア/オンラインショッピング用パスワード）"
+    }
+  },
+  "activityLog": {
+    "filterAll": "すべて",
+    "clear": "クリア",
+    "export": "JSONをエクスポート"
+  },
+  "alerts": {
+    "validationTitle": "検証エラー",
+    "validationRequiredFields": "必須項目をすべて入力してください",
+    "requiredFieldsMissing": "一部の必須項目が入力されていません。",
+    "cardNumberLength": "カード番号は16桁である必要があります",
+    "successTitle": "成功",
+    "cardSaved": "カードを保存しました",
+    "passwordSaved": "パスワードを保存しました",
+    "invitationsSent": "招待を正常に送信しました。",
+    "passwordMovedToTrash": "パスワードをゴミ箱に移動しました",
+    "passwordDeleted": "パスワードを完全に削除しました",
+    "cardMovedToTrash": "カードをゴミ箱に移動しました",
+    "cardDeleted": "カードを完全に削除しました",
+    "errorTitle": "エラー",
+    "saveFailed": "カードの保存に失敗しました",
+    "passwordSaveFailed": "パスワードの保存に失敗しました",
+    "fingerprintNotRecognized": "指紋が認識されませんでした。もう一度お試しください。",
+    "unexpected": "予期しないエラーが発生しました",
+    "networkError": "ネットワークエラー。インターネット接続を確認してください。",
+    "serverError": "サーバーは現在利用できません。後でもう一度お試しください。",
+    "timeoutError": "リクエストがタイムアウトしました。もう一度お試しください。",
+    "information": "情報",
+    "sessionExpired": "セッションの期限が切れました。もう一度サインインしてください。",
+    "offline": "オフラインです。一部の機能が利用できない場合があります。",
+    "cloudNotAllowed": "クラウド機能にはメール認証とマスターパスワードの設定が必要です。",
+    "shareNotAllowed": "共有機能にはメール認証とマスターパスワードの設定が必要です。",
+    "passwordLimitReached": "プランのパスワード制限に達しました。",
+    "cardLimitReached": "プランのカード制限に達しました。",
+    "shareLimitReached": "プランの共有制限に達しました。",
+    "accessRemoved": "アクセス権を削除しました",
+    "removeAccessFailed": "アクセス権の削除に失敗しました"
+  },
+  "logout": {
+    "title": "ログアウト",
+    "message": "本当にログアウトしますか？"
+  },
+  "greeting": {
+    "goodMorning": "おはようございます",
+    "goodAfternoon": "こんにちは",
+    "goodEvening": "こんばんは",
+    "goodNight": "おやすみなさい"
+  },
+  "home": {
+    "recentActivity": "最近のアクティビティ",
+    "statistics": "統計",
+    "passwordStrength": "パスワードの強度",
+    "planLimits": "プランと制限",
+    "planManageCta": "管理",
+    "planUpgradeCta": "アップグレード",
+    "planCurrent": "現在のプラン",
+    "planPremiumName": "プレミアム",
+    "planFreeName": "無料",
+    "planUnknownName": "読み込み中...",
+    "planPremiumDescription": "プレミアム制限が適用されています。",
+    "planFreeDescription": "アップグレードして、より多くの保存容量と共有機能を解放しましょう。",
+    "planLoading": "権限を取得中...",
+    "shares": "共有",
+    "unlimited": "無制限",
+    "remaining": "残り {{count}}",
+    "securityStatus": "セキュリティステータス",
+    "securityManageCta": "セキュリティ",
+    "masterPassword": "マスターパスワード",
+    "emailVerification": "メール認証",
+    "statusBadge": {
+      "configured": "有効",
+      "pending": "保留中",
+      "none": "未設定",
+      "skipped": "スキップ済み",
+      "verified": "認証済み",
+      "unverified": "未認証"
+    },
+    "statusHint": {
+      "master": {
+        "CONFIGURED": "保管庫はマスターパスワードで保護されています。",
+        "PENDING": "クラウド機能を解放するためにマスターパスワードの設定を完了してください。",
+        "NONE": "マスターパスワードがまだ設定されていません。保管庫を保護するために設定してください。",
+        "SKIPPED": "設定がスキップされました。データを保護するために有効にしてください。"
+      },
+      "email": {
+        "VERIFIED": "メールアドレスが確認されました。共有とクラウド同期が有効です。",
+        "UNVERIFIED": "共有とクラウド同期を有効にするためにメールアドレスを認証してください。"
+      }
+    }
+  },
+  "items": {
+    "card": "カード",
+    "password": "パスワード"
+  },
+  "delete": {
+    "confirm": "この {{item}} を削除してもよろしいですか？",
+    "confirmPermanent": "これにより、この {{item}} は完全に削除されます。この操作は取り消せません。続行しますか？"
+  },
+  "cards": {
+    "title": "マイカード",
+    "tabs": {
+      "cloud": "クラウド",
+      "local": "ローカル",
+      "trash": "ゴミ箱"
+    },
+    "loading": "カードを読み込み中...",
+    "empty": "カードが見つかりません",
+    "createCta": "カードを作成"
+  },
+  "passwords": {
+    "title": "マイパスワード",
+    "tabs": {
+      "cloud": "クラウド",
+      "local": "ローカル",
+      "trash": "ゴミ箱"
+    },
+    "loading": "パスワードを読み込み中...",
+    "empty": "パスワードが見つかりません",
+    "createCta": "パスワードを作成",
+    "unnamed": "名前なし",
+    "noUsername": "ユーザー名なし",
+    "noPassword": "パスワードなし"
+  },
+  "unsaved": {
+    "title": "保存されていない変更",
+    "message": "保存されていない変更があります。今終了すると編集内容は失われます。保存せずに戻りますか？",
+    "yes": "はい、破棄します",
+    "no": "いいえ、とどまります"
+  },
+  "trash": {
+    "time": {
+      "days": "{{count}} 日",
+      "days_plural": "{{count}} 日",
+      "hours": "{{count}} 時間",
+      "hours_plural": "{{count}} 時間",
+      "minutes": "{{count}} 分",
+      "minutes_plural": "{{count}} 分"
+    },
+    "info": {
+      "password": "このパスワードは、今から {{time}} 後に完全に削除されます。",
+      "card": "このカードは、今から {{time}} 後に完全に削除されます。"
+    }
+  },
+  "copy": {
+    "copied": "{{what}} をクリップボードにコピーしました",
+    "empty": "{{what}} にコピーするものがありません",
+    "what": {
+      "cardNumber": "カード番号",
+      "cardHolderName": "カード名義人",
+      "username": "ユーザー名",
+      "password": "パスワード",
+      "url": "URL"
+    }
+  },
+  "notifications": {
+    "empty": "通知はまだありません",
+    "emptyDesc": "重要なことが起きたときにお知らせします。このスペースをチェックしてください！",
+    "shareRequest": "{{who}} がパスワードを共有しようとしています。",
+    "someone": "誰か",
+    "shareAccepted": "共有リクエストを承認しました",
+    "shareDeclined": "共有リクエストを拒否しました",
+    "shareDecisionFailed": "決定の適用に失敗しました。もう一度お試しください。"
+  },
+  "validation": {
+    "invalidEmail": "有効なメールアドレスを入力してください"
+  },
+  "errors": {
+    "required": "この項目は必須です。",
+    "minLength": "{{count}}文字以上である必要があります",
+    "invalidEmail": "有効なメールアドレスを入力してください",
+    "valueMustBeNumber": "有効な数値を入力してください。",
+    "invalidCreditCard": "カード番号が無効です。",
+    "creditCardDigits": "カード番号は{{count}}桁である必要があります",
+    "invalidCVV": "CVVが無効です。",
+    "invalidExpiry": "有効期限が無効です。MM/YY形式を使用してください。",
+    "passwordsDoNotMatch": "パスワードが一致しません",
+    "invalidMasterPassword": "マスターパスワードが正しくありません",
+    "generic": "問題が発生しました。もう一度お試しください。"
+  },
+  "masterPassword": {
+    "title": "マスターパスワードを作成",
+    "description": "マスターパスワードは保管庫を保護し、ロックを解除するためのものです。当社のサーバーに送信されることはありません。忘れないでください。このパスワードがないと、暗号化されたデータを復元することはできません。",
+    "password": "強力なパスワードを選択してください。文字、数字、記号を組み合わせた12文字以上が推奨されます。",
+    "passwordPlaceholder": "マスターパスワード",
+    "confirmPlaceholder": "マスターパスワードを再入力",
+    "skip": "スキップ",
+    "continue": "次へ"
+  },
+  "loading": {
+    "default": "読み込み中...",
+    "timeout": "リクエストがタイムアウトしました。もう一度お試しください。"
+  },
+  "accessibility": {
+    "loadingLogo": "ロゴを読み込み中"
+  },
+  "confirmMasterPassword": {
+    "title": "マスターパスワードを確認",
+    "description": "このデバイスで保管庫のロックを解除するために、マスターパスワードを入力してください。",
+    "passwordPlaceholder": "マスターパスワード",
+    "confirm": "確認"
+  },
+  "forgotPassword": {
+    "methodsTitle": "パスワードを忘れた場合",
+    "methodsSubtitle": "パスワードのリセットに使用する連絡先を選択してください",
+    "viaEmail": "メール経由:",
+    "continue": "次へ",
+    "emailTitle": "メールアドレスを入力",
+    "resetPassword": "パスワードをリセット",
+    "rememberPasswordQuestion": "パスワードを思い出しましたか？",
+    "invalidEmailMessage": "有効なメールアドレスを入力してください。",
+    "requestSuccessTitle": "アカウントが存在する場合",
+    "requestSuccessMessage": "アカウントが存在する場合、まもなくメールが届きます。",
+    "unexpectedErrorMessage": "予期しないエラーが発生しました。"
+  },
+  "upgrade": {
+    "title": "アップグレード",
+    "choosePlan": "プランを選択",
+    "subtitle": "プランをアップグレードして、より高い制限と高度な機能を解放しましょう。",
+    "subscriptionDetail": "サブスクリプションの詳細",
+    "plan": "プラン",
+    "expiresAt": "有効期限",
+    "currentLimits": "現在の制限",
+    "passwords": "パスワード",
+    "cards": "カード",
+    "shares": "共有",
+    "cancel": "キャンセル",
+    "upgrade": "アップグレード",
+    "upgradeToPro": "Proにアップグレード",
+    "default": "デフォルト",
+    "current": "現在",
+    "currentPlanBadge": "現在のプラン",
+    "currentPlanDescription": "これは現在有効なサブスクリプションです。この画面から管理または変更できます。",
+    "currentPlanButtonLabel": "現在のプラン",
+    "subscriptionManagedInStore": "プランの変更は、App Storeのサブスクリプション画面から管理されます。",
+    "premium": "プレミアム",
+    "monthly": "月額",
+    "yearly": "年額",
+    "unlimited": "無制限",
+    "included": "含まれる",
+    "notIncluded": "含まれない",
+    "cloudSync": "クラウド同期",
+    "secureNotes": "セキュアノート",
+    "watchtower": "ウォッチタワー",
+    "itemHistory": "アイテム履歴",
+    "export": "エクスポート",
+    "prioritySupport": "優先サポート",
+    "familySharing": "ファミリー共有",
+    "maxFamilyMembers": "最大家族メンバー数",
+    "restorePurchases": "購入を復元",
+    "manageSubscription": "サブスクリプションを管理",
+    "failedToLoadPlans": "プランの読み込みに失敗しました",
+    "unexpectedError": "プランの読み込み中に予期しないエラーが発生しました",
+    "free": "無料",
+    "processingPurchase": "購入を処理中...",
+    "purchaseComplete": "購入が完了しました。",
+    "purchaseFailed": "購入に失敗しました",
+    "purchaseFailedGeneric": "App Storeでこの購入を完了できませんでした。",
+    "purchaseError": "購入エラー",
+    "purchaseDiagnostics": "診断情報: {{details}}",
+    "purchasePaymentsUnavailable": "このAppleアカウントは現在、このデバイスでの購入が許可されていません。",
+    "restoringPurchases": "購入を復元中...",
+    "restored": "復元済み",
+    "purchasesRestored": "購入が復元されました。",
+    "restoreFailed": "復元に失敗しました",
+    "productsUnavailable": "現在、サブスクリプション商品は利用できません。数分後にもう一度お試しください。",
+    "code": "コード: {{code}}",
+    "proMonthly": "PazzPro 月額プラン",
+    "proYearly": "PazzPro 年額プラン",
+    "familyMonthly": "PazzFamily 月額プラン",
+    "familyYearly": "PazzFamily 年額プラン",
+    "monthUnit": "月",
+    "yearUnit": "年",
+    "legalTitle": "法的情報",
+    "legalDescription": "自動更新サブスクリプションを購入する前に、プライバシーポリシーと利用規約を確認してください。",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfUse": "利用規約",
+    "legalLinkError": "選択した法的文書を開くことができません。"
+  }
+}

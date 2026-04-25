@@ -1,0 +1,500 @@
+{
+  "common": {
+    "information": "Information",
+    "cancel": "Annuler",
+    "yesLogout": "Oui, se déconnecter",
+    "save": "Enregistrer",
+    "saving": "Enregistrement...",
+    "removingAccess": "Suppression de l'accès...",
+    "update": "Mettre à jour",
+    "seeAll": "Tout voir",
+    "email": "E-mail",
+    "close": "Fermer",
+    "share": "Partager",
+    "accept": "Accepter",
+    "decline": "Refuser",
+    "done": "Terminé",
+    "restore": "Restaurer"
+  },
+  "auth": {
+    "loginTitleLine1": "Connectez-vous à votre",
+    "loginTitleLine2": "Compte",
+    "createTitleLine1": "Créez votre",
+    "createTitleLine2": "Compte",
+    "passwordPlaceholder": "Mot de passe",
+    "rememberMe": "Se souvenir de moi",
+    "loginButton": "Se connecter",
+    "signUpButton": "S'inscrire",
+    "signInButton": "Se connecter",
+    "forgotPasswordQuestion": "Mot de passe oublié ?",
+    "orContinueWith": "ou continuer avec",
+    "dontHaveAccount": "Vous n'avez pas de compte ?",
+    "alreadyHaveAccount": "Vous avez déjà un compte ?",
+    "termsTitle": "Conditions générales",
+    "acceptPrivacyToContinue": "Veuillez accepter notre politique de confidentialité pour continuer.",
+    "acceptPrivacyInline": "En continuant, vous acceptez notre politique de confidentialité",
+    "invalidInputTitle": "Entrée invalide",
+    "invalidInputMessage": "Veuillez vérifier les erreurs dans le formulaire.",
+    "signupTitle": "Inscription",
+    "emailExistsTitle": "E-mail existant",
+    "emailExistsMessage": "Votre adresse e-mail existe déjà; si vous ne vous souvenez pas de votre mot de passe, continuez avec « Mot de passe oublié ».",
+    "responseMissingTokens": "Réponse: jetons manquants.",
+    "loginFailed": "Échec de la connexion. Veuillez vérifier vos identifiants.",
+    "loginMissingTokens": "Réponse de connexion: jetons manquants.",
+    "loginError": "Une erreur s'est produite lors de la connexion."
+  },
+  "profile": {
+    "title": "Profil"
+  },
+  "settings": {
+    "updatePassword": "Mettre à jour le mot de passe",
+    "myNotification": "Mes notifications",
+    "address": "Adresse",
+    "editProfile": "Modifier le profil",
+    "notification": "Notification",
+    "logoutPreferences": "Paramètres de déconnexion",
+    "security": "Sécurité",
+    "privacyPolicy": "Politique de confidentialité",
+    "helpCenter": "Centre d'aide",
+    "faqTitle": "FAQ",
+    "contactUsTitle": "Nous contacter",
+    "customerService": "Service client",
+    "inviteFriends": "Inviter des amis",
+    "inviteFriendsDescription": "Invitez vos amis en saisissant leurs adresses e-mail. Vous pouvez ajouter plusieurs personnes à la fois en séparant chaque adresse par une virgule (',').",
+    "inviteFriendsPlaceholder": "Entrez les adresses e-mail séparées par des virgules",
+    "inviteFriendsLabel": "Adresse e-mail",
+    "sendInvitations": "Envoyer les invitations",
+    "inviteStatusSent": "Envoyé",
+    "inviteStatusExists": "Existe déjà",
+    "inviteStatusFailed": "Échoué",
+    "logout": "Se déconnecter",
+    "darkMode": "Mode sombre",
+    "languageRegion": "Langue et région",
+    "removeLocalData": "Supprimer les données locales",
+    "removeLocalDataDescription": "Les données stockées localement (mots de passe et cartes chiffrés) seront définitivement supprimées lors de votre déconnexion. Cette action est irréversible et ne peut pas être récupérée.",
+    "deleteAccount": {
+      "menu": "Supprimer le compte",
+      "title": "Supprimer le compte",
+      "warningTitle": "Suppression définitive du compte",
+      "warningBody": "La suppression de votre compte est définitive. Les données de votre coffre chiffré et votre profil seront supprimés de nos systèmes.",
+      "subscriptionNote": "Si vous avez un abonnement App Store actif, annulez-le aussi depuis les réglages d’abonnement de votre identifiant Apple.",
+      "passwordLabel": "Mot de passe actuel",
+      "passwordRequired": "Veuillez saisir votre mot de passe actuel.",
+      "action": "Supprimer le compte",
+      "confirmTitle": "Confirmer la suppression du compte",
+      "confirmMessage": "Cette action est irréversible. Voulez-vous vraiment supprimer définitivement votre compte ?",
+      "confirmButton": "Oui, supprimer",
+      "invalidCredentials": "Le mot de passe actuel est incorrect.",
+      "passwordConfirmationUnavailable": "Ce compte ne prend pas encore en charge la confirmation par mot de passe pour la suppression.",
+      "userNotFound": "Compte utilisateur introuvable.",
+      "unauthorized": "Votre session a expiré. Veuillez vous reconnecter.",
+      "error": "La suppression du compte a échoué. Veuillez réessayer."
+    },
+    "privacy": {
+      "title": "Politique de confidentialité",
+      "intro": "Pazzwrd s'engage à respecter les normes les plus strictes en matière de confidentialité et de sécurité des données. La présente Politique de Confidentialité expose les protocoles institutionnels et les mesures techniques mis en œuvre pour protéger les informations des utilisateurs.",
+      "masterPasswordTitle": "1. Mot de passe Maître et Protocoles Cryptographiques",
+      "masterPasswordDesc": "Le Mot de passe Maître sert de graine cryptographique primaire pour le coffre-fort numérique de l'utilisateur. Il est utilisé pour dériver des clés de chiffrement uniques destinées à la protection des identifiants sensibles et des données financières. Pazzwrd applique une politique stricte de non-conservation ; le Mot de passe Maître n'est jamais transmis à nos infrastructures ni stocké sur celles-ci.",
+      "encryptionDetail": "L'intégrité des données est assurée par l'implémentation du chiffrement XChaCha20-Poly1305, standard de l'industrie. Chaque entrée du coffre-fort est sécurisée par une clé individuelle, laquelle est ensuite enveloppée à l'aide d'une clé de chiffrement de clé (KEK) dérivée du Mot de passe Maître de l'utilisateur.",
+      "storageTitle": "2. Gestion et Stockage des Données",
+      "storageDesc": "Pazzwrd propose des solutions de stockage multicouches afin de garantir la disponibilité et la sécurité des données :",
+      "localStorage": "Stockage sur Appareil : Les données chiffrées sont conservées localement sur l'appareil de l'utilisateur, facilitant l'accès hors ligne tout en maintenant une sécurité cryptographique optimale.",
+      "cloudStorage": "Synchronisation Cloud : Sous réserve de l'autorisation de l'utilisateur, les ensembles de données chiffrés sont synchronisés avec notre infrastructure cloud sécurisée pour permettre une accessibilité multi-plateforme.",
+      "publicDataTitle": "3. Classification des Données",
+      "publicDataDesc": "Les informations sont catégorisées selon leur niveau de sensibilité afin d'optimiser les performances tout en garantissant une sécurité maximale :",
+      "privateData": "Données Classifiées : Tous les enregistrements sensibles, y compris les mots de passe, les informations de paiement et les notes privées, sont chiffrés localement avant toute transmission ou stockage.",
+      "publicData": "Métadonnées : Les métadonnées non sensibles (par exemple, les identifiants de service ou les étiquettes d'organisation) peuvent être stockées dans un format non chiffré afin de faciliter les opérations d'indexation et de recherche efficaces.",
+      "zeroKnowledgeTitle": "4. Implémentation de l'Architecture Zero-Knowledge",
+      "zeroKnowledgeDesc": "Nos systèmes fonctionnent selon une architecture Zero-Knowledge. Le server fait office exclusivement de répertoire sécurisé pour les charges utiles chiffrées. Le fournisseur de services ne dispose d'aucun moyen technique pour accéder aux clés de chiffrement, aux Mots de passe Maître ou au contenu utilisateur déchiffré. Cette conception architecturale garantit que les données restent inaccessibles aux tiers non autorisés, y compris au fournisseur de services lui-même.",
+      "warningTitle": "5. Avis Important : Clause de Non-Recouvrement des Données",
+      "warningDesc": "En raison de l'implémentation du chiffrement de bout en bout et du modèle Zero-Knowledge, la récupération d'un Mot de passe Maître perdu est techniquement impossible pour le fournisseur de services. L'oubli du Mot de passe Maître entraînera la perte permanente de l'accès à l'ensemble des données chiffrées. Il est vivement conseillé aux utilisateurs de conserver des sauvegardes sécurisées de leur Mot de passe Maître."
+    },
+    "faq": {
+      "whatIsCloudTitle": "Que signifie le Cloud ?",
+      "whatIsCloudDesc": "Le Cloud signifie que vos données cryptées sont synchronisées avec nos serveurs sécurisés. Cela vous permet d'accéder à vos mots de passe et à vos cartes à partir de n'importe quel appareil en vous connectant à votre compte.",
+      "whatIsLocalTitle": "Que signifie Local ?",
+      "whatIsLocalDesc": "Local signifie que vos données sont stockées uniquement sur votre appareil. Elles sont cryptées et ne quittent jamais votre téléphone, à moins que vous n'activiez la synchronisation dans le cloud.",
+      "howDataStoredTitle": "Comment sont stockés les mots de passe et les coordonnées bancaires ?",
+      "howDataStoredDesc": "Dans le stockage cloud et local, vos données sont toujours cryptées à l'aide de protocoles conformes aux normes de l'industrie. Vous seul détenez la clé (votre mot de passe maître) pour décrypter ces informations.",
+      "whatIsMPTitle": "Qu'est-ce que le MP (Master Password) ?",
+      "whatIsMPDesc": "MP signifie Master Password (mot de passe maître). C'est le mot de passe unique que vous utilisez pour accéder à votre coffre-fort. Nous ne stockons jamais votre mot de passe maître, il est donc crucial que vous ne l'oubliiez pas.",
+      "trashRulesTitle": "Quelles sont les règles de la corbeille ?",
+      "trashRulesDesc": "Lorsque vous supprimez un mot de passe ou une carte, il va dans l'onglet Corbeille. Les éléments de la corbeille seront définitivement supprimés après une certaine période, ou vous pouvez la vider manuellement.",
+      "howToDeleteTitle": "Comment supprimer un mot de passe ou une carte ?",
+      "howToDeleteDesc": "Pour supprimer un mot de passe ou une carte, allez sur la page des mots de passe ou des cartes et maintenez le clic (appui long) sur l'élément que vous souhaitez supprimer. Une option de suppression apparaîtra.",
+      "howToRestoreTitle": "Puis-je restaurer des éléments de la corbeille ?",
+      "howToRestoreDesc": "Oui, vous pouvez restaurer n'importe quelle carte ou mot de passe à partir de l'onglet Corbeille vers votre coffre-fort principal à tout moment avant qu'il ne soit définitivement supprimé.",
+      "howToShareTitle": "Comment fonctionne la fonction de partage de mot de passe ?",
+      "howToShareDesc": "Vous pouvez partager des mots de passe en toute sécurité avec d'autres utilisateurs. Le mot de passe partagé reste crypté et seul le destinataire prévu peut y accéder."
+    },
+    "contactUs": {
+      "title": "Titre",
+      "titlePlaceholder": "Entrez le titre",
+      "message": "Message",
+      "messagePlaceholder": "Décrivez votre problème ici...",
+      "send": "Envoyer",
+      "success": "Votre message a été envoyé avec succès. Nous vous répondrons bientôt."
+    }
+  },
+  "security": {
+    "title": "Sécurité",
+    "rememberMe": "Se souvenir de moi",
+    "faceId": "Face ID",
+    "biometricId": "ID biométrique",
+    "changePin": "Modifier le PIN",
+    "resendEmail": "Renvoyer l'e-mail de vérification",
+    "resendEmailSuccess": "Votre e-mail d'activation a été envoyé avec succès.",
+    "resendEmailError": "Échec de l'envoi de l'e-mail d'activation."
+  },
+  "tabs": {
+    "new": {
+      "title": "Nouveau",
+      "passwordTab": "Mot de passe",
+      "cardsTab": "Cartes"
+    }
+  },
+  "sync": {
+    "local": "Local",
+    "cloud": "Cloud"
+  },
+  "password": {
+    "name": "Nom du mot de passe",
+    "username": "Nom d'utilisateur",
+    "password": "Mot de passe",
+    "url": "Site web/URL",
+    "notes": "Notes",
+    "tags": "Étiquettes",
+    "lastUpdated": "Dernière mise à jour",
+    "editPassword": "Modifier le mot de passe",
+    "pendingCloudUpdate": "Vos modifications n'ont pas encore été mises à jour dans le cloud.",
+    "passwordSaved": "Mot de passe enregistré avec succès",
+    "shareSuccess": "Invitation envoyée.",
+    "shareTitle": "Partager le mot de passe",
+    "inviteMailSends": "E-mail d’invitation envoyé. Demandez au destinataire de se connecter puis réessayez.",
+    "inviteUserConfiguredNotFinished": "La clé publique du destinataire a été trouvée. Le partage sera bientôt disponible.",
+    "cannotShareWithYourself": "Vous ne pouvez pas partager avec vous-même.",
+    "recipientHasNoKeys": "Le destinataire n'a pas terminé la configuration du mot de passe maître, veuillez lui demander de terminer la configuration du mot de passe maître.",
+    "itemNotFound": "Élément introuvable.",
+    "someThingWentWrong": "Une erreur est survenue. Veuillez réessayer.",
+    "sharedBy": "Ce mot de passe est partagé par {{who}}.",
+    "sharedWith": "Partagé avec",
+    "shareStatusLoading": "Récupération de l’état du partage...",
+    "shareStatus": {
+      "READY": "En attente",
+      "ACCEPTED": "Accepté",
+      "REVOKED": "Révoqué"
+    },
+    "removeAccess": "Retirer l'accès",
+    "selectPeopleToUnshare": "Sélectionnez les personnes à retirer du partage",
+    "selectAtLeastOne": "Veuillez sélectionner au moins un destinataire",
+    "tooltips": {
+      "sync": "Choisissez comment synchroniser ce mot de passe entre vos appareils",
+      "name": "Entrez un nom pour cette entrée de mot de passe",
+      "username": "Entrez le nom d'utilisateur pour ce compte",
+      "password": "Entrez le mot de passe pour ce compte",
+      "url": "Entrez l'URL du site web ou le nom de l'application pour ce mot de passe",
+      "notes": "Ajoutez des notes ou des informations supplémentaires",
+      "tags": "Ajoutez des étiquettes pour retrouver ce mot de passe facilement",
+      "lastUpdated": "Indique la dernière modification de ce mot de passe"
+    },
+    "strength": {
+      "suggestions": {
+        "providePassword": "Veuillez saisir un mot de passe.",
+        "increaseLength": "Utilisez au moins {{n}} caractères.",
+        "mixedCase": "Mélangez des lettres majuscules et minuscules.",
+        "addNumbers": "Ajoutez des chiffres.",
+        "addSymbols": "Ajoutez des symboles (ex. ! @ #).",
+        "useMoreVariety": "Utilisez un mélange de lettres, chiffres et symboles.",
+        "avoidSequences": "Évitez les séquences courantes comme 1234 ou abcd.",
+        "avoidRepetition": "Évitez de répéter trop le même caractère.",
+        "avoidCommon": "Évitez les mots de passe les plus courants.",
+        "usePassphrase": "Envisagez une phrase de passe plus longue composée de plusieurs mots sans rapport."
+      }
+    }
+  },
+  "card": {
+    "bankNamePlaceholder": "Nom de la banque/Nom de la carte",
+    "holderNamePlaceholder": "Nom du titulaire de la carte",
+    "numberPlaceholder": "Numéro de carte",
+    "expiryPlaceholder": "Mois/Année d'expiration (MM/AA)",
+    "cvvPlaceholder": "Code de sécurité (CVV)",
+    "cardPasswordPlaceholder": "Mot de passe de la carte",
+    "tooltips": {
+      "sync": "Choisissez comment synchroniser cette carte entre vos appareils",
+      "bankName": "Entrez le nom de la banque ou de la carte",
+      "holderName": "Entrez le nom complet tel qu'il apparaît sur la carte",
+      "number": "Entrez votre numéro de carte à 16 chiffres (formatage automatique)",
+      "expiry": "Entrez la date d'expiration au format MM/AA",
+      "cvv": "Entrez le code de sécurité à 3 chiffres (CVV/CVC) au dos de votre carte",
+      "cardPassword": "Saisissez le mot de passe associé à cette carte (ex. 3D Secure/mot de passe d'achat en ligne)"
+    }
+  },
+  "alerts": {
+    "validationTitle": "Erreur de validation",
+    "validationRequiredFields": "Veuillez remplir tous les champs obligatoires",
+    "requiredFieldsMissing": "Certains champs obligatoires sont manquants.",
+    "cardNumberLength": "Le numéro de carte doit comporter 16 chiffres",
+    "successTitle": "Succès",
+    "cardSaved": "Carte enregistrée avec succès",
+    "passwordSaved": "Mot de passe enregistré avec succès",
+    "invitationsSent": "Les invitations ont été envoyées avec succès.",
+    "errorTitle": "Erreur",
+    "saveFailed": "Échec de l'enregistrement de la carte",
+    "passwordSaveFailed": "Échec de l'enregistrement du mot de passe",
+    "fingerprintNotRecognized": "Empreinte digitale non reconnue. Réessayez.",
+    "unexpected": "Une erreur inattendue s'est produite",
+    "networkError": "Erreur réseau. Veuillez vérifier votre connexion internet.",
+    "serverError": "Le serveur est actuellement indisponible. Veuillez réessayer plus tard.",
+    "timeoutError": "La demande a expiré. Veuillez réessayer.",
+    "information": "Information",
+    "sessionExpired": "Votre session a expiré. Veuillez vous reconnecter.",
+    "offline": "Vous êtes hors ligne. Certaines fonctionnalités peuvent être indisponibles.",
+    "cloudNotAllowed": "Le cloud nécessite un e-mail vérifié et un mot de passe maître configuré.",
+    "shareNotAllowed": "Le partage nécessite un e-mail vérifié et un mot de passe maître configuré.",
+    "passwordLimitReached": "Limite de mots de passe atteinte pour votre offre.",
+    "cardLimitReached": "Limite de cartes atteinte pour votre offre.",
+    "shareLimitReached": "Limite de partages atteinte pour votre offre.",
+    "accessRemoved": "Accès supprimé",
+    "removeAccessFailed": "Échec de la suppression des accès"
+  },
+  "logout": {
+    "title": "Déconnexion",
+    "message": "Êtes-vous sûr de vouloir vous déconnecter ?"
+  },
+  "greeting": {
+    "goodMorning": "Bonjour",
+    "goodAfternoon": "Bon après-midi",
+    "goodEvening": "Bonsoir",
+    "goodNight": "Bonne nuit"
+  },
+  "home": {
+    "recentActivity": "Activité récente",
+    "statistics": "Statistiques",
+    "passwordStrength": "Robustesse du mot de passe",
+    "planLimits": "Offre & limites",
+    "planManageCta": "Gérer",
+    "planUpgradeCta": "Mettre à niveau",
+    "planCurrent": "Offre actuelle",
+    "planPremiumName": "Premium",
+    "planFreeName": "Gratuite",
+    "planUnknownName": "Chargement...",
+    "planPremiumDescription": "Les limites Premium sont actives.",
+    "planFreeDescription": "Passez à une offre supérieure pour débloquer plus de stockage et de partage.",
+    "planLoading": "Récupération des droits...",
+    "shares": "Partages",
+    "unlimited": "Illimité",
+    "remaining": "{{count}} restant(s)",
+    "securityStatus": "État de sécurité",
+    "securityManageCta": "Sécurité",
+    "masterPassword": "Mot de passe maître",
+    "emailVerification": "Vérification de l'e-mail",
+    "statusBadge": {
+      "configured": "Actif",
+      "pending": "En attente",
+      "none": "Manquant",
+      "skipped": "Ignoré",
+      "verified": "Vérifié",
+      "unverified": "Non vérifié"
+    },
+    "statusHint": {
+      "master": {
+        "CONFIGURED": "Votre coffre-fort est protégé par un mot de passe maître.",
+        "PENDING": "Terminez la configuration du mot de passe maître pour débloquer le cloud.",
+        "NONE": "Aucun mot de passe maître pour l'instant. Configurez-le pour sécuriser votre coffre-fort.",
+        "SKIPPED": "Configuration ignorée. Activez-la pour sécuriser vos données."
+      },
+      "email": {
+        "VERIFIED": "Votre e-mail est confirmé. Le partage et la synchronisation cloud sont activés.",
+        "UNVERIFIED": "Vérifiez votre e-mail pour activer le partage et la synchronisation cloud."
+      }
+    }
+  },
+  "items": {
+    "card": "Carte",
+    "password": "Mot de passe"
+  },
+  "delete": {
+    "confirm": "Êtes-vous sûr de vouloir supprimer cet(te) {{item}} ?",
+    "confirmPermanent": "Cette action supprimera définitivement cet(te) {{item}}. Cette action est irréversible. Voulez-vous continuer ?"
+  },
+  "cards": {
+    "title": "Mes cartes",
+    "tabs": {
+      "cloud": "Cloud",
+      "local": "Local",
+      "trash": "Corbeille"
+    },
+    "loading": "Chargement des cartes...",
+    "empty": "Aucune carte trouvée",
+    "createCta": "Créer une carte"
+  },
+  "passwords": {
+    "title": "Mes mots de passe",
+    "tabs": {
+      "cloud": "Cloud",
+      "local": "Local",
+      "trash": "Corbeille"
+    },
+    "loading": "Chargement des mots de passe...",
+    "empty": "Aucun mot de passe trouvé",
+    "createCta": "Créer un mot de passe",
+    "unnamed": "Sans nom",
+    "noUsername": "Pas de nom d'utilisateur",
+    "noPassword": "Aucun mot de passe"
+  },
+  "unsaved": {
+    "title": "Modifications non enregistrées",
+    "message": "Vous avez des modifications non enregistrées. Si vous quittez maintenant, vos modifications seront perdues. Voulez-vous revenir sans enregistrer ?",
+    "yes": "Oui, ignorer",
+    "no": "Non, rester"
+  },
+  "trash": {
+    "time": {
+      "days": "{{count}} jour",
+      "days_plural": "{{count}} jours",
+      "hours": "{{count}} heure",
+      "hours_plural": "{{count}} heures",
+      "minutes": "{{count}} min",
+      "minutes_plural": "{{count}} mins"
+    },
+    "info": {
+      "password": "Dans {{time}}, ce mot de passe sera définitivement supprimé.",
+      "card": "Dans {{time}}, cette carte sera définitivement supprimée."
+    }
+  },
+  "copy": {
+    "copied": "{{what}} copié(e) dans le presse-papiers",
+    "empty": "Rien à copier pour {{what}}",
+    "what": {
+      "cardNumber": "numéro de carte",
+      "cardHolderName": "nom du titulaire",
+      "username": "nom d'utilisateur",
+      "password": "mot de passe",
+      "url": "URL"
+    }
+  },
+  "notifications": {
+    "empty": "Aucune notification pour le moment",
+    "emptyDesc": "Nous vous informerons dès qu'il se passera quelque chose d'important. Gardez un œil ici !",
+    "shareRequest": "{{who}} souhaite partager un mot de passe avec vous.",
+    "someone": "Quelqu’un",
+    "shareAccepted": "Demande de partage acceptée",
+    "shareDeclined": "Demande de partage refusée",
+    "shareDecisionFailed": "Échec de l'application de la décision. Veuillez réessayer."
+  },
+  "validation": {
+    "invalidEmail": "Veuillez saisir une adresse e-mail valide"
+  },
+  "errors": {
+    "required": "Ce champ est obligatoire.",
+    "minLength": "Doit comporter au moins {{count}} caractères",
+    "invalidEmail": "Veuillez saisir une adresse e-mail valide",
+    "valueMustBeNumber": "La valeur doit être un nombre valide.",
+    "invalidCreditCard": "Numéro de carte bancaire invalide.",
+    "creditCardDigits": "Le numéro de carte doit comporter {{count}} chiffres",
+    "invalidCVV": "CVV invalide.",
+    "invalidExpiry": "Date d'expiration invalide. Utilisez le format MM/AA.",
+    "passwordsDoNotMatch": "Les mots de passe ne correspondent pas",
+    "invalidMasterPassword": "Le mot de passe maître est incorrect",
+    "generic": "Une erreur est survenue. Veuillez réessayer."
+  },
+  "masterPassword": {
+    "title": "Créer un mot de passe maître",
+    "description": "Votre mot de passe maître protège et déverrouille votre coffre-fort. Il n’est jamais envoyé à nos serveurs. Ne l’oubliez pas — sans ce mot de passe, vos données chiffrées ne peuvent pas être récupérées",
+    "password": "Choisissez un mot de passe robuste — au moins 12 caractères, avec un mélange de lettres, de chiffres et de symboles.",
+    "passwordPlaceholder": "Mot de passe maître",
+    "confirmPlaceholder": "Confirmez le mot de passe maître",
+    "skip": "Ignorer",
+    "continue": "Continuer"
+  },
+  "loading": {
+    "default": "Chargement...",
+    "timeout": "Le délai de la demande a expiré. Veuillez réessayer."
+  },
+  "accessibility": {
+    "loadingLogo": "Logo de chargement"
+  },
+  "confirmMasterPassword": {
+    "title": "Confirmer le mot de passe maître",
+    "description": "Veuillez confirmer votre mot de passe maître pour déverrouiller votre coffre sur cet appareil.",
+    "passwordPlaceholder": "Mot de passe maître",
+    "confirm": "Confirmer"
+  },
+  "forgotPassword": {
+    "methodsTitle": "Mot de passe oublié",
+    "methodsSubtitle": "Sélectionnez les coordonnées que nous devrions utiliser pour réinitialiser votre mot de passe",
+    "viaEmail": "via E-mail :",
+    "continue": "Continuer",
+    "emailTitle": "Entrez votre e-mail",
+    "resetPassword": "Réinitialiser le mot de passe",
+    "rememberPasswordQuestion": "Vous vous souvenez du mot de passe ?",
+    "invalidEmailMessage": "Veuillez fournir un e-mail valide.",
+    "requestSuccessTitle": "Si un compte existe",
+    "requestSuccessMessage": "Si un compte existe, vous recevrez bientôt un e-mail.",
+    "unexpectedErrorMessage": "Une erreur inattendue s'est produite."
+  },
+  "upgrade": {
+    "title": "Mise à niveau",
+    "choosePlan": "Choisissez un forfait",
+    "subtitle": "Débloquez des limites plus élevées et des fonctionnalités avancées en mettant à niveau votre forfait.",
+    "subscriptionDetail": "Détails de l'abonnement",
+    "plan": "Forfait",
+    "expiresAt": "Expire le",
+    "currentLimits": "Limites actuelles",
+    "passwords": "Mots de passe",
+    "cards": "Cartes",
+    "shares": "Partages",
+    "cancel": "Annuler",
+    "upgrade": "Mettre à niveau",
+    "upgradeToPro": "Passer à la version Pro",
+    "default": "Défaut",
+    "current": "Actuel",
+    "currentPlanBadge": "Forfait actuel",
+    "currentPlanDescription": "Il s’agit de votre abonnement actif. Vous pouvez le gérer ou le modifier depuis cet écran.",
+    "currentPlanButtonLabel": "Forfait actuel",
+    "subscriptionManagedInStore": "Les changements de forfait sont gérés depuis l’écran d’abonnement de l’App Store.",
+    "premium": "Premium",
+    "monthly": "Mensuel",
+    "yearly": "Annuel",
+    "unlimited": "Illimité",
+    "included": "Inclus",
+    "notIncluded": "Non inclus",
+    "cloudSync": "Synchronisation Cloud",
+    "secureNotes": "Notes sécurisées",
+    "watchtower": "Watchtower",
+    "itemHistory": "Historique des éléments",
+    "export": "Exportation",
+    "prioritySupport": "Support prioritaire",
+    "familySharing": "Partage familial",
+    "maxFamilyMembers": "Membres max de la famille",
+    "restorePurchases": "Restaurer les achats",
+    "manageSubscription": "Gérer l'abonnement",
+    "failedToLoadPlans": "Échec du chargement des forfaits",
+    "unexpectedError": "Erreur inattendue lors du chargement des forfaits",
+    "free": "Gratuit",
+    "processingPurchase": "Traitement de l'achat...",
+    "purchaseComplete": "Votre achat est terminé.",
+    "purchaseFailed": "L'achat a échoué",
+    "purchaseFailedGeneric": "L’App Store n’a pas pu finaliser cet achat.",
+    "purchaseError": "Erreur d'achat",
+    "purchaseDiagnostics": "Diagnostic : {{details}}",
+    "purchasePaymentsUnavailable": "Ce compte Apple n’est actuellement pas autorisé à effectuer des achats sur cet appareil.",
+    "restoringPurchases": "Restauration des achats...",
+    "restored": "Restauré",
+    "purchasesRestored": "Achats restaurés.",
+    "restoreFailed": "La restauration a échoué",
+    "productsUnavailable": "Les produits d’abonnement sont actuellement indisponibles. Réessayez dans quelques minutes.",
+    "code": "Code: {{code}}",
+    "proMonthly": "PazzPro Mensuel",
+    "proYearly": "PazzPro Annuel",
+    "familyMonthly": "PazzFamily Mensuel",
+    "familyYearly": "PazzFamily Annuel",
+    "monthUnit": "mois",
+    "yearUnit": "an",
+    "legalTitle": "Informations légales",
+    "legalDescription": "Consultez notre politique de confidentialité et nos conditions d’utilisation avant d’acheter un abonnement à renouvellement automatique.",
+    "privacyPolicy": "Politique de confidentialité",
+    "termsOfUse": "Conditions d’utilisation",
+    "legalLinkError": "Impossible d’ouvrir le document légal sélectionné."
+  }
+}

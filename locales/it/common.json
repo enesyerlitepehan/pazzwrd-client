@@ -1,0 +1,513 @@
+{
+  "common": {
+    "information": "Informazioni",
+    "cancel": "Annulla",
+    "yesLogout": "Sì, Esci",
+    "save": "Salva",
+    "saving": "Salvataggio...",
+    "removingAccess": "Rimozione dell'accesso...",
+    "deleting": "Eliminazione...",
+    "update": "Aggiorna",
+    "seeAll": "Vedi tutto",
+    "delete": "Elimina",
+    "email": "Email",
+    "close": "Chiudi",
+    "share": "Condividi",
+    "accept": "Accetta",
+    "decline": "Rifiuta",
+    "done": "Fatto",
+    "restore": "Ripristina"
+  },
+  "auth": {
+    "loginTitleLine1": "Accedi al tuo",
+    "loginTitleLine2": "Account",
+    "createTitleLine1": "Crea il tuo",
+    "createTitleLine2": "Account",
+    "passwordPlaceholder": "Password",
+    "rememberMe": "Ricordami",
+    "loginButton": "Accedi",
+    "signUpButton": "Iscriviti",
+    "signInButton": "Accedi",
+    "forgotPasswordQuestion": "Password dimenticata?",
+    "orContinueWith": "o continua con",
+    "dontHaveAccount": "Non hai un account?",
+    "alreadyHaveAccount": "Hai già un account?",
+    "termsTitle": "Termini e Condizioni",
+    "acceptPrivacyToContinue": "Per favore accetta la nostra Informativa sulla Privacy per continuare.",
+    "acceptPrivacyInline": "Continuando accetti la nostra Informativa sulla Privacy",
+    "invalidInputTitle": "Input non valido",
+    "invalidInputMessage": "Per favore controlla gli errori nel modulo.",
+    "signupTitle": "Iscrizione",
+    "emailExistsTitle": "Email già esistente",
+    "emailExistsMessage": "Il tuo indirizzo email esiste già, se non ricordi la password, per favore continua con Password dimenticata",
+    "responseMissingTokens": "Token mancanti nella risposta.",
+    "loginFailed": "Accesso fallito. Per favore controlla le tue credenziali.",
+    "loginMissingTokens": "Token mancanti nella risposta di accesso.",
+    "loginError": "Si è verificato un errore durante l'accesso."
+  },
+  "profile": {
+    "title": "Profilo"
+  },
+  "settings": {
+    "updatePassword": "Aggiorna Password",
+    "myNotification": "Le mie notifiche",
+    "address": "Indirizzo",
+    "editProfile": "Modifica Profilo",
+    "notification": "Notifica",
+    "logoutPreferences": "Preferenze di uscita",
+    "security": "Sicurezza",
+    "privacyPolicy": "Informativa sulla Privacy",
+    "helpCenter": "Centro Assistenza",
+    "faqTitle": "FAQ",
+    "contactUsTitle": "Contattaci",
+    "customerService": "Servizio Clienti",
+    "inviteFriends": "Invita Amici",
+    "inviteFriendsDescription": "Invita i tuoi amici inserendo i loro indirizzi email. Puoi aggiungere più persone contemporaneamente separando ogni indirizzo con una virgola (',').",
+    "inviteFriendsPlaceholder": "Inserisci indirizzi email separati da virgola",
+    "inviteFriendsLabel": "Indirizzo Email",
+    "sendInvitations": "Invia Inviti",
+    "inviteStatusSent": "Inviato",
+    "inviteStatusExists": "Già esistente",
+    "inviteStatusFailed": "Fallito",
+    "logout": "Esci",
+    "darkMode": "Modalità Scura",
+    "languageRegion": "Lingua e Regione",
+    "removeLocalData": "Rimuovi dati locali",
+    "removeLocalDataDescription": "I dati memorizzati localmente (password e carte criptate) saranno eliminati permanentemente quando esci. Questa azione non può essere annullata o recuperata.",
+    "removeMPConfig": "Rimuovi configurazione MP",
+    "removeMPConfigDescription": "La configurazione della Password Master e le chiavi di criptazione saranno rimosse da questo dispositivo quando esci. Ti verrà chiesto di reinserire la tua Password Master al prossimo accesso per accedere ai tuoi dati.",
+    "deleteAccount": {
+      "menu": "Elimina Account",
+      "title": "Elimina Account",
+      "warningTitle": "Eliminazione Permanente dell'Account",
+      "warningBody": "L'eliminazione del tuo account è permanente. I dati della tua cassaforte criptata e il profilo dell'account saranno rimossi dai nostri sistemi.",
+      "subscriptionNote": "Se hai un abbonamento attivo su App Store, annullalo dalle impostazioni degli abbonamenti del tuo ID Apple.",
+      "passwordLabel": "Password attuale",
+      "passwordRequired": "Per favore inserisci la tua password attuale.",
+      "action": "Elimina Account",
+      "confirmTitle": "Conferma Eliminazione Account",
+      "confirmMessage": "Questa azione non può essere annullata. Sei sicuro di voler eliminare permanentemente il tuo account?",
+      "confirmButton": "Sì, Elimina",
+      "invalidCredentials": "La password attuale non è corretta.",
+      "passwordConfirmationUnavailable": "Questo account non supporta ancora la conferma della password per l'eliminazione.",
+      "userNotFound": "Account utente non trovato.",
+      "unauthorized": "La tua sessione è scaduta. Per favore accedi di nuovo.",
+      "error": "Eliminazione account fallita. Per favore riprova."
+    },
+    "privacy": {
+      "title": "Informativa sulla Privacy",
+      "intro": "Pazzwrd si impegna a mantenere i più alti standard di privacy e sicurezza dei dati. Questa Informativa sulla Privacy delinea i protocolli istituzionali e le misure tecniche impiegate per salvaguardare le informazioni degli utenti.",
+      "masterPasswordTitle": "1. Password Master e Protocolli Crittografici",
+      "masterPasswordDesc": "La Password Master funge da seme crittografico primario per la cassaforte digitale dell'utente. Viene utilizzata per derivare chiavi di criptazione uniche per la protezione di credenziali sensibili e dati finanziari. Pazzwrd aderisce a una rigorosa politica non custodiale; la Password Master non viene mai trasmessa o memorizzata sulla nostra infrastruttura.",
+      "encryptionDetail": "L'integrità dei dati è mantenuta attraverso l'implementazione della criptazione XChaCha20-Poly1305 standard del settore. Ogni voce della cassaforte è protetta con una chiave individuale, che viene successivamente avvolta utilizzando una chiave di criptazione della chiave (KEK) derivata dalla Password Master dell'utente.",
+      "storageTitle": "2. Gestione e Archiviazione dei Dati",
+      "storageDesc": "Pazzwrd fornisce soluzioni di archiviazione multi-livello per garantire la disponibilità e la sicurezza dei dati:",
+      "localStorage": "Archiviazione sul dispositivo: I dati criptati vengono mantenuti localmente sul dispositivo dell'utente, facilitando l'accesso offline e mantenendo al contempo la sicurezza crittografica.",
+      "cloudStorage": "Sincronizzazione Cloud: Previa autorizzazione dell'utente, i set di dati criptati vengono sincronizzati con la nostra infrastruttura cloud sicura per consentire l'accessibilità multi-piattaforma.",
+      "publicDataTitle": "3. Classificazione dei Dati",
+      "publicDataDesc": "Le informazioni sono categorizzate in base alla sensibilità per ottimizzare le prestazioni garantendo al contempo la massima sicurezza:",
+      "privateData": "Dati Classificati: Tutti i record sensibili, incluse password, informazioni di pagamento e note private, vengono criptati localmente prima della trasmissione o dell'archiviazione.",
+      "publicData": "Metadati: I metadati non sensibili (ad esempio, identificatori di servizio o etichette organizzative) possono essere memorizzati in un formato non criptato per facilitare le operazioni di indicizzazione e recupero efficienti.",
+      "zeroKnowledgeTitle": "4. Implementazione dell'Architettura Zero-Knowledge",
+      "zeroKnowledgeDesc": "I nostri sistemi operano secondo un'architettura Zero-Knowledge. Il server funge esclusivamente da repository sicuro per i payload criptati. Il fornitore del servizio non possiede alcun mezzo tecnico per accedere alle chiavi di criptazione, alle Password Master o ai contenuti decriptati dell'utente. Questo design architettonico garantisce che i dati rimangano inaccessibili a parti non autorizzate, incluso il fornitore del servizio.",
+      "warningTitle": "5. Avviso Critico: Clausola di Esclusione della Responsabilità per Dati Irrecuperabili",
+      "warningDesc": "A causa dell'implementazione della criptazione end-to-end e del modello Zero-Knowledge, il recupero di una Password Master smarrita è tecnicamente impossibile per il fornitore del servizio. La mancata conservazione della Password Master comporterà la perdita permanente dell'accesso a tutti i dati criptati. Si consiglia vivamente agli utenti di mantenere backup sicuri della propria Password Master."
+    },
+    "faq": {
+      "whatIsCloudTitle": "Cosa significa Cloud?",
+      "whatIsCloudDesc": "Cloud significa che i tuoi dati criptati sono sincronizzati con i nostri server sicuri. Questo ti consente di accedere alle tue password e carte da qualsiasi dispositivo accedendo al tuo account.",
+      "whatIsLocalTitle": "Cosa significa Locale?",
+      "whatIsLocalDesc": "Locale significa che i tuoi dati sono memorizzati solo sul tuo dispositivo. Sono criptati e non lasciano mai il tuo telefono a meno che tu non abiliti la sincronizzazione cloud.",
+      "howDataStoredTitle": "Come vengono memorizzate le password e i dettagli delle carte?",
+      "howDataStoredDesc": "Sia nell'archiviazione cloud che in quella locale, i tuoi dati sono sempre criptati utilizzando protocolli standard del settore. Solo tu possiedi la chiave (la tua Password Master) per decriptare queste informazioni.",
+      "whatIsMPTitle": "Cos'è la MP (Password Master)?",
+      "whatIsMPDesc": "MP sta per Password Master (Master Password). È l'unica password che usi per accedere alla tua cassaforte. Non memorizziamo mai la tua Password Master, quindi è fondamentale che tu non la dimentichi.",
+      "trashRulesTitle": "Quali sono le regole del Cestino?",
+      "trashRulesDesc": "Quando elimini una password o una carta, questa finisce nella scheda Cestino. Gli elementi nel Cestino saranno eliminati permanentemente dopo un certo periodo, oppure puoi svuotarlo manualmente.",
+      "howToDeleteTitle": "Come faccio a eliminare una password o una carta?",
+      "howToDeleteDesc": "Per eliminare una password o una carta, vai alla pagina delle password o delle carte e tieni premuto (clic lungo) sull'elemento che vuoi eliminare. Apparirà un'opzione di eliminazione.",
+      "howToRestoreTitle": "Posso ripristinare elementi dal Cestino?",
+      "howToRestoreDesc": "Sì, puoi ripristinare qualsiasi carta o password dalla scheda Cestino e riportarla nella tua cassaforte principale in qualsiasi momento prima che venga eliminata permanentemente.",
+      "howToShareTitle": "Come funziona la funzione di condivisione della password?",
+      "howToShareDesc": "Puoi condividere in modo sicuro le password con altri utenti. La password condivisa rimane criptata e solo il destinatario previsto può accedervi."
+    },
+    "contactUs": {
+      "title": "Titolo",
+      "titlePlaceholder": "Inserisci titolo",
+      "message": "Messaggio",
+      "messagePlaceholder": "Descrivi qui il tuo problema...",
+      "send": "Invia",
+      "success": "Il tuo messaggio è stato inviato con successo. Ti risponderemo presto."
+    }
+  },
+  "security": {
+    "title": "Sicurezza",
+    "rememberMe": "Ricordami",
+    "faceId": "Face ID",
+    "biometricId": "ID Biometrico",
+    "changePin": "Cambia PIN",
+    "resendEmail": "Reinvia Email di Verifica",
+    "resendEmailSuccess": "La tua email di attivazione è stata inviata con successo.",
+    "resendEmailError": "Impossibile reinviare l'email di attivazione."
+  },
+  "tabs": {
+    "new": {
+      "title": "Nuovo",
+      "passwordTab": "Password",
+      "cardsTab": "Carte"
+    }
+  },
+  "sync": {
+    "local": "Locale",
+    "cloud": "Cloud"
+  },
+  "password": {
+    "name": "Nome Password",
+    "username": "Nome Utente",
+    "password": "Password",
+    "url": "Sito Web/URL",
+    "notes": "Note",
+    "tags": "Tag",
+    "lastUpdated": "Ultimo Aggiornamento",
+    "editPassword": "Modifica Password",
+    "pendingCloudUpdate": "Le tue modifiche non sono ancora state aggiornate nel cloud.",
+    "passwordSaved": "Password salvata con successo",
+    "shareSuccess": "Invito inviato.",
+    "shareTitle": "Condividi Password",
+    "inviteMailSends": "Email di invito inviata. Chiedi al destinatario di accedere, quindi riprova.",
+    "inviteUserConfiguredNotFinished": "Chiave pubblica del destinatario trovata. La condivisione sarà presto disponibile.",
+    "cannotShareWithYourself": "Non puoi condividere con te stesso.",
+    "recipientHasNoKeys": "Il destinatario non ha terminato la configurazione della Password Master, per favore chiedigli di completarla.",
+    "itemNotFound": "Elemento non trovato.",
+    "someThingWentWrong": "Qualcosa è andato storto. Per favore riprova.",
+    "sharedBy": "Questa password è condivisa da {{who}}.",
+    "sharedWith": "Condivisa con",
+    "shareStatusLoading": "Recupero dello stato di condivisione...",
+    "shareStatus": {
+      "READY": "In attesa",
+      "ACCEPTED": "Accettato",
+      "REVOKED": "Revocato"
+    },
+    "removeAccess": "Rimuovi accesso",
+    "selectPeopleToUnshare": "Seleziona persone con cui interrompere la condivisione",
+    "selectAtLeastOne": "Per favore seleziona almeno un destinatario",
+    "tooltips": {
+      "sync": "Scegli come vuoi sincronizzare questa password tra i vari dispositivi",
+      "name": "Inserisci un nome per questa voce di password",
+      "username": "Inserisci il nome utente per questo account",
+      "password": "Inserisci la password per questo account",
+      "url": "Inserisci l'URL del sito web o il nome dell'applicazione per questa password",
+      "notes": "Aggiungi eventuali note o informazioni aggiuntive su questa password",
+      "tags": "Aggiungi tag per categorizzare e trovare facilmente questa password in seguito",
+      "lastUpdated": "Mostra quando questa password è stata modificata l'ultima volta"
+    },
+    "strength": {
+      "suggestions": {
+        "providePassword": "Per favore inserisci una password.",
+        "increaseLength": "Usa almeno {{n}} caratteri.",
+        "mixedCase": "Usa una combinazione di lettere maiuscole e minuscole.",
+        "addNumbers": "Aggiungi numeri.",
+        "addSymbols": "Aggiungi simboli (es. ! @ #).",
+        "useMoreVariety": "Usa una combinazione di lettere, numeri e simboli.",
+        "avoidSequences": "Evita sequenze comuni come 1234 o abcd.",
+        "avoidRepetition": "Evita di ripetere lo stesso carattere molte volte.",
+        "avoidCommon": "Evita password di uso comune.",
+        "usePassphrase": "Considera una passphrase più lunga con diverse parole non correlate."
+      }
+    }
+  },
+  "card": {
+    "bankNamePlaceholder": "Nome Banca/Nome Carta",
+    "holderNamePlaceholder": "Nome Titolare Carta",
+    "numberPlaceholder": "Numero Carta",
+    "expiryPlaceholder": "Mese/Anno Scadenza (MM/YY)",
+    "cvvPlaceholder": "Codice di Sicurezza (CVV)",
+    "cardPasswordPlaceholder": "Password Carta",
+    "tooltips": {
+      "sync": "Scegli come vuoi sincronizzare questa carta tra i vari dispositivi",
+      "bankName": "Inserisci il Nome della Banca o il Nome della Carta",
+      "holderName": "Inserisci il nome completo come appare sulla tua carta",
+      "number": "Inserisci il numero della tua carta di 16 cifre (verrà formattato automaticamente)",
+      "expiry": "Inserisci la data di scadenza nel formato MM/YY",
+      "cvv": "Inserisci il codice di sicurezza a 3 cifre (CVV/CVC) dal retro della tua carta",
+      "cardPassword": "Inserisci la password associata a questa carta (es. password 3D Secure/shopping online)"
+    }
+  },
+  "activityLog": {
+    "filterAll": "Tutto",
+    "clear": "Cancella",
+    "export": "Esporta JSON"
+  },
+  "alerts": {
+    "validationTitle": "Errore di Validazione",
+    "validationRequiredFields": "Per favore compila tutti i campi obbligatori",
+    "requiredFieldsMissing": "Mancano alcuni campi obbligatori.",
+    "cardNumberLength": "Il numero della carta deve essere di 16 cifre",
+    "successTitle": "Successo",
+    "cardSaved": "Carta salvata con successo",
+    "passwordSaved": "Password salvata con successo",
+    "invitationsSent": "Gli inviti sono stati inviati con successo.",
+    "passwordMovedToTrash": "Password spostata nel cestino",
+    "passwordDeleted": "Password eliminata permanentemente",
+    "cardMovedToTrash": "Carta spostata nel cestino",
+    "cardDeleted": "Carta eliminata permanentemente",
+    "errorTitle": "Errore",
+    "saveFailed": "Impossibile salvare la carta",
+    "passwordSaveFailed": "Impossibile salvare la password",
+    "fingerprintNotRecognized": "Impronta digitale non riconosciuta. Riprova.",
+    "unexpected": "Si è verificato un errore inaspettato",
+    "networkError": "Errore di rete. Per favore controlla la tua connessione internet.",
+    "serverError": "Il server non è attualmente disponibile. Per favore riprova più tardi.",
+    "timeoutError": "La richiesta è scaduta. Per favore riprova.",
+    "information": "Informazioni",
+    "sessionExpired": "La tua sessione è scaduta. Per favore accedi di nuovo.",
+    "offline": "Sei offline. Alcune funzioni potrebbero non essere disponibili.",
+    "cloudNotAllowed": "Il Cloud richiede un'email verificata e una Password Master configurata.",
+    "shareNotAllowed": "La condivisione richiede un'email verificata e una Password Master configurata.",
+    "passwordLimitReached": "Limite di password raggiunto per il tuo piano.",
+    "cardLimitReached": "Limite di carte raggiunto per il tuo piano.",
+    "shareLimitReached": "Limite di condivisione raggiunto per il tuo piano.",
+    "accessRemoved": "Accesso rimosso",
+    "removeAccessFailed": "Impossibile rimuovere l'accesso"
+  },
+  "logout": {
+    "title": "Esci",
+    "message": "Sei sicuro di voler uscire?"
+  },
+  "greeting": {
+    "goodMorning": "Buongiorno",
+    "goodAfternoon": "Buon pomeriggio",
+    "goodEvening": "Buonasera",
+    "goodNight": "Buonanotte"
+  },
+  "home": {
+    "recentActivity": "Attività Recente",
+    "statistics": "Statistiche",
+    "passwordStrength": "Robustezza Password",
+    "planLimits": "Piano e Limiti",
+    "planManageCta": "Gestisci",
+    "planUpgradeCta": "Passa a Pro",
+    "planCurrent": "Piano attuale",
+    "planPremiumName": "Premium",
+    "planFreeName": "Gratuito",
+    "planUnknownName": "Caricamento...",
+    "planPremiumDescription": "I limiti Premium sono attivi.",
+    "planFreeDescription": "Passa a un piano superiore per sbloccare più spazio e condivisione.",
+    "planLoading": "Recupero diritti...",
+    "shares": "Condivisioni",
+    "unlimited": "Illimitato",
+    "remaining": "{{count}} rimanenti",
+    "securityStatus": "Stato Sicurezza",
+    "securityManageCta": "Sicurezza",
+    "masterPassword": "Password Master",
+    "emailVerification": "Verifica email",
+    "statusBadge": {
+      "configured": "Attivo",
+      "pending": "In attesa",
+      "none": "Mancante",
+      "skipped": "Saltato",
+      "verified": "Verificato",
+      "unverified": "Non verificato"
+    },
+    "statusHint": {
+      "master": {
+        "CONFIGURED": "La tua cassaforte è protetta da una Password Master.",
+        "PENDING": "Completa l'impostazione della tua Password Master per sbloccare le funzioni cloud.",
+        "NONE": "Nessuna Password Master ancora impostata. Configurala per proteggere la tua cassaforte.",
+        "SKIPPED": "Impostazione saltata. Abilitala per proteggere i tuoi dati."
+      },
+      "email": {
+        "VERIFIED": "Email confermata. La condivisione e la sincronizzazione cloud sono abilitate.",
+        "UNVERIFIED": "Verifica la tua email per abilitare la condivisione e la sincronizzazione cloud."
+      }
+    }
+  },
+  "items": {
+    "card": "Carta",
+    "password": "Password"
+  },
+  "delete": {
+    "confirm": "Sei sicuro di voler rimuovere questo {{item}}?",
+    "confirmPermanent": "Questo eliminerà permanentemente questo {{item}}. L'azione non può essere annullata. Vuoi continuare?"
+  },
+  "cards": {
+    "title": "Le mie Carte",
+    "tabs": {
+      "cloud": "Cloud",
+      "local": "Locale",
+      "trash": "Cestino"
+    },
+    "loading": "Caricamento carte...",
+    "empty": "Nessuna carta trovata",
+    "createCta": "Crea Carta"
+  },
+  "passwords": {
+    "title": "Le mie Password",
+    "tabs": {
+      "cloud": "Cloud",
+      "local": "Locale",
+      "trash": "Cestino"
+    },
+    "loading": "Caricamento password...",
+    "empty": "Nessuna password trovata",
+    "createCta": "Crea Password",
+    "unnamed": "Senza nome",
+    "noUsername": "Nessun nome utente",
+    "noPassword": "Nessuna password"
+  },
+  "unsaved": {
+    "title": "Modifiche non salvate",
+    "message": "Hai delle modifiche non salvate. Se esci ora, le tue modifiche andranno perse. Vuoi tornare indietro senza salvare?",
+    "yes": "Sì, scarta",
+    "no": "No, rimani"
+  },
+  "trash": {
+    "time": {
+      "days": "{{count}} giorno",
+      "days_plural": "{{count}} giorni",
+      "hours": "{{count}} ora",
+      "hours_plural": "{{count}} ore",
+      "minutes": "{{count}} min",
+      "minutes_plural": "{{count}} min"
+    },
+    "info": {
+      "password": "Tra {{time}}, questa password sarà eliminata permanentemente.",
+      "card": "Tra {{time}}, questa carta sarà eliminata permanentemente."
+    }
+  },
+  "copy": {
+    "copied": "Copiato {{what}} negli appunti",
+    "empty": "Niente da copiare per {{what}}",
+    "what": {
+      "cardNumber": "numero carta",
+      "cardHolderName": "nome titolare carta",
+      "username": "nome utente",
+      "password": "password",
+      "url": "URL"
+    }
+  },
+  "notifications": {
+    "empty": "Ancora Nessuna Notifica",
+    "emptyDesc": "Ti avviseremo quando succede qualcosa di importante. Tieni d'occhio questo spazio!",
+    "shareRequest": "{{who}} vuole condividere una password con te.",
+    "someone": "Qualcuno",
+    "shareAccepted": "Richiesta di condivisione accettata",
+    "shareDeclined": "Richiesta di condivisione rifiutata",
+    "shareDecisionFailed": "Impossibile applicare la decisione. Per favore riprova."
+  },
+  "validation": {
+    "invalidEmail": "Per favore inserisci un indirizzo email valido"
+  },
+  "errors": {
+    "required": "Questo campo è obbligatorio.",
+    "minLength": "Deve essere di almeno {{count}} caratteri",
+    "invalidEmail": "Per favore inserisci un indirizzo email valido",
+    "valueMustBeNumber": "Il valore deve essere un numero valido.",
+    "invalidCreditCard": "Numero di carta di credito non valido.",
+    "creditCardDigits": "Il numero della carta deve essere di {{count}} cifre",
+    "invalidCVV": "CVV non valido.",
+    "invalidExpiry": "Data di scadenza non valida. Per favore usa il formato MM/YY.",
+    "passwordsDoNotMatch": "Le password non corrispondono",
+    "invalidMasterPassword": "La Password Master è errata",
+    "generic": "Qualcosa è andato storto. Per favore riprova."
+  },
+  "masterPassword": {
+    "title": "Crea Password Master",
+    "description": "La tua Password Master protegge e sblocca la tua cassaforte. Non viene mai inviata ai nostri server. Non dimenticarla: senza questa password, i tuoi dati criptati non possono essere recuperati.",
+    "password": "Scegli una password robusta: almeno 12 caratteri, con un mix di lettere, numeri e simboli.",
+    "passwordPlaceholder": "Password Master",
+    "confirmPlaceholder": "Conferma Password Master",
+    "skip": "Salta",
+    "continue": "Continua"
+  },
+  "loading": {
+    "default": "Caricamento...",
+    "timeout": "La richiesta è scaduta. Per favore riprova."
+  },
+  "accessibility": {
+    "loadingLogo": "Caricamento logo"
+  },
+  "confirmMasterPassword": {
+    "title": "Conferma Password Master",
+    "description": "Per favore conferma la tua Password Master per sbloccare la tua cassaforte su questo dispositivo.",
+    "passwordPlaceholder": "Password Master",
+    "confirm": "Conferma"
+  },
+  "forgotPassword": {
+    "methodsTitle": "Password Dimenticata",
+    "methodsSubtitle": "Seleziona quali dettagli di contatto dobbiamo usare per reimpostare la tua password",
+    "viaEmail": "via Email:",
+    "continue": "Continua",
+    "emailTitle": "Inserisci la tua Email",
+    "resetPassword": "Reimposta Password",
+    "rememberPasswordQuestion": "Ricordi la password?",
+    "invalidEmailMessage": "Per favore fornisci un'email valida.",
+    "requestSuccessTitle": "Se esiste un account",
+    "requestSuccessMessage": "Se esiste un account, riceverai un'email a breve.",
+    "unexpectedErrorMessage": "Si è verificato un errore inaspettato."
+  },
+  "upgrade": {
+    "title": "Passa a Pro",
+    "choosePlan": "Scegli un Piano",
+    "subtitle": "Sblocca limiti più alti e funzioni avanzate passando a un piano superiore.",
+    "subscriptionDetail": "Dettagli Abbonamento",
+    "plan": "Piano",
+    "expiresAt": "Scade il",
+    "currentLimits": "Limiti Attuali",
+    "passwords": "Password",
+    "cards": "Carte",
+    "shares": "Condivisioni",
+    "cancel": "Annulla",
+    "upgrade": "Passa a Pro",
+    "upgradeToPro": "Passa a Pro",
+    "default": "Predefinito",
+    "current": "Attuale",
+    "currentPlanBadge": "Piano Attuale",
+    "currentPlanDescription": "Questo è il tuo abbonamento attivo. Puoi gestirlo o modificarlo da questa schermata.",
+    "currentPlanButtonLabel": "Piano Attuale",
+    "subscriptionManagedInStore": "Le modifiche al piano sono gestite dalla schermata degli abbonamenti dell'App Store.",
+    "premium": "Premium",
+    "monthly": "Mensile",
+    "yearly": "Annuale",
+    "unlimited": "Illimitato",
+    "included": "Incluso",
+    "notIncluded": "Non incluso",
+    "cloudSync": "Sincronizzazione Cloud",
+    "secureNotes": "Note Sicure",
+    "watchtower": "Watchtower",
+    "itemHistory": "Cronologia Elementi",
+    "export": "Esporta",
+    "prioritySupport": "Supporto Prioritario",
+    "familySharing": "In Famiglia",
+    "maxFamilyMembers": "Max Membri Famiglia",
+    "restorePurchases": "Ripristina Acquisti",
+    "manageSubscription": "Gestisci Abbonamento",
+    "failedToLoadPlans": "Impossibile caricare i piani",
+    "unexpectedError": "Errore inaspettato durante il caricamento dei piani",
+    "free": "Gratis",
+    "processingPurchase": "Elaborazione acquisto...",
+    "purchaseComplete": "Il tuo acquisto è completo.",
+    "purchaseFailed": "Acquisto fallito",
+    "purchaseFailedGeneric": "L'App Store non ha potuto completare questo acquisto.",
+    "purchaseError": "Errore di acquisto",
+    "purchaseDiagnostics": "Diagnostica: {{details}}",
+    "purchasePaymentsUnavailable": "Questo account Apple non è attualmente autorizzato a effettuare acquisti su questo dispositivo.",
+    "restoringPurchases": "Ripristino acquisti...",
+    "restored": "Ripristinato",
+    "purchasesRestored": "Acquisti ripristinati.",
+    "restoreFailed": "Ripristino fallito",
+    "productsUnavailable": "I prodotti in abbonamento non sono attualmente disponibili. Riprova tra qualche minuto.",
+    "code": "Codice: {{code}}",
+    "proMonthly": "PazzPro Mensile",
+    "proYearly": "PazzPro Annuale",
+    "familyMonthly": "PazzFamily Mensile",
+    "familyYearly": "PazzFamily Annuale",
+    "monthUnit": "m",
+    "yearUnit": "a",
+    "legalTitle": "Informazioni Legali",
+    "legalDescription": "Consulta la nostra Informativa sulla Privacy e i Termini di Utilizzo prima di acquistare un abbonamento con rinnovo automatico.",
+    "privacyPolicy": "Informativa sulla Privacy",
+    "termsOfUse": "Termini di Utilizzo",
+    "legalLinkError": "Impossibile aprire il documento legale selezionato."
+  }
+}

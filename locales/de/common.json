@@ -1,0 +1,513 @@
+{
+  "common": {
+    "information": "Information",
+    "cancel": "Abbrechen",
+    "yesLogout": "Ja, Abmelden",
+    "save": "Speichern",
+    "saving": "Speichern...",
+    "removingAccess": "Zugriff wird entfernt...",
+    "deleting": "Löschen...",
+    "update": "Aktualisieren",
+    "seeAll": "Alle ansehen",
+    "delete": "Löschen",
+    "email": "E-Mail",
+    "close": "Schließen",
+    "share": "Teilen",
+    "accept": "Akzeptieren",
+    "decline": "Ablehnen",
+    "done": "Fertig",
+    "restore": "Wiederherstellen"
+  },
+  "auth": {
+    "loginTitleLine1": "Anmeldung bei Ihrem",
+    "loginTitleLine2": "Konto",
+    "createTitleLine1": "Erstellen Sie Ihr",
+    "createTitleLine2": "Konto",
+    "passwordPlaceholder": "Passwort",
+    "rememberMe": "Angemeldet bleiben",
+    "loginButton": "Anmelden",
+    "signUpButton": "Registrieren",
+    "signInButton": "Anmelden",
+    "forgotPasswordQuestion": "Passwort vergessen?",
+    "orContinueWith": "oder weiter mit",
+    "dontHaveAccount": "Sie haben noch kein Konto?",
+    "alreadyHaveAccount": "Sie haben bereits ein Konto?",
+    "termsTitle": "Allgemeine Geschäftsbedingungen",
+    "acceptPrivacyToContinue": "Bitte akzeptieren Sie unsere Datenschutzrichtlinie, um fortzufahren.",
+    "acceptPrivacyInline": "Indem Sie fortfahren, akzeptieren Sie unsere Datenschutzrichtlinie",
+    "invalidInputTitle": "Ungültige Eingabe",
+    "invalidInputMessage": "Bitte überprüfen Sie die Fehler im Formular.",
+    "signupTitle": "Registrieren",
+    "emailExistsTitle": "E-Mail existiert bereits",
+    "emailExistsMessage": "Ihre E-Mail-Adresse existiert bereits. Wenn Sie sich nicht an Ihr Passwort erinnern, fahren Sie bitte mit 'Passwort vergessen' fort.",
+    "responseMissingTokens": "Antwort enthält keine Tokens.",
+    "loginFailed": "Anmeldung fehlgeschlagen. Bitte überprüfen Sie Ihre Zugangsdaten.",
+    "loginMissingTokens": "Anmeldeantwort enthält keine Tokens.",
+    "loginError": "Ein Fehler ist während der Anmeldung aufgetreten."
+  },
+  "profile": {
+    "title": "Profil"
+  },
+  "settings": {
+    "updatePassword": "Passwort aktualisieren",
+    "myNotification": "Meine Benachrichtigungen",
+    "address": "Adresse",
+    "editProfile": "Profil bearbeiten",
+    "notification": "Benachrichtigung",
+    "logoutPreferences": "Abmelde-Einstellungen",
+    "security": "Sicherheit",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "helpCenter": "Hilfe-Center",
+    "faqTitle": "Häufig gestellte Fragen (FAQ)",
+    "contactUsTitle": "Kontaktieren Sie uns",
+    "customerService": "Kundenservice",
+    "inviteFriends": "Freunde einladen",
+    "inviteFriendsDescription": "Laden Sie Ihre Freunde ein, indem Sie deren E-Mail-Adressen eingeben. Sie können mehrere Personen gleichzeitig hinzufügen, indem Sie die Adressen mit einem Komma (',') trennen.",
+    "inviteFriendsPlaceholder": "E-Mail-Adressen durch Komma getrennt eingeben",
+    "inviteFriendsLabel": "E-Mail-Adresse",
+    "sendInvitations": "Einladungen senden",
+    "inviteStatusSent": "Gesendet",
+    "inviteStatusExists": "Existiert bereits",
+    "inviteStatusFailed": "Fehlgeschlagen",
+    "logout": "Abmelden",
+    "darkMode": "Dunkelmodus",
+    "languageRegion": "Sprache & Region",
+    "removeLocalData": "Lokale Daten entfernen",
+    "removeLocalDataDescription": "Lokal gespeicherte Daten (verschlüsselte Passwörter und Karten) werden dauerhaft gelöscht, wenn Sie sich abmelden. Diese Aktion kann nicht rückgängig gemacht oder wiederhergestellt werden.",
+    "removeMPConfig": "Master-Passwort-Konfiguration entfernen",
+    "removeMPConfigDescription": "Die Master-Passwort-Konfiguration und die Verschlüsselungsschlüssel werden von diesem Gerät entfernt, wenn Sie sich abmelden. Sie werden bei Ihrer nächsten Anmeldung aufgefordert, Ihr Master-Passwort erneut einzugeben, um auf Ihre Daten zuzugreifen.",
+    "deleteAccount": {
+      "menu": "Konto löschen",
+      "title": "Konto löschen",
+      "warningTitle": "Dauerhafte Kontolöschung",
+      "warningBody": "Das Löschen Ihres Kontos ist dauerhaft. Ihre verschlüsselten Tresordaten und Ihr Kontoprofil werden von unseren Systemen entfernt.",
+      "subscriptionNote": "Wenn Sie ein aktives App Store-Abonnement haben, kündigen Sie dieses in den Abonnementeinstellungen Ihrer Apple-ID.",
+      "passwordLabel": "Aktuelles Passwort",
+      "passwordRequired": "Bitte geben Sie Ihr aktuelles Passwort ein.",
+      "action": "Konto löschen",
+      "confirmTitle": "Kontolöschung bestätigen",
+      "confirmMessage": "Diese Aktion kann nicht rückgängig gemacht werden. Sind Sie sicher, dass Sie Ihr Konto dauerhaft löschen möchten?",
+      "confirmButton": "Ja, löschen",
+      "invalidCredentials": "Das aktuelle Passwort ist nicht korrekt.",
+      "passwordConfirmationUnavailable": "Dieses Konto unterstützt noch keine Passwortbestätigung für die Löschung.",
+      "userNotFound": "Benutzerkonto nicht gefunden.",
+      "unauthorized": "Ihre Sitzung ist abgelaufen. Bitte melden Sie sich erneut an.",
+      "error": "Kontolöschung fehlgeschlagen. Bitte versuchen Sie es erneut."
+    },
+    "privacy": {
+      "title": "Datenschutzrichtlinie",
+      "intro": "Pazzwrd verpflichtet sich zur Einhaltung höchster Standards für Datenschutz und Datensicherheit. Diese Datenschutzrichtlinie beschreibt die institutionellen Protokolle und technischen Maßnahmen zum Schutz von Benutzerinformationen.",
+      "masterPasswordTitle": "1. Master-Passwort und kryptografische Protokolle",
+      "masterPasswordDesc": "Das Master-Passwort dient als primärer kryptografischer Seed für den digitalen Tresor des Benutzers. Es wird verwendet, um eindeutige Verschlüsselungsschlüssel zum Schutz sensibler Zugangsdaten und Finanzdaten abzuleiten. Pazzwrd verfolgt eine strikte Non-Custodial-Policy; das Master-Passwort wird niemals an unsere Infrastruktur übertragen oder dort gespeichert.",
+      "encryptionDetail": "Die Datenintegrität wird durch die Implementierung der branchenüblichen XChaCha20-Poly1305-Verschlüsselung aufrechterhalten. Jeder Tresoreintrag wird mit einem individuellen Schlüssel gesichert, der anschließend mit einem vom Master-Passwort des Benutzers abgeleiteten Key-Encryption-Key (KEK) umschlossen wird.",
+      "storageTitle": "2. Datenmanagement und -speicherung",
+      "storageDesc": "Pazzwrd bietet mehrschichtige Speicherlösungen, um Datenverfügbarkeit und -sicherheit zu gewährleisten:",
+      "localStorage": "Speicherung auf dem Gerät: Verschlüsselte Daten werden lokal auf dem Gerät des Benutzers gespeichert, was den Offline-Zugriff ermöglicht und gleichzeitig die kryptografische Sicherheit wahrt.",
+      "cloudStorage": "Cloud-Synchronisierung: Nach Genehmigung durch den Benutzer werden verschlüsselte Datensätze mit unserer sicheren Cloud-Infrastruktur synchronisiert, um den plattformübergreifenden Zugriff zu ermöglichen.",
+      "publicDataTitle": "3. Datenklassifizierung",
+      "publicDataDesc": "Informationen werden basierend auf ihrer Sensibilität kategorisiert, um die Leistung zu optimieren und gleichzeitig maximale Sicherheit zu gewährleisten:",
+      "privateData": "Klassifizierte Daten: Alle sensiblen Datensätze, einschließlich Passwörter, Zahlungsinformationen und privater Notizen, werden lokal verschlüsselt, bevor sie übertragen oder gespeichert werden.",
+      "publicData": "Metadaten: Nicht sensible Metadaten (z. B. Dienstkennungen oder organisatorische Bezeichnungen) können in einem unverschlüsselten Format gespeichert werden, um effiziente Indizierungs- und Abrufvorgänge zu ermöglichen.",
+      "zeroKnowledgeTitle": "4. Implementierung der Zero-Knowledge-Architektur",
+      "zeroKnowledgeDesc": "Unsere Systeme arbeiten unter einer Zero-Knowledge-Architektur. Der Server fungiert ausschließlich als sicheres Repository für verschlüsselte Payloads. Der Dienstanbieter verfügt über keine technischen Mittel, um auf Verschlüsselungsschlüssel, Master-Passwörter oder entschlüsselte Benutzerinhalte zuzugreifen. Dieses architektonische Design stellt sicher, dass Daten für unbefugte Parteien, einschließlich des Dienstanbieters, unzugänglich bleiben.",
+      "warningTitle": "5. Wichtiger Hinweis: Haftungsausschluss für nicht wiederherstellbare Daten",
+      "warningDesc": "Aufgrund der Implementierung einer Ende-zu-Ende-Verschlüsselung und des Zero-Knowledge-Modells ist die Wiederherstellung eines verlorenen Master-Passworts durch den Dienstanbieter technisch unmöglich. Wenn das Master-Passwort nicht aufbewahrt wird, führt dies zum dauerhaften Verlust des Zugriffs auf alle verschlüsselten Daten. Benutzern wird dringend empfohlen, sichere Backups ihres Master-Passworts aufzubewahren."
+    },
+    "faq": {
+      "whatIsCloudTitle": "Was bedeutet Cloud?",
+      "whatIsCloudDesc": "Cloud bedeutet, dass Ihre verschlüsselten Daten mit unseren sicheren Servern synchronisiert werden. Dies ermöglicht Ihnen den Zugriff auf Ihre Passwörter und Karten von jedem Gerät aus, indem Sie sich bei Ihrem Konto anmelden.",
+      "whatIsLocalTitle": "Was bedeutet Lokal?",
+      "whatIsLocalDesc": "Lokal bedeutet, dass Ihre Daten nur auf Ihrem Gerät gespeichert werden. Sie sind verschlüsselt und verlassen Ihr Telefon niemals, es sei denn, Sie aktivieren die Cloud-Synchronisierung.",
+      "howDataStoredTitle": "Wie werden Passwörter und Kartendetails gespeichert?",
+      "howDataStoredDesc": "Sowohl im Cloud- als auch im lokalen Speicher werden Ihre Daten immer mit branchenüblichen Protokollen verschlüsselt. Nur Sie besitzen den Schlüssel (Ihr Master-Passwort), um diese Informationen zu entschlüsseln.",
+      "whatIsMPTitle": "Was ist MP (Master-Passwort)?",
+      "whatIsMPDesc": "MP steht für Master-Passwort. Es ist das einzige Passwort, mit dem Sie auf Ihren Tresor zugreifen. Wir speichern Ihr Master-Passwort niemals, daher ist es entscheidend, dass Sie es nicht vergessen.",
+      "trashRulesTitle": "Was sind die Regeln für den Papierkorb?",
+      "trashRulesDesc": "Wenn Sie ein Passwort oder eine Karte löschen, wird es in den Tab 'Papierkorb' verschoben. Elemente im Papierkorb werden nach einem bestimmten Zeitraum dauerhaft gelöscht, oder Sie können ihn manuell leeren.",
+      "howToDeleteTitle": "Wie lösche ich ein Passwort oder eine Karte?",
+      "howToDeleteDesc": "Um ein Passwort oder eine Karte zu löschen, gehen Sie auf die Passwort- oder Kartenseite und halten Sie das Element, das Sie löschen möchten, gedrückt (Langklick). Eine Löschoption wird angezeigt.",
+      "howToRestoreTitle": "Kann ich Elemente aus dem Papierkorb wiederherstellen?",
+      "howToRestoreDesc": "Ja, Sie können jede Karte oder jedes Passwort jederzeit aus dem Papierkorb in Ihren Haupttresor wiederherstellen, bevor es dauerhaft gelöscht wird.",
+      "howToShareTitle": "Wie funktioniert die Funktion zum Teilen von Passwörtern?",
+      "howToShareDesc": "Sie können Passwörter sicher mit anderen Benutzern teilen. Das geteilte Passwort bleibt verschlüsselt und nur der vorgesehene Empfänger kann darauf zugreifen."
+    },
+    "contactUs": {
+      "title": "Titel",
+      "titlePlaceholder": "Titel eingeben",
+      "message": "Nachricht",
+      "messagePlaceholder": "Beschreiben Sie hier Ihr Problem...",
+      "send": "Senden",
+      "success": "Ihre Nachricht wurde erfolgreich gesendet. Wir werden uns in Kürze bei Ihnen melden."
+    }
+  },
+  "security": {
+    "title": "Sicherheit",
+    "rememberMe": "Angemeldet bleiben",
+    "faceId": "Face ID",
+    "biometricId": "Biometrische ID",
+    "changePin": "PIN ändern",
+    "resendEmail": "Bestätigungs-E-Mail erneut senden",
+    "resendEmailSuccess": "Ihre Aktivierungs-E-Mail wurde erfolgreich versendet.",
+    "resendEmailError": "Versenden der Aktivierungs-E-Mail fehlgeschlagen."
+  },
+  "tabs": {
+    "new": {
+      "title": "Neu",
+      "passwordTab": "Passwort",
+      "cardsTab": "Karten"
+    }
+  },
+  "sync": {
+    "local": "Lokal",
+    "cloud": "Cloud"
+  },
+  "password": {
+    "name": "Passwortname",
+    "username": "Benutzername",
+    "password": "Passwort",
+    "url": "Website/URL",
+    "notes": "Notizen",
+    "tags": "Tags",
+    "lastUpdated": "Zuletzt aktualisiert",
+    "editPassword": "Passwort bearbeiten",
+    "pendingCloudUpdate": "Ihre Änderungen wurden noch nicht in der Cloud aktualisiert.",
+    "passwordSaved": "Passwort erfolgreich gespeichert",
+    "shareSuccess": "Einladung gesendet.",
+    "shareTitle": "Passwort teilen",
+    "inviteMailSends": "Einladungs-E-Mail gesendet. Bitten Sie den Empfänger, sich anzumelden, und versuchen Sie es dann erneut.",
+    "inviteUserConfiguredNotFinished": "Öffentlicher Schlüssel des Empfängers gefunden. Teilen wird bald verfügbar sein.",
+    "cannotShareWithYourself": "Sie können nicht mit sich selbst teilen.",
+    "recipientHasNoKeys": "Der Empfänger hat die Master-Passwort-Einrichtung nicht abgeschlossen. Bitte bitten Sie ihn, dies zu tun.",
+    "itemNotFound": "Element nicht gefunden.",
+    "someThingWentWrong": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
+    "sharedBy": "Dieses Passwort wird von {{who}} geteilt.",
+    "sharedWith": "Geteilt mit",
+    "shareStatusLoading": "Teilungsstatus wird abgerufen...",
+    "shareStatus": {
+      "READY": "Ausstehend",
+      "ACCEPTED": "Akzeptiert",
+      "REVOKED": "Widerrufen"
+    },
+    "removeAccess": "Zugriff entfernen",
+    "selectPeopleToUnshare": "Personen auswählen, deren Freigabe aufgehoben werden soll",
+    "selectAtLeastOne": "Bitte wählen Sie mindestens einen Empfänger aus",
+    "tooltips": {
+      "sync": "Wählen Sie aus, wie Sie dieses Passwort über Geräte hinweg synchronisieren möchten",
+      "name": "Geben Sie einen Namen für diesen Passworteintrag ein",
+      "username": "Geben Sie den Benutzernamen für dieses Konto ein",
+      "password": "Geben Sie das Passwort für dieses Konto ein",
+      "url": "Geben Sie die Website-URL oder den App-Namen für dieses Passwort ein",
+      "notes": "Fügen Sie zusätzliche Notizen oder Informationen zu diesem Passwort hinzu",
+      "tags": "Fügen Sie Tags hinzu, um dieses Passwort später leicht zu kategorisieren und zu finden",
+      "lastUpdated": "Zeigt an, wann dieses Passwort zuletzt geändert wurde"
+    },
+    "strength": {
+      "suggestions": {
+        "providePassword": "Bitte geben Sie ein Passwort ein.",
+        "increaseLength": "Verwenden Sie mindestens {{n}} Zeichen.",
+        "mixedCase": "Mischen Sie Groß- und Kleinschreibung.",
+        "addNumbers": "Fügen Sie Zahlen hinzu.",
+        "addSymbols": "Fügen Sie Symbole hinzu (z. B. ! @ #).",
+        "useMoreVariety": "Verwenden Sie eine Mischung aus Buchstaben, Zahlen und Symbolen.",
+        "avoidSequences": "Vermeiden Sie gängige Sequenzen wie 1234 oder abcd.",
+        "avoidRepetition": "Vermeiden Sie es, dasselbe Zeichen mehrmals zu wiederholen.",
+        "avoidCommon": "Vermeiden Sie häufig verwendete Passwörter.",
+        "usePassphrase": "Erwägen Sie eine längere Passphrase mit mehreren unzusammenhängenden Wörtern."
+      }
+    }
+  },
+  "card": {
+    "bankNamePlaceholder": "Bankname/Kartenname",
+    "holderNamePlaceholder": "Name des Karteninhabers",
+    "numberPlaceholder": "Kartennummer",
+    "expiryPlaceholder": "Ablaufmonat/-jahr (MM/JJ)",
+    "cvvPlaceholder": "Sicherheitscode (CVV)",
+    "cardPasswordPlaceholder": "Kartenpasswort",
+    "tooltips": {
+      "sync": "Wählen Sie aus, wie Sie diese Karte über Geräte hinweg synchronisieren möchten",
+      "bankName": "Geben Sie den Banknamen oder Kartennamen ein",
+      "holderName": "Geben Sie den vollständigen Namen so ein, wie er auf Ihrer Karte steht",
+      "number": "Geben Sie Ihre 16-stellige Kartennummer ein (wird automatisch formatiert)",
+      "expiry": "Geben Sie das Ablaufdatum im Format MM/JJ ein",
+      "cvv": "Geben Sie den 3-stelligen Sicherheitscode (CVV/CVC) von der Rückseite Ihrer Karte ein",
+      "cardPassword": "Geben Sie das mit dieser Karte verknüpfte Passwort ein (z. B. 3D Secure/Online-Shopping-Passwort)"
+    }
+  },
+  "activityLog": {
+    "filterAll": "Alle",
+    "clear": "Leeren",
+    "export": "Export JSON"
+  },
+  "alerts": {
+    "validationTitle": "Validierungsfehler",
+    "validationRequiredFields": "Bitte füllen Sie alle Pflichtfelder aus",
+    "requiredFieldsMissing": "Einige Pflichtfelder fehlen.",
+    "cardNumberLength": "Die Kartennummer muss 16 Ziffern lang sein",
+    "successTitle": "Erfolg",
+    "cardSaved": "Karte erfolgreich gespeichert",
+    "passwordSaved": "Passwort erfolgreich gespeichert",
+    "invitationsSent": "Einladungen wurden erfolgreich versendet.",
+    "passwordMovedToTrash": "Passwort in den Papierkorb verschoben",
+    "passwordDeleted": "Passwort dauerhaft gelöscht",
+    "cardMovedToTrash": "Karte in den Papierkorb verschoben",
+    "cardDeleted": "Karte dauerhaft gelöscht",
+    "errorTitle": "Fehler",
+    "saveFailed": "Speichern der Karte fehlgeschlagen",
+    "passwordSaveFailed": "Speichern des Passworts fehlgeschlagen",
+    "fingerprintNotRecognized": "Fingerabdruck nicht erkannt. Versuchen Sie es erneut.",
+    "unexpected": "Ein unerwarteter Fehler ist aufgetreten",
+    "networkError": "Netzwerkfehler. Bitte überprüfen Sie Ihre Internetverbindung.",
+    "serverError": "Der Server ist derzeit nicht verfügbar. Bitte versuchen Sie es später erneut.",
+    "timeoutError": "Die Anfrage ist zeitlich abgelaufen. Bitte versuchen Sie es erneut.",
+    "information": "Information",
+    "sessionExpired": "Ihre Sitzung ist abgelaufen. Bitte melden Sie sich erneut an.",
+    "offline": "Sie sind offline. Einige Funktionen sind möglicherweise nicht verfügbar.",
+    "cloudNotAllowed": "Cloud erfordert eine verifizierte E-Mail und ein konfiguriertes Master-Passwort.",
+    "shareNotAllowed": "Teilen erfordert eine verifizierte E-Mail und ein konfiguriertes Master-Passwort.",
+    "passwordLimitReached": "Passwortlimit für Ihren Plan erreicht.",
+    "cardLimitReached": "Kartenlimit für Ihren Plan erreicht.",
+    "shareLimitReached": "Teilungslimit für Ihren Plan erreicht.",
+    "accessRemoved": "Zugriff entfernt",
+    "removeAccessFailed": "Zugriff konnte nicht entfernt werden"
+  },
+  "logout": {
+    "title": "Abmelden",
+    "message": "Sind Sie sicher, dass Sie sich abmelden möchten?"
+  },
+  "greeting": {
+    "goodMorning": "Guten Morgen",
+    "goodAfternoon": "Guten Tag",
+    "goodEvening": "Guten Abend",
+    "goodNight": "Gute Nacht"
+  },
+  "home": {
+    "recentActivity": "Kürzliche Aktivitäten",
+    "statistics": "Statistiken",
+    "passwordStrength": "Passwortstärke",
+    "planLimits": "Plan & Limits",
+    "planManageCta": "Verwalten",
+    "planUpgradeCta": "Upgrade",
+    "planCurrent": "Aktueller Plan",
+    "planPremiumName": "Premium",
+    "planFreeName": "Kostenlos",
+    "planUnknownName": "Laden...",
+    "planPremiumDescription": "Premium-Limits sind aktiv.",
+    "planFreeDescription": "Upgrade durchführen, um mehr Speicher und Freigaben freizuschalten.",
+    "planLoading": "Berechtigungen werden abgerufen...",
+    "shares": "Freigaben",
+    "unlimited": "Unbegrenzt",
+    "remaining": "{{count}} verbleibend",
+    "securityStatus": "Sicherheitsstatus",
+    "securityManageCta": "Sicherheit",
+    "masterPassword": "Master-Passwort",
+    "emailVerification": "E-Mail-Verifizierung",
+    "statusBadge": {
+      "configured": "Aktiv",
+      "pending": "Ausstehend",
+      "none": "Fehlend",
+      "skipped": "Übersprungen",
+      "verified": "Verifiziert",
+      "unverified": "Nicht verifiziert"
+    },
+    "statusHint": {
+      "master": {
+        "CONFIGURED": "Ihr Tresor ist mit einem Master-Passwort geschützt.",
+        "PENDING": "Schließen Sie die Einrichtung Ihres Master-Passworts ab, um Cloud-Funktionen freizuschalten.",
+        "NONE": "Noch kein Master-Passwort. Richten Sie es ein, um Ihren Tresor zu sichern.",
+        "SKIPPED": "Einrichtung übersprungen. Aktivieren Sie es, um Ihre Daten zu sichern."
+      },
+      "email": {
+        "VERIFIED": "E-Mail ist bestätigt. Teilen und Cloud-Synchronisierung sind aktiviert.",
+        "UNVERIFIED": "Verifizieren Sie Ihre E-Mail, um Teilen und Cloud-Synchronisierung zu aktivieren."
+      }
+    }
+  },
+  "items": {
+    "card": "Karte",
+    "password": "Passwort"
+  },
+  "delete": {
+    "confirm": "Sind Sie sicher, dass Sie dieses {{item}} entfernen möchten?",
+    "confirmPermanent": "Dadurch wird dieses {{item}} dauerhaft gelöscht. Diese Aktion kann nicht rückgängig gemacht werden. Möchten Sie fortfahren?"
+  },
+  "cards": {
+    "title": "Meine Karten",
+    "tabs": {
+      "cloud": "Cloud",
+      "local": "Lokal",
+      "trash": "Papierkorb"
+    },
+    "loading": "Karten werden geladen...",
+    "empty": "Keine Karten gefunden",
+    "createCta": "Karte erstellen"
+  },
+  "passwords": {
+    "title": "Meine Passwörter",
+    "tabs": {
+      "cloud": "Cloud",
+      "local": "Lokal",
+      "trash": "Papierkorb"
+    },
+    "loading": "Passwörter werden geladen...",
+    "empty": "Keine Passwörter gefunden",
+    "createCta": "Passwort erstellen",
+    "unnamed": "Unbenannt",
+    "noUsername": "Kein Benutzername",
+    "noPassword": "Kein Passwort"
+  },
+  "unsaved": {
+    "title": "Nicht gespeicherte Änderungen",
+    "message": "Sie haben nicht gespeicherte Änderungen. Wenn Sie jetzt gehen, gehen Ihre Bearbeitungen verloren. Möchten Sie ohne Speichern zurückkehren?",
+    "yes": "Ja, verwerfen",
+    "no": "Nein, bleiben"
+  },
+  "trash": {
+    "time": {
+      "days": "{{count}} Tag",
+      "days_plural": "{{count}} Tage",
+      "hours": "{{count}} Stunde",
+      "hours_plural": "{{count}} Stunden",
+      "minutes": "{{count}} Min.",
+      "minutes_plural": "{{count}} Min."
+    },
+    "info": {
+      "password": "In {{time}} wird dieses Passwort dauerhaft gelöscht.",
+      "card": "In {{time}} wird diese Karte dauerhaft gelöscht."
+    }
+  },
+  "copy": {
+    "copied": "{{what}} in die Zwischenablage kopiert",
+    "empty": "Nichts zu kopieren für {{what}}",
+    "what": {
+      "cardNumber": "Kartennummer",
+      "cardHolderName": "Name des Karteninhabers",
+      "username": "Benutzername",
+      "password": "Passwort",
+      "url": "URL"
+    }
+  },
+  "notifications": {
+    "empty": "Noch keine Benachrichtigungen",
+    "emptyDesc": "Wir benachrichtigen Sie, wenn etwas Wichtiges passiert. Behalten Sie diesen Bereich im Auge!",
+    "shareRequest": "{{who}} möchte ein Passwort mit Ihnen teilen.",
+    "someone": "Jemand",
+    "shareAccepted": "Teilungsanfrage akzeptiert",
+    "shareDeclined": "Teilungsanfrage abgelehnt",
+    "shareDecisionFailed": "Anwendung der Entscheidung fehlgeschlagen. Bitte versuchen Sie es erneut."
+  },
+  "validation": {
+    "invalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein"
+  },
+  "errors": {
+    "required": "Dieses Feld ist erforderlich.",
+    "minLength": "Muss mindestens {{count}} Zeichen lang sein",
+    "invalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+    "valueMustBeNumber": "Wert muss eine gültige Nummer sein.",
+    "invalidCreditCard": "Ungültige Kreditkartennummer.",
+    "creditCardDigits": "Kartennummer muss {{count}} Stellen haben",
+    "invalidCVV": "Ungültiger CVV.",
+    "invalidExpiry": "Ungültiges Ablaufdatum. Bitte verwenden Sie das Format MM/JJ.",
+    "passwordsDoNotMatch": "Passwörter stimmen nicht überein",
+    "invalidMasterPassword": "Master-Passwort ist falsch",
+    "generic": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
+  },
+  "masterPassword": {
+    "title": "Master-Passwort erstellen",
+    "description": "Ihr Master-Passwort schützt und entsperrt Ihren Tresor. Es wird niemals an unsere Server gesendet. Vergessen Sie es nicht – ohne dieses Passwort können Ihre verschlüsselten Daten nicht wiederhergestellt werden.",
+    "password": "Wählen Sie ein starkes Passwort – mindestens 12 Zeichen, eine Mischung aus Buchstaben, Zahlen und Symbolen.",
+    "passwordPlaceholder": "Master-Passwort",
+    "confirmPlaceholder": "Master-Passwort bestätigen",
+    "skip": "Überspringen",
+    "continue": "Weiter"
+  },
+  "loading": {
+    "default": "Laden...",
+    "timeout": "Anfrage zeitlich abgelaufen. Bitte versuchen Sie es erneut."
+  },
+  "accessibility": {
+    "loadingLogo": "Logo wird geladen"
+  },
+  "confirmMasterPassword": {
+    "title": "Master-Passwort bestätigen",
+    "description": "Bitte bestätigen Sie Ihr Master-Passwort, um Ihren Tresor auf diesem Gerät zu entsperren.",
+    "passwordPlaceholder": "Master-Passwort",
+    "confirm": "Bestätigen"
+  },
+  "forgotPassword": {
+    "methodsTitle": "Passwort vergessen",
+    "methodsSubtitle": "Wählen Sie aus, welche Kontaktdaten wir zum Zurücksetzen Ihres Passworts verwenden sollen",
+    "viaEmail": "per E-Mail:",
+    "continue": "Weiter",
+    "emailTitle": "Geben Sie Ihre E-Mail ein",
+    "resetPassword": "Passwort zurücksetzen",
+    "rememberPasswordQuestion": "Erinnern Sie sich an das Passwort?",
+    "invalidEmailMessage": "Bitte geben Sie eine gültige E-Mail-Adresse an.",
+    "requestSuccessTitle": "Falls ein Konto existiert",
+    "requestSuccessMessage": "Falls ein Konto existiert, erhalten Sie in Kürze eine E-Mail.",
+    "unexpectedErrorMessage": "Ein unerwarteter Fehler ist aufgetreten."
+  },
+  "upgrade": {
+    "title": "Upgrade",
+    "choosePlan": "Wählen Sie einen Plan",
+    "subtitle": "Schalten Sie höhere Limits und erweiterte Funktionen durch ein Upgrade Ihres Plans frei.",
+    "subscriptionDetail": "Abonnement-Details",
+    "plan": "Plan",
+    "expiresAt": "Läuft ab am",
+    "currentLimits": "Aktuelle Limits",
+    "passwords": "Passwörter",
+    "cards": "Karten",
+    "shares": "Freigaben",
+    "cancel": "Abbrechen",
+    "upgrade": "Upgrade",
+    "upgradeToPro": "Upgrade auf Pro",
+    "default": "Standard",
+    "current": "Aktuell",
+    "currentPlanBadge": "Aktueller Plan",
+    "currentPlanDescription": "Dies ist Ihr aktives Abonnement. Sie können es von diesem Bildschirm aus verwalten oder ändern.",
+    "currentPlanButtonLabel": "Aktueller Plan",
+    "subscriptionManagedInStore": "Planänderungen werden über den Abonnementbildschirm des App Store verwaltet.",
+    "premium": "Premium",
+    "monthly": "Monatlich",
+    "yearly": "Jährlich",
+    "unlimited": "Unbegrenzt",
+    "included": "Inklusive",
+    "notIncluded": "Nicht inklusive",
+    "cloudSync": "Cloud-Synchronisierung",
+    "secureNotes": "Sichere Notizen",
+    "watchtower": "Watchtower",
+    "itemHistory": "Element-Historie",
+    "export": "Exportieren",
+    "prioritySupport": "Priorisierter Support",
+    "familySharing": "Familienfreigabe",
+    "maxFamilyMembers": "Max. Familienmitglieder",
+    "restorePurchases": "Käufe wiederherstellen",
+    "manageSubscription": "Abonnement verwalten",
+    "failedToLoadPlans": "Pläne konnten nicht geladen werden",
+    "unexpectedError": "Unerwarteter Fehler beim Laden der Pläne",
+    "free": "Kostenlos",
+    "processingPurchase": "Kauf wird verarbeitet...",
+    "purchaseComplete": "Ihr Kauf ist abgeschlossen.",
+    "purchaseFailed": "Kauf fehlgeschlagen",
+    "purchaseFailedGeneric": "Der App Store konnte diesen Kauf nicht abschließen.",
+    "purchaseError": "Kauffehler",
+    "purchaseDiagnostics": "Diagnose: {{details}}",
+    "purchasePaymentsUnavailable": "Dieses Apple-Konto darf derzeit keine Käufe auf diesem Gerät tätigen.",
+    "restoringPurchases": "Käufe werden wiederhergestellt...",
+    "restored": "Wiederhergestellt",
+    "purchasesRestored": "Käufe wiederhergestellt.",
+    "restoreFailed": "Wiederherstellung fehlgeschlagen",
+    "productsUnavailable": "Abonnementprodukte sind derzeit nicht verfügbar. Bitte versuchen Sie es in wenigen Minuten erneut.",
+    "code": "Code: {{code}}",
+    "proMonthly": "PazzPro Monatlich",
+    "proYearly": "PazzPro Jährlich",
+    "familyMonthly": "PazzFamily Monatlich",
+    "familyYearly": "PazzFamily Jährlich",
+    "monthUnit": "Mon.",
+    "yearUnit": "Jahre",
+    "legalTitle": "Rechtliche Informationen",
+    "legalDescription": "Lesen Sie unsere Datenschutzrichtlinie und Nutzungsbedingungen, bevor Sie ein sich automatisch verlängerndes Abonnement erwerben.",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "termsOfUse": "Nutzungsbedingungen",
+    "legalLinkError": "Das ausgewählte rechtliche Dokument konnte nicht geöffnet werden."
+  }
+}

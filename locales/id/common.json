@@ -1,0 +1,513 @@
+{
+  "common": {
+    "information": "Informasi",
+    "cancel": "Batal",
+    "yesLogout": "Ya, Keluar",
+    "save": "Simpan",
+    "saving": "Menyimpan...",
+    "removingAccess": "Menghapus akses...",
+    "deleting": "Menghapus...",
+    "update": "Perbarui",
+    "seeAll": "Lihat semua",
+    "delete": "Hapus",
+    "email": "Email",
+    "close": "Tutup",
+    "share": "Bagikan",
+    "accept": "Terima",
+    "decline": "Tolak",
+    "done": "Selesai",
+    "restore": "Pulihkan"
+  },
+  "auth": {
+    "loginTitleLine1": "Masuk ke",
+    "loginTitleLine2": "Akun Anda",
+    "createTitleLine1": "Buat",
+    "createTitleLine2": "Akun Anda",
+    "passwordPlaceholder": "Kata Sandi",
+    "rememberMe": "Ingat saya",
+    "loginButton": "Masuk",
+    "signUpButton": "Daftar",
+    "signInButton": "Masuk",
+    "forgotPasswordQuestion": "Lupa kata sandi?",
+    "orContinueWith": "atau lanjutkan dengan",
+    "dontHaveAccount": "Belum punya akun?",
+    "alreadyHaveAccount": "Sudah punya akun?",
+    "termsTitle": "Syarat & Ketentuan",
+    "acceptPrivacyToContinue": "Harap terima Kebijakan Privasi kami untuk melanjutkan.",
+    "acceptPrivacyInline": "Dengan melanjutkan, Anda menerima Kebijakan Privasi kami",
+    "invalidInputTitle": "Input Tidak Valid",
+    "invalidInputMessage": "Harap periksa kesalahan pada formulir.",
+    "signupTitle": "Daftar",
+    "emailExistsTitle": "Email Sudah Terdaftar",
+    "emailExistsMessage": "Alamat email Anda sudah terdaftar, jika Anda tidak ingat kata sandi Anda, silakan lanjutkan dengan Lupa Kata Sandi",
+    "responseMissingTokens": "Respons kehilangan token.",
+    "loginFailed": "Gagal masuk. Harap periksa kredensial Anda.",
+    "loginMissingTokens": "Respons masuk kehilangan token.",
+    "loginError": "Terjadi kesalahan saat masuk."
+  },
+  "profile": {
+    "title": "Profil"
+  },
+  "settings": {
+    "updatePassword": "Perbarui Kata Sandi",
+    "myNotification": "Notifikasi Saya",
+    "address": "Alamat",
+    "editProfile": "Edit Profil",
+    "notification": "Notifikasi",
+    "logoutPreferences": "Preferensi Keluar",
+    "security": "Keamanan",
+    "privacyPolicy": "Kebijakan Privasi",
+    "helpCenter": "Pusat Bantuan",
+    "faqTitle": "Tanya Jawab",
+    "contactUsTitle": "Hubungi Kami",
+    "customerService": "Layanan Pelanggan",
+    "inviteFriends": "Undang Teman",
+    "inviteFriendsDescription": "Undang teman Anda dengan memasukkan alamat email mereka. Anda dapat menambahkan beberapa orang sekaligus dengan memisahkan setiap alamat dengan koma (',').",
+    "inviteFriendsPlaceholder": "Masukkan alamat email dipisahkan dengan koma",
+    "inviteFriendsLabel": "Alamat Email",
+    "sendInvitations": "Kirim Undangan",
+    "inviteStatusSent": "Terkirim",
+    "inviteStatusExists": "Sudah ada",
+    "inviteStatusFailed": "Gagal",
+    "logout": "Keluar",
+    "darkMode": "Mode Gelap",
+    "languageRegion": "Bahasa & Wilayah",
+    "removeLocalData": "Hapus data lokal",
+    "removeLocalDataDescription": "Data yang disimpan secara lokal (kata sandi dan kartu terenkripsi) akan dihapus secara permanen saat Anda keluar. Tindakan ini tidak dapat dibatalkan atau dipulihkan.",
+    "removeMPConfig": "Hapus konfigurasi MP",
+    "removeMPConfigDescription": "Konfigurasi Kata Sandi Master dan kunci enkripsi akan dihapus dari perangkat ini saat Anda keluar. Anda akan diminta untuk memasukkan kembali Kata Sandi Master pada login berikutnya untuk mengakses data Anda.",
+    "deleteAccount": {
+      "menu": "Hapus Akun",
+      "title": "Hapus Akun",
+      "warningTitle": "Penghapusan Akun Permanen",
+      "warningBody": "Menghapus akun Anda bersifat permanen. Data brankas terenkripsi dan profil akun Anda akan dihapus dari sistem kami.",
+      "subscriptionNote": "Jika Anda memiliki langganan App Store yang aktif, batalkan dari pengaturan langganan ID Apple Anda.",
+      "passwordLabel": "Kata sandi saat ini",
+      "passwordRequired": "Harap masukkan kata sandi Anda saat ini.",
+      "action": "Hapus Akun",
+      "confirmTitle": "Konfirmasi Penghapusan Akun",
+      "confirmMessage": "Tindakan ini tidak dapat dibatalkan. Apakah Anda yakin ingin menghapus akun Anda secara permanen?",
+      "confirmButton": "Ya, Hapus",
+      "invalidCredentials": "Kata sandi saat ini tidak benar.",
+      "passwordConfirmationUnavailable": "Akun ini belum mendukung konfirmasi kata sandi untuk penghapusan.",
+      "userNotFound": "Akun pengguna tidak ditemukan.",
+      "unauthorized": "Sesi Anda telah berakhir. Silakan masuk lagi.",
+      "error": "Penghapusan akun gagal. Silakan coba lagi."
+    },
+    "privacy": {
+      "title": "Kebijakan Privasi",
+      "intro": "Pazzwrd berkomitmen untuk menjaga standar privasi dan keamanan data tertinggi. Kebijakan Privasi ini menguraikan protokol institusional dan teknis yang digunakan untuk melindungi informasi pengguna.",
+      "masterPasswordTitle": "1. Kata Sandi Master dan Protokol Kriptografi",
+      "masterPasswordDesc": "Kata Sandi Master berfungsi sebagai benih kriptografi utama untuk brankas digital pengguna. Ini digunakan untuk menurunkan kunci enkripsi unik untuk perlindungan kredensial sensitif dan data keuangan. Pazzwrd mematuhi kebijakan non-penjagaan yang ketat; Kata Sandi Master tidak pernah dikirimkan ke atau disimpan di infrastruktur kami.",
+      "encryptionDetail": "Integritas data dijaga melalui penerapan enkripsi XChaCha20-Poly1305 standar industri. Setiap entri brankas diamankan dengan kunci individu, yang kemudian dibungkus menggunakan kunci-enkripsi-kunci (KEK) yang berasal dari Kata Sandi Master pengguna.",
+      "storageTitle": "2. Manajemen dan Penyimpanan Data",
+      "storageDesc": "Pazzwrd menyediakan solusi penyimpanan berlapis untuk memastikan ketersediaan dan keamanan data:",
+      "localStorage": "Penyimpanan Di Perangkat: Data terenkripsi disimpan secara lokal di perangkat pengguna, memfasilitasi akses offline sambil menjaga keamanan kriptografi.",
+      "cloudStorage": "Sinkronisasi Cloud: Setelah otorisasi pengguna, kumpulan data terenkripsi disinkronkan dengan infrastruktur cloud kami yang aman untuk memungkinkan aksesibilitas lintas platform.",
+      "publicDataTitle": "3. Klasifikasi Data",
+      "publicDataDesc": "Informasi dikategorikan berdasarkan sensitivitas untuk mengoptimalkan kinerja sambil memastikan keamanan maksimum:",
+      "privateData": "Data Terklasifikasi: Semua catatan sensitif, termasuk kata sandi, informasi pembayaran, dan catatan pribadi, dienkripsi secara lokal sebelum transmisi atau penyimpanan.",
+      "publicData": "Metadata: Metadata non-sensitif (misalnya, pengidentifikasi layanan atau label organisasi) dapat disimpan dalam format non-enkripsi untuk memfasilitasi operasi pengindeksan dan pengambilan yang efisien.",
+      "zeroKnowledgeTitle": "4. Implementasi Arsitektur Zero-Knowledge",
+      "zeroKnowledgeDesc": "Sistem kami beroperasi di bawah arsitektur Zero-Knowledge. Server berfungsi secara eksklusif sebagai repositori aman untuk muatan terenkripsi. Penyedia layanan tidak memiliki sarana teknis untuk mengakses kunci enkripsi, Kata Sandi Master, atau konten pengguna yang didekripsi. Desain arsitektur ini memastikan bahwa data tetap tidak dapat diakses oleh pihak yang tidak berwenang, termasuk penyedia layanan.",
+      "warningTitle": "5. Pemberitahuan Kritis: Penafian Data yang Tidak Dapat Dipulihkan",
+      "warningDesc": "Karena penerapan enkripsi end-to-end dan model Zero-Knowledge, pemulihan Kata Sandi Master yang hilang secara teknis tidak mungkin dilakukan oleh penyedia layanan. Kegagalan untuk menyimpan Kata Sandi Master akan mengakibatkan hilangnya akses secara permanen ke semua data terenkripsi. Pengguna sangat disarankan untuk menyimpan cadangan Kata Sandi Master mereka dengan aman."
+    },
+    "faq": {
+      "whatIsCloudTitle": "Apa arti Cloud?",
+      "whatIsCloudDesc": "Cloud berarti data terenkripsi Anda disinkronkan dengan server aman kami. Ini memungkinkan Anda untuk mengakses kata sandi dan kartu Anda dari perangkat apa pun dengan masuk ke akun Anda.",
+      "whatIsLocalTitle": "Apa arti Lokal?",
+      "whatIsLocalDesc": "Lokal berarti data Anda hanya disimpan di perangkat Anda. Data tersebut dienkripsi dan tidak pernah meninggalkan ponsel Anda kecuali Anda mengaktifkan sinkronisasi cloud.",
+      "howDataStoredTitle": "Bagaimana kata sandi dan detail kartu disimpan?",
+      "howDataStoredDesc": "Baik di penyimpanan cloud maupun lokal, data Anda selalu dienkripsi menggunakan protokol standar industri. Hanya Anda yang memegang kuncinya (Kata Sandi Master Anda) untuk mendekripsi informasi ini.",
+      "whatIsMPTitle": "Apa itu MP (Master Password)?",
+      "whatIsMPDesc": "MP adalah singkatan dari Master Password (Kata Sandi Master). Ini adalah satu-satunya kata sandi yang Anda gunakan untuk mengakses brankas Anda. Kami tidak pernah menyimpan Kata Sandi Master Anda, jadi sangat penting bagi Anda untuk tidak melupakannya.",
+      "trashRulesTitle": "Apa aturan Sampah?",
+      "trashRulesDesc": "Saat Anda menghapus kata sandi atau kartu, data tersebut akan masuk ke tab Sampah. Item di Sampah akan dihapus secara permanen setelah periode tertentu, atau Anda dapat mengosongkannya secara manual.",
+      "howToDeleteTitle": "Bagaimana cara menghapus kata sandi atau kartu?",
+      "howToDeleteDesc": "Untuk menghapus kata sandi atau kartu, buka halaman kata sandi atau kartu dan tekan lama pada item yang ingin Anda hapus. Opsi hapus akan muncul.",
+      "howToRestoreTitle": "Dapatkah saya memulihkan item dari Sampah?",
+      "howToRestoreDesc": "Ya, Anda dapat memulihkan kartu atau kata sandi apa pun dari tab Sampah kembali ke brankas utama Anda kapan saja sebelum dihapus secara permanen.",
+      "howToShareTitle": "Bagaimana cara kerja fitur berbagi kata sandi?",
+      "howToShareDesc": "Anda dapat berbagi kata sandi dengan aman kepada pengguna lain. Kata sandi yang dibagikan tetap terenkripsi dan hanya penerima yang dituju yang dapat mengaksesnya."
+    },
+    "contactUs": {
+      "title": "Judul",
+      "titlePlaceholder": "Masukkan judul",
+      "message": "Pesan",
+      "messagePlaceholder": "Jelaskan masalah Anda di sini...",
+      "send": "Kirim",
+      "success": "Pesan Anda telah berhasil terkirim. Kami akan segera menghubungi Anda."
+    }
+  },
+  "security": {
+    "title": "Keamanan",
+    "rememberMe": "Ingat saya",
+    "faceId": "Face ID",
+    "biometricId": "ID Biometrik",
+    "changePin": "Ubah PIN",
+    "resendEmail": "Kirim Ulang Email Verifikasi",
+    "resendEmailSuccess": "Email aktivasi Anda telah berhasil terkirim.",
+    "resendEmailError": "Gagal mengirim ulang email aktivasi."
+  },
+  "tabs": {
+    "new": {
+      "title": "Baru",
+      "passwordTab": "Kata Sandi",
+      "cardsTab": "Kartu"
+    }
+  },
+  "sync": {
+    "local": "Lokal",
+    "cloud": "Cloud"
+  },
+  "password": {
+    "name": "Nama Kata Sandi",
+    "username": "Nama Pengguna",
+    "password": "Kata Sandi",
+    "url": "Situs Web/URL",
+    "notes": "Catatan",
+    "tags": "Tag",
+    "lastUpdated": "Terakhir Diperbarui",
+    "editPassword": "Edit Kata Sandi",
+    "pendingCloudUpdate": "Perubahan Anda belum diperbarui di cloud.",
+    "passwordSaved": "Kata sandi berhasil disimpan",
+    "shareSuccess": "Undangan terkirim.",
+    "shareTitle": "Bagikan Kata Sandi",
+    "inviteMailSends": "Email undangan terkirim. Minta penerima untuk masuk, lalu coba lagi.",
+    "inviteUserConfiguredNotFinished": "Kunci publik penerima ditemukan. Berbagi akan segera tersedia.",
+    "cannotShareWithYourself": "Anda tidak dapat berbagi dengan diri sendiri.",
+    "recipientHasNoKeys": "Penerima belum menyelesaikan pengaturan Kata Sandi Master, silakan minta mereka untuk menyelesaikannya.",
+    "itemNotFound": "Item tidak ditemukan.",
+    "someThingWentWrong": "Terjadi kesalahan. Silakan coba lagi.",
+    "sharedBy": "Kata sandi ini dibagikan oleh {{who}}.",
+    "sharedWith": "Dibagikan dengan",
+    "shareStatusLoading": "Mengambil status berbagi...",
+    "shareStatus": {
+      "READY": "Tertunda",
+      "ACCEPTED": "Diterima",
+      "REVOKED": "Dicabut"
+    },
+    "removeAccess": "Hapus akses",
+    "selectPeopleToUnshare": "Pilih orang untuk berhenti berbagi",
+    "selectAtLeastOne": "Harap pilih setidaknya satu penerima",
+    "tooltips": {
+      "sync": "Pilih bagaimana Anda ingin menyinkronkan kata sandi ini di seluruh perangkat",
+      "name": "Masukkan nama untuk entri kata sandi ini",
+      "username": "Masukkan nama pengguna untuk akun ini",
+      "password": "Masukkan kata sandi untuk akun ini",
+      "url": "Masukkan URL situs web atau nama aplikasi untuk kata sandi ini",
+      "notes": "Tambahkan catatan atau informasi tambahan apa pun tentang kata sandi ini",
+      "tags": "Tambahkan tag untuk mengategorikan dan menemukan kata sandi ini dengan mudah nanti",
+      "lastUpdated": "Menunjukkan kapan kata sandi ini terakhir diubah"
+    },
+    "strength": {
+      "suggestions": {
+        "providePassword": "Harap masukkan kata sandi.",
+        "increaseLength": "Gunakan setidaknya {{n}} karakter.",
+        "mixedCase": "Campurkan huruf besar dan kecil.",
+        "addNumbers": "Tambahkan angka.",
+        "addSymbols": "Tambahkan simbol (misalnya, ! @ #).",
+        "useMoreVariety": "Gunakan campuran huruf, angka, dan simbol.",
+        "avoidSequences": "Hindari urutan umum seperti 1234 atau abcd.",
+        "avoidRepetition": "Hindari mengulang karakter yang sama berkali-kali.",
+        "avoidCommon": "Hindari kata sandi yang umum digunakan.",
+        "usePassphrase": "Pertimbangkan frasa sandi yang lebih panjang dengan beberapa kata yang tidak berhubungan."
+      }
+    }
+  },
+  "card": {
+    "bankNamePlaceholder": "Nama Bank/Nama Kartu",
+    "holderNamePlaceholder": "Nama Pemegang Kartu",
+    "numberPlaceholder": "Nomor Kartu",
+    "expiryPlaceholder": "Bulan/Tahun Kedaluwarsa (MM/YY)",
+    "cvvPlaceholder": "Kode Keamanan (CVV)",
+    "cardPasswordPlaceholder": "Kata Sandi Kartu",
+    "tooltips": {
+      "sync": "Pilih bagaimana Anda ingin menyinkronkan kartu ini di seluruh perangkat",
+      "bankName": "Masukkan Nama Bank atau Nama Kartu",
+      "holderName": "Masukkan nama lengkap seperti yang tertera pada kartu Anda",
+      "number": "Masukkan 16 digit nomor kartu Anda (akan diformat secara otomatis)",
+      "expiry": "Masukkan tanggal kedaluwarsa dalam format MM/YY",
+      "cvv": "Masukkan 3 digit kode keamanan (CVV/CVC) dari bagian belakang kartu Anda",
+      "cardPassword": "Masukkan kata sandi yang terkait dengan kartu ini (misalnya, kata sandi 3D Secure/belanja online)"
+    }
+  },
+  "activityLog": {
+    "filterAll": "Semua",
+    "clear": "Bersihkan",
+    "export": "Ekspor JSON"
+  },
+  "alerts": {
+    "validationTitle": "Kesalahan Validasi",
+    "validationRequiredFields": "Harap isi semua bidang yang diperlukan",
+    "requiredFieldsMissing": "Beberapa bidang yang diperlukan hilang.",
+    "cardNumberLength": "Nomor kartu harus 16 digit",
+    "successTitle": "Berhasil",
+    "cardSaved": "Kartu berhasil disimpan",
+    "passwordSaved": "Kata sandi berhasil disimpan",
+    "invitationsSent": "Undangan telah berhasil dikirim.",
+    "passwordMovedToTrash": "Kata sandi dipindahkan ke sampah",
+    "passwordDeleted": "Kata sandi dihapus secara permanen",
+    "cardMovedToTrash": "Kartu dipindahkan ke sampah",
+    "cardDeleted": "Kartu dihapus secara permanen",
+    "errorTitle": "Kesalahan",
+    "saveFailed": "Gagal menyimpan kartu",
+    "passwordSaveFailed": "Gagal menyimpan kata sandi",
+    "fingerprintNotRecognized": "Sidik jari tidak dikenali. Coba lagi.",
+    "unexpected": "Terjadi kesalahan yang tidak terduga",
+    "networkError": "Kesalahan jaringan. Harap periksa koneksi internet Anda.",
+    "serverError": "Server saat ini tidak tersedia. Silakan coba lagi nanti.",
+    "timeoutError": "Permintaan habis waktu. Silakan coba lagi.",
+    "information": "Informasi",
+    "sessionExpired": "Sesi Anda telah berakhir. Silakan masuk lagi.",
+    "offline": "Anda sedang offline. Beberapa fitur mungkin tidak tersedia.",
+    "cloudNotAllowed": "Cloud memerlukan email yang diverifikasi dan Kata Sandi Master yang dikonfigurasi.",
+    "shareNotAllowed": "Berbagi memerlukan email yang diverifikasi dan Kata Sandi Master yang dikonfigurasi.",
+    "passwordLimitReached": "Batas kata sandi tercapai untuk paket Anda.",
+    "cardLimitReached": "Batas kartu tercapai untuk paket Anda.",
+    "shareLimitReached": "Batas berbagi tercapai untuk paket Anda.",
+    "accessRemoved": "Akses dihapus",
+    "removeAccessFailed": "Gagal menghapus akses"
+  },
+  "logout": {
+    "title": "Keluar",
+    "message": "Apakah Anda yakin ingin keluar?"
+  },
+  "greeting": {
+    "goodMorning": "Selamat pagi",
+    "goodAfternoon": "Selamat siang",
+    "goodEvening": "Selamat sore",
+    "goodNight": "Selamat malam"
+  },
+  "home": {
+    "recentActivity": "Aktivitas Terkini",
+    "statistics": "Statistik",
+    "passwordStrength": "Kekuatan Kata Sandi",
+    "planLimits": "Paket & Batas",
+    "planManageCta": "Kelola",
+    "planUpgradeCta": "Tingkatkan",
+    "planCurrent": "Paket saat ini",
+    "planPremiumName": "Premium",
+    "planFreeName": "Gratis",
+    "planUnknownName": "Memuat...",
+    "planPremiumDescription": "Batas Premium aktif.",
+    "planFreeDescription": "Tingkatkan untuk membuka lebih banyak penyimpanan dan berbagi.",
+    "planLoading": "Mengambil hak...",
+    "shares": "Berbagi",
+    "unlimited": "Tanpa Batas",
+    "remaining": "tersisa {{count}}",
+    "securityStatus": "Status Keamanan",
+    "securityManageCta": "Keamanan",
+    "masterPassword": "Kata Sandi Master",
+    "emailVerification": "Verifikasi email",
+    "statusBadge": {
+      "configured": "Aktif",
+      "pending": "Tertunda",
+      "none": "Hilang",
+      "skipped": "Dilewati",
+      "verified": "Terverifikasi",
+      "unverified": "Belum terverifikasi"
+    },
+    "statusHint": {
+      "master": {
+        "CONFIGURED": "Brankas Anda dilindungi dengan Kata Sandi Master.",
+        "PENDING": "Selesaikan pengaturan Kata Sandi Master Anda untuk membuka fitur cloud.",
+        "NONE": "Belum ada Kata Sandi Master. Siapkan untuk mengamankan brankas Anda.",
+        "SKIPPED": "Pengaturan dilewati. Aktifkan untuk mengamankan data Anda."
+      },
+      "email": {
+        "VERIFIED": "Email sudah dikonfirmasi. Berbagi dan sinkronisasi cloud diaktifkan.",
+        "UNVERIFIED": "Verifikasi email Anda untuk mengaktifkan berbagi dan sinkronisasi cloud."
+      }
+    }
+  },
+  "items": {
+    "card": "Kartu",
+    "password": "Kata Sandi"
+  },
+  "delete": {
+    "confirm": "Apakah Anda yakin ingin menghapus {{item}} ini?",
+    "confirmPermanent": "Ini akan menghapus {{item}} ini secara permanen. Tindakan ini tidak dapat dibatalkan. Apakah Anda ingin melanjutkan?"
+  },
+  "cards": {
+    "title": "Kartu Saya",
+    "tabs": {
+      "cloud": "Cloud",
+      "local": "Lokal",
+      "trash": "Sampah"
+    },
+    "loading": "Memuat kartu...",
+    "empty": "Tidak ada kartu ditemukan",
+    "createCta": "Buat Kartu"
+  },
+  "passwords": {
+    "title": "Kata Sandi Saya",
+    "tabs": {
+      "cloud": "Cloud",
+      "local": "Lokal",
+      "trash": "Sampah"
+    },
+    "loading": "Memuat kata sandi...",
+    "empty": "Tidak ada kata sandi ditemukan",
+    "createCta": "Buat Kata Sandi",
+    "unnamed": "Tanpa nama",
+    "noUsername": "Tidak ada nama pengguna",
+    "noPassword": "Tidak ada kata sandi"
+  },
+  "unsaved": {
+    "title": "Perubahan belum disimpan",
+    "message": "Anda memiliki perubahan yang belum disimpan. Jika Anda pergi sekarang, editan Anda akan hilang. Apakah Anda ingin kembali tanpa menyimpan?",
+    "yes": "Ya, buang",
+    "no": "Tidak, tetap di sini"
+  },
+  "trash": {
+    "time": {
+      "days": "{{count}} hari",
+      "days_plural": "{{count}} hari",
+      "hours": "{{count}} jam",
+      "hours_plural": "{{count}} jam",
+      "minutes": "{{count}} menit",
+      "minutes_plural": "{{count}} menit"
+    },
+    "info": {
+      "password": "{{time}} dari sekarang, kata sandi ini akan dihapus secara permanen.",
+      "card": "{{time}} dari sekarang, kartu ini akan dihapus secara permanen."
+    }
+  },
+  "copy": {
+    "copied": "Menyalin {{what}} ke papan klip",
+    "empty": "Tidak ada yang bisa disalin untuk {{what}}",
+    "what": {
+      "cardNumber": "nomor kartu",
+      "cardHolderName": "nama pemegang kartu",
+      "username": "nama pengguna",
+      "password": "kata sandi",
+      "url": "URL"
+    }
+  },
+  "notifications": {
+    "empty": "Belum Ada Notifikasi",
+    "emptyDesc": "Kami akan memberi tahu Anda jika terjadi sesuatu yang penting. Pantau terus halaman ini!",
+    "shareRequest": "{{who}} ingin berbagi kata sandi dengan Anda.",
+    "someone": "Seseorang",
+    "shareAccepted": "Permintaan berbagi diterima",
+    "shareDeclined": "Permintaan berbagi ditolak",
+    "shareDecisionFailed": "Gagal menerapkan keputusan. Silakan coba lagi."
+  },
+  "validation": {
+    "invalidEmail": "Harap masukkan alamat email yang valid"
+  },
+  "errors": {
+    "required": "Bidang ini wajib diisi.",
+    "minLength": "Minimal harus {{count}} karakter",
+    "invalidEmail": "Harap masukkan alamat email yang valid",
+    "valueMustBeNumber": "Nilai harus berupa angka yang valid.",
+    "invalidCreditCard": "Nomor kartu kredit tidak valid.",
+    "creditCardDigits": "Nomor kartu harus {{count}} digit",
+    "invalidCVV": "CVV tidak valid.",
+    "invalidExpiry": "Tanggal kedaluwarsa tidak valid. Harap gunakan format MM/YY.",
+    "passwordsDoNotMatch": "Kata sandi tidak cocok",
+    "invalidMasterPassword": "Kata Sandi Master salah",
+    "generic": "Terjadi kesalahan. Silakan coba lagi."
+  },
+  "masterPassword": {
+    "title": "Buat Kata Sandi Master",
+    "description": "Kata Sandi Master Anda melindungi dan membuka brankas Anda. Kata sandi ini tidak pernah dikirim ke server kami. Jangan lupakan — tanpa kata sandi ini, data terenkripsi Anda tidak dapat dipulihkan",
+    "password": "Pilih kata sandi yang kuat — minimal 12 karakter, dengan campuran huruf, angka, dan simbol.",
+    "passwordPlaceholder": "Kata sandi master",
+    "confirmPlaceholder": "Konfirmasi kata sandi master",
+    "skip": "Lewati",
+    "continue": "Lanjutkan"
+  },
+  "loading": {
+    "default": "Memuat...",
+    "timeout": "Permintaan habis waktu. Silakan coba lagi."
+  },
+  "accessibility": {
+    "loadingLogo": "Memuat logo"
+  },
+  "confirmMasterPassword": {
+    "title": "Konfirmasi Kata Sandi Master",
+    "description": "Harap konfirmasikan Kata Sandi Master Anda untuk membuka brankas Anda di perangkat ini.",
+    "passwordPlaceholder": "Kata Sandi Master",
+    "confirm": "Konfirmasi"
+  },
+  "forgotPassword": {
+    "methodsTitle": "Lupa Kata Sandi",
+    "methodsSubtitle": "Pilih detail kontak mana yang harus kami gunakan untuk mengatur ulang kata sandi Anda",
+    "viaEmail": "melalui Email:",
+    "continue": "Lanjutkan",
+    "emailTitle": "Masukkan Email Anda",
+    "resetPassword": "Atur Ulang Kata Sandi",
+    "rememberPasswordQuestion": "Ingat kata sandinya?",
+    "invalidEmailMessage": "Harap berikan email yang valid.",
+    "requestSuccessTitle": "Jika akun ada",
+    "requestSuccessMessage": "Jika akun ada, Anda akan segera menerima email.",
+    "unexpectedErrorMessage": "Terjadi kesalahan yang tidak terduga."
+  },
+  "upgrade": {
+    "title": "Tingkatkan",
+    "choosePlan": "Pilih Paket",
+    "subtitle": "Buka batas yang lebih tinggi dan fitur lanjutan dengan meningkatkan paket Anda.",
+    "subscriptionDetail": "Detail Langganan",
+    "plan": "Paket",
+    "expiresAt": "Berakhir Pada",
+    "currentLimits": "Batas Saat Ini",
+    "passwords": "Kata Sandi",
+    "cards": "Kartu",
+    "shares": "Berbagi",
+    "cancel": "Batal",
+    "upgrade": "Tingkatkan",
+    "upgradeToPro": "Tingkatkan ke Pro",
+    "default": "Default",
+    "current": "Saat Ini",
+    "currentPlanBadge": "Paket Saat Ini",
+    "currentPlanDescription": "Ini adalah langganan aktif Anda. Anda dapat mengelola atau mengubahnya dari layar ini.",
+    "currentPlanButtonLabel": "Paket Saat Ini",
+    "subscriptionManagedInStore": "Perubahan paket dikelola dari layar langganan App Store.",
+    "premium": "Premium",
+    "monthly": "Bulanan",
+    "yearly": "Tahunan",
+    "unlimited": "Tanpa Batas",
+    "included": "Termasuk",
+    "notIncluded": "Tidak termasuk",
+    "cloudSync": "Sinkronisasi Cloud",
+    "secureNotes": "Catatan Aman",
+    "watchtower": "Watchtower",
+    "itemHistory": "Riwayat Item",
+    "export": "Ekspor",
+    "prioritySupport": "Dukungan Prioritas",
+    "familySharing": "Berbagi Keluarga",
+    "maxFamilyMembers": "Maks Anggota Keluarga",
+    "restorePurchases": "Pulihkan Pembelian",
+    "manageSubscription": "Kelola Langganan",
+    "failedToLoadPlans": "Gagal memuat paket",
+    "unexpectedError": "Kesalahan tidak terduga saat memuat paket",
+    "free": "Gratis",
+    "processingPurchase": "Memproses pembelian...",
+    "purchaseComplete": "Pembelian Anda selesai.",
+    "purchaseFailed": "Pembelian gagal",
+    "purchaseFailedGeneric": "App Store tidak dapat menyelesaikan pembelian ini.",
+    "purchaseError": "Kesalahan pembelian",
+    "purchaseDiagnostics": "Diagnostik: {{details}}",
+    "purchasePaymentsUnavailable": "Akun Apple ini saat ini tidak diizinkan untuk melakukan pembelian di perangkat ini.",
+    "restoringPurchases": "Memulihkan pembelian...",
+    "restored": "Dipulihkan",
+    "purchasesRestored": "Pembelian dipulihkan.",
+    "restoreFailed": "Pemulihan gagal",
+    "productsUnavailable": "Produk langganan saat ini tidak tersedia. Silakan coba lagi dalam beberapa menit.",
+    "code": "Kode: {{code}}",
+    "proMonthly": "PazzPro Bulanan",
+    "proYearly": "PazzPro Tahunan",
+    "familyMonthly": "PazzFamily Bulanan",
+    "familyYearly": "PazzFamily Tahunan",
+    "monthUnit": "bln",
+    "yearUnit": "thn",
+    "legalTitle": "Informasi Hukum",
+    "legalDescription": "Tinjau Kebijakan Privasi dan Syarat Penggunaan kami sebelum membeli langganan yang diperpanjang secara otomatis.",
+    "privacyPolicy": "Kebijakan Privasi",
+    "termsOfUse": "Syarat Penggunaan",
+    "legalLinkError": "Tidak dapat membuka dokumen hukum yang dipilih."
+  }
+}
